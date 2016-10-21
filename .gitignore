@@ -1,0 +1,13 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+local/
+node_modules/
+storage/
+*.parsed.json
+*.pdf.json
+*.pdf.debug.json
+*.pdf
