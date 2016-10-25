@@ -4,41 +4,6 @@
  Download Link: http://www.ib-sh.de/fileadmin/user_upload/downloads/Arbeit_Bildung/ZP_Wirtschaft/Verzeichnis_der_Beguenstigten_im_Zukunftsprogramm_Wirtschaft_in_der_Foerderperiode_2007-2013.pdf
  Startseite: https://www.schleswig-holstein.de/DE/Fachinhalte/F/foerderprogramme/MWAVT/efre_inSH_2014_2020.html
 
-
-
- ERDF Data NRW 2007-2013
- Download Link: http://www.ziel2.nrw.de/1_NRW-EU_Ziel_2_Programm_2007-2013/3_Ergebnisse/Verzeichnis_Beguenstigte_2014_12_31.pdf
- Startseite: https://www.efre.nrw.de/
-
- ESF Data Schleswig Holstein 2007-2013
- Download link: http://www.ib-sh.de/fileadmin/user_upload/downloads/Arbeit_Bildung/ZP_Arbeit/allgemein/vdb.pdf
- Startseite: http://www.ib-sh.de/die-ibsh/foerderprogramme-des-landes/landesprogramm-arbeit/
-
-
-
- Sachsen ERDF 2007-2013
- Download Link: http://www.strukturfonds.sachsen.de/download/FP_0713_Verzeichnis_der_Beguenstigten_Stand_30.06.2016.pdf
- Github Referenz: https://github.com/os-data/eu-structural-funds/issues/38
-
- Thüringen ESF 2007-2013
- Download Link: http://www.esf-thueringen.de/imperia/md/content/esf/dastmwtaundderesf/listederbeguenstigten/liste_der_beguenstigten_2014.pdf
- Github Referenz: https://github.com/os-data/eu-structural-funds/issues/41
-
- Rheinland Pfalz ESF 2007-2013 - hier gibt es sechs einzelne PDFs (pro Jahr) die sind im Github ersichtlich und müssten dann zusammen ein finales Dokument ergeben
- https://github.com/os-data/eu-structural-funds/issues/36
-
-
- Österreich ESF 2007-2013 - ähnlich wie bei Rheinland-Pfalz - mehrere PDFs (pro Jahr) die gepoolt werden müssen
- https://github.com/os-data/eu-structural-funds/issues/42
-
-
- Saarland ESF 2007-2013
- Download link: http://www.saarland.de/dokumente/tp_sff/Beguenstigtenverzeichnis_13_14.pdf
- Github Referenz: https://github.com/os-data/eu-structural-funds/issues/37
-
-
-
-
  */
 
 var scrapyard = require("scrapyard");
