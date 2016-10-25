@@ -30,7 +30,7 @@ var isValidRow = function (row) {
 	];
 
 	var isYear = function (cell) {
-		if (cell !== null && (cell.indexOf(' ') < 0) && (cell.trim().length == 4)) {
+		if (cell !== null && (cell.indexOf(' ') < 0) && (cell.trim().length == 4) && (/^\d+$/.test(cell))) {
 			var i = parseInt(cell.trim(), 10);
 			if (isNaN(i)) return false;
 			return i > 1990 && i < 2017;

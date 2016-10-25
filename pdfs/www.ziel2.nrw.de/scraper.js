@@ -13,7 +13,7 @@ var request = require("request");
 var fs = require("fs");
 var PDFExtract = require('pdf.js-extract').PDFExtract;
 
-var debug = true;
+var debug = false;
 var debugcache = '../../local/_pdf/';
 if (!fs.existsSync('../../local/_pdf/')) {
 	console.log('warning cache folder doesn\'t exists');
@@ -48,7 +48,7 @@ var isValidRow = function (row) {
 		if (cell !== null && /^\d+$/.test(cell.replace(/\./g, '').trim())) {
 			var i = parseInt(cell.replace(/\./g, '').trim(), 10);
 			if (isNaN(i)) return false;
-			return i < 1990 || i > 2017;
+			return true;// i < 1990 || i > 2017;
 		}
 		return false;
 	};
@@ -62,12 +62,12 @@ var isValidRow = function (row) {
 			if (cell !== null) {
 				return false;
 			}
-		} else if (type === _VALUE) {
-			if (!isValue(cell)) {
-				return false;
-			}
 		} else if (type === _YEAR) {
 			if (!isYear(cell)) {
+				return false;
+			}
+		} else if (type === _VALUE) {
+			if (!isValue(cell)) {
 				return false;
 			}
 		} else if (type === _TEXT) {
