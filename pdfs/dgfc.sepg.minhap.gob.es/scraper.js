@@ -22,7 +22,7 @@ var scraper = new scrapyard({
 	bestbefore: "600min"
 });
 
-var debug = true;
+var debug = false;
 var debugcache = '../../local/_pdf/';
 if (!fs.existsSync('../../local/_pdf/')) {
 	console.log('warning cache folder doesn\'t exists');
