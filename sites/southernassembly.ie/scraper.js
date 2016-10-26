@@ -37,7 +37,7 @@ var scrapeItem = function (item, next) {
 			box.each(function (i, elem) {
 				var $elem = $(elem);
 				var values = $elem.text().trim().split(':');
-				var cat = values[0].trim().toLowerCase().replace(':', '').replace(/ /g, '_');
+				var cat = values[0].trim().toLowerCase().replace(':', '').replace(/ /g, '_').replace(/\//g, '_');
 				var value = values.slice(1).join(':').trim();
 				item[cat] = value;
 			});
