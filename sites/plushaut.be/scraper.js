@@ -1,7 +1,7 @@
 /*
-  Scraper for
+ Scraper for
 
-  http://www.plushaut.be/projets
+ http://www.plushaut.be/projets
 
  */
 
@@ -30,7 +30,6 @@ var scrapeItem = function (item, next) {
 		function (err, $) {
 			if (err) return console.error(err);
 
-			item.projects = [];
 			var box = $('.node-projet > .field');
 
 			box.each(function (i, elem) {
@@ -47,7 +46,6 @@ var scrapeItem = function (item, next) {
 					item[cat] = values.join('\n');
 				}
 				if (cat == 'projet(s)') {
-					var p = {};
 					var p_box = $('.content .field', $elem);
 					p_box.each(function (i, elem) {
 						var $elem = $(elem);
@@ -59,12 +57,8 @@ var scrapeItem = function (item, next) {
 						values = values.filter(function (val) {
 							return val.length > 0;
 						});
-						p[cat] = values;
+						item[cat] = values.join('\n');
 					});
-					if (p[cat].length>1) {
-						console.log('ahahahahahahaha');
-					}
-					item.projects.push(p);
 				}
 			});
 
