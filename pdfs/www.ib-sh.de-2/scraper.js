@@ -10,13 +10,7 @@ var async = require("async");
 var path = require("path");
 var request = require("request");
 var fs = require("fs");
-var PDFExtract = require('pdf.js-extract').PDFExtract;
-
-var debug = false;
-var debugcache = '../../local/_pdf/';
-if (!fs.existsSync('../../local/_pdf/')) {
-	console.log('warning cache folder doesn\'t exists');
-}
+var PDFToolbox = require('../../lib/pdftoolbox');
 
 var isValidRow = function (row) {
 
@@ -90,7 +84,7 @@ var isValidRow = function (row) {
 	return false;
 };
 
-var mergeMultiLines = function (lines) {
+var mergeMultiLinesToRows = function (lines) {
 
 	var getY = function (line) {
 		for (var i = 0; i < line.length; i++) {
@@ -171,19 +165,17 @@ var mergeMultiLines = function (lines) {
 };
 
 var scrapePDF = function (item, cb) {
-	var filename = path.basename(item).replace('.pdf', '');
-	console.log('scraping pdf', filename);
-	var rows_collect = [];
-	var lines_collect = [];
-	var pdfExtract = new PDFExtract();
-	pdfExtract.extract(filename + '.pdf', {}, function (err, data) {
-		if (err) return console.log(err);
-		if (debug)
-			fs.writeFileSync(debugcache + filename + '.pdf.json', JSON.stringify(data, null, '\t'));
-		async.forEachSeries(data.pages, function (page, next) {
-			var lines = PDFExtract.utils.pageToLines(page, 4);
-			lines = PDFExtract.utils.extractLines(lines, ['Restzahlung'], ['Seite ']);
-
+	var pdf = new PDFToolbox();
+	pdf.scrape(item, {
+		skipPage: [],
+		pageToLines: function (page) {
+			var lines = PDFToolbox.utils.pageToLines(page, 4);
+			return PDFToolbox.utils.extractLines(lines, ['Restzahlung'], ['Seite ']);
+		},
+		processLines: function (lines) {
+			return lines;
+		},
+		pageLinesToRows: function (lines) {
 			/*
 
 			 0-150 col 1
@@ -202,51 +194,38 @@ var scrapePDF = function (item, cb) {
 			 BEI ABSCHLUSS DES VORHABENS GEZAHLTE GESAMTBETRÄGE
 
 			 */
-			// console.log(PDFExtract.utils.xStats(page));
+			// console.log(PDFToolbox.utils.xStats(page));
 
-			var lines = PDFExtract.utils.extractColumnLines(lines, [250, 520, 590, 750, 1000], 0.12);
-
-			if (lines.length == 0) {
-				console.log('ALARM, page', page.pageInfo.num, 'without data');
-			} else if (debug) {
-				lines_collect = lines_collect.concat(lines);
-				fs.writeFileSync(debugcache + filename + '-' + page.pageInfo.num + '.json', JSON.stringify(lines, null, '\t'));
-			}
-			var rows = mergeMultiLines(lines).filter(function (row) {
-				if (!isValidRow(row)) {
-					console.log('ALARM, invalid row', JSON.stringify(row));
-					return false;
+			lines = PDFToolbox.utils.extractColumnLines(lines, [250, 520, 590, 750, 1000], 0.12);
+			return mergeMultiLinesToRows(lines).filter(function (row) {
+					if (!isValidRow(row)) {
+						console.log('ALARM, invalid row', JSON.stringify(row));
+						return false;
+					} else {
+						return true;
+					}
 				}
-				return true;
-			});
-
-			rows_collect = rows_collect.concat(rows);
-			next();
-		}, function (err) {
-			if (err) return console.log(err);
-			if (debug) {
-				fs.writeFileSync(debugcache + '_' + filename + '.items.json', JSON.stringify(lines_collect, null, '\t'));
-				var sl = rows_collect.map(function (row) {
-					return JSON.stringify(row);
-				});
-				fs.writeFileSync(debugcache + '_' + filename + ".rows.json", '[' + sl.join(',\n') + ']');
-			}
-			var cleanString = function (cell) {
-				return (cell || '').trim();
+			);
+		},
+		processRows: function (rows) {
+			return rows;
+		},
+		rowToFinal: function (row) {
+			return {
+				_source: item,
+				beneficiary: row[0] || '',
+				name_of_operation: row[1] || '',
+				years: row[2] || '',
+				allocated_public_funding: row[3] || '',
+				on_finish_total_value: row[4] || ''
 			};
-			var final = rows_collect.map(function (row) {
-				return {
-					_source: item,
-					beneficiary: row[0] || '',
-					name_of_operation: row[1] || '',
-					years: row[2] || '',
-					allocated_public_funding: cleanString(row[3]),
-					on_finish_total_value: cleanString(row[4])
-				};
-			});
-			fs.writeFileSync(filename + ".json", JSON.stringify(final, null, '\t'));
-			cb(err);
-		})
+		},
+		processFinal: function (items) {
+			return items;
+		}
+	}, function (err, items) {
+		if (err) console.log(err);
+		cb();
 	});
 };
 

@@ -11,13 +11,7 @@ var async = require("async");
 var path = require("path");
 var request = require("request");
 var fs = require("fs");
-var PDFExtract = require('pdf.js-extract').PDFExtract;
-
-var debug = false;
-var debugcache = '../../local/_pdf/';
-if (!fs.existsSync('../../local/_pdf/')) {
-	console.log('warning cache folder doesn\'t exists');
-}
+var PDFToolbox = require('../../lib/pdftoolbox');
 
 var isValidRow = function (row) {
 
@@ -103,47 +97,14 @@ var isValidRow = function (row) {
 	return false;
 };
 
-var mergeMultiRows = function (rows) {
-	for (var i = rows.length - 1; i > 0; i--) {
-		var row = rows[i];
-		if (row.length == 1) {
-			var rowbefore = rows[i - 1];
-			if (row[0]) {
-				if (!rowbefore[0]) rowbefore[0] = row[0];
-				else rowbefore[0] = rowbefore[0] + '\n' + row[0];
-			}
-			rows[i] = [];
-		}
-	}
-	return rows.filter(function (row) {
-		return row.length > 0;
-	})
-};
-
 var scrapePDF = function (item, cb) {
-	var filename = path.basename(item).replace('.pdf', '');
-	console.log('scraping pdf', filename);
-	var rows_collect = [];
-	var lines_collect = [];
-	var pdfExtract = new PDFExtract();
-	pdfExtract.extract(filename + '.pdf', {}, function (err, data) {
-		if (err) return console.log(err);
-		if (debug)
-			fs.writeFileSync(debugcache + filename + '.pdf.json', JSON.stringify(data, null, '\t'));
-		async.forEachSeries(data.pages, function (page, next) {
-			var alllines = PDFExtract.utils.pageToLines(page, 0.3);
-			var lines = PDFExtract.utils.extractLines(alllines, ['Name des Projekte'], ['-------------------'/*take all*/]);
-			if (lines.length == 0) lines = PDFExtract.utils.extractLines(alllines, ['Begünstigtenverzeichnis '], ['-------------------'/*take all*/]);
-			if (lines.length == 0) {
-				console.log('ALARM, page', page.pageInfo.num, 'without data');
-			} else if (debug) {
-				lines_collect = lines_collect.concat(lines);
-				fs.writeFileSync(debugcache + filename + '-' + page.pageInfo.num + '.json', JSON.stringify(lines, null, '\t'));
-			}
-			// console.log(PDFExtract.utils.xStats(page));
-
-			// console.log(page.pageInfo.num);
-
+	var pdf = new PDFToolbox();
+	pdf.scrape(item, {
+		skipPage: [],
+		pageToLines: function (page) {
+			var alllines = PDFToolbox.utils.pageToLines(page, 0.3);
+			var lines = PDFToolbox.utils.extractLines(alllines, ['Name des Projekte'], ['-------------------'/*take all*/]);
+			if (lines.length == 0) lines = PDFToolbox.utils.extractLines(alllines, ['Begünstigtenverzeichnis '], ['-------------------'/*take all*/]);
 			lines = lines.filter(function (line) {
 				if ((line.length == 1) && (line[0].str == ' ')) {
 					return false;
@@ -160,6 +121,16 @@ var scrapePDF = function (item, cb) {
 				}
 				return true;
 			});
+			return lines;
+		},
+		processLines: function (lines) {
+			return lines;
+		},
+		linesToRows: function (lines) {
+			// console.log(PDFExtract.utils.xStats(page));
+
+			// console.log(page.pageInfo.num);
+
 			/*
 
 			 0-450 col 1
@@ -176,19 +147,15 @@ var scrapePDF = function (item, cb) {
 
 			 */
 
-			var rows = PDFExtract.utils.extractColumnRows(lines, [450, 500, 550, 700, 1200], 0.4);
-			rows = rows.map(function (row) {
+			var rows = PDFToolbox.utils.extractColumnRows(lines, [450, 500, 550, 700, 1200], 0.4);
+			return rows.map(function (row) {
 				return row.filter(function (cell) {
 					return (!cell) || (cell !== ' ');
 				});
 			});
-			rows = mergeMultiRows(rows);
-			rows_collect = rows_collect.concat(rows);
-			next();
-		}, function (err) {
-			if (err) return console.log(err);
-
-			rows_collect = rows_collect.filter(function (row) {
+		},
+		processRows: function (rows) {
+			return PDFToolbox.utils.mergeMultiRowsBottomToTop(rows, 1, [0]).filter(function (row) {
 				if (!isValidRow(row)) {
 					console.log('ALARM, invalid row', JSON.stringify(row));
 					return false;
@@ -196,31 +163,22 @@ var scrapePDF = function (item, cb) {
 					return true;
 				}
 			});
-
-			if (debug) {
-				fs.writeFileSync(debugcache + '_' + filename + '.items.json', JSON.stringify(lines_collect, null, '\t'));
-				var sl = rows_collect.map(function (row) {
-					return JSON.stringify(row);
-				});
-				fs.writeFileSync(debugcache + '_' + filename + ".rows.json", '[' + sl.join(',\n') + ']');
-			}
-			var cleanString = function (cell) {
-				return (cell || '').trim();
+		},
+		rowToFinal: function (row) {
+			return {
+				_source: item,
+				beneficiary: row[0] || '',
+				year_from: row[1] || '',
+				year_until: row[2] || '',
+				esf_funds: row[3] || ''
 			};
-
-
-			var final = rows_collect.map(function (row) {
-				return {
-					_source: item,
-					beneficiary: row[0] || '',
-					year_from: row[1] || '',
-					year_until: cleanString(row[2]),
-					esf_funds: cleanString(row[3])
-				};
-			});
-			fs.writeFileSync(filename + ".json", JSON.stringify(final, null, '\t'));
-			cb(err);
-		})
+		},
+		processFinal: function (items) {
+			return items;
+		}
+	}, function (err, items) {
+		if (err) console.log(err);
+		cb();
 	});
 };
 

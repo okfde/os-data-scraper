@@ -242,7 +242,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 ACCEDA en Navarra",
+		"nombre_operacion": "2014 ACCEDA en Navarra",
 		"montante_concedido": "13.605,52",
 		"montante_pagado_final_operacion": "0,00",
 		"ano_de_la_concesion": "2014"
@@ -250,7 +250,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 SARA CPD’s en Navarra",
+		"nombre_operacion": "2014 SARA CPD’s en Navarra",
 		"montante_concedido": "97.411,70",
 		"montante_pagado_final_operacion": "40.662,20",
 		"ano_de_la_concesion": "2014"
@@ -474,7 +474,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 Red SARA en Navarra",
+		"nombre_operacion": "2014 Red SARA en Navarra",
 		"montante_concedido": "70.926,49",
 		"montante_pagado_final_operacion": "30.464,84",
 		"ano_de_la_concesion": "2014"
@@ -490,7 +490,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "Dirección de Tecnologías de la Información y Comunicaciones (DTIC) \n(MINHAP)",
-		"nombre_operacion": " 2014 REC en Navarra",
+		"nombre_operacion": "2014 REC en Navarra",
 		"montante_concedido": "5.874,90",
 		"montante_pagado_final_operacion": "2.027,07",
 		"ano_de_la_concesion": "2014"
@@ -498,7 +498,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 SISNOT en Navarra",
+		"nombre_operacion": "2014 SISNOT en Navarra",
 		"montante_concedido": "2.609,33",
 		"montante_pagado_final_operacion": "1.306,34",
 		"ano_de_la_concesion": "2014"
@@ -506,7 +506,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 Intermediación en Navarra",
+		"nombre_operacion": "2014 Intermediación en Navarra",
 		"montante_concedido": "30.700,98",
 		"montante_pagado_final_operacion": "7.179,13",
 		"ano_de_la_concesion": "2014"
@@ -514,7 +514,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 CTT en Navarra",
+		"nombre_operacion": "2014 CTT en Navarra",
 		"montante_concedido": "6.441,42",
 		"montante_pagado_final_operacion": "0,00",
 		"ano_de_la_concesion": "2014"
@@ -522,7 +522,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014  Portal 060.es en Navarra",
+		"nombre_operacion": "2014  Portal 060.es en Navarra",
 		"montante_concedido": "55.503,81",
 		"montante_pagado_final_operacion": "10.817,58",
 		"ano_de_la_concesion": "2014"
@@ -530,7 +530,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 Teléfono 060 en Navarra",
+		"nombre_operacion": "2014 Teléfono 060 en Navarra",
 		"montante_concedido": "24.452,72",
 		"montante_pagado_final_operacion": "14.061,97",
 		"ano_de_la_concesion": "2014"
@@ -538,7 +538,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 Portal EUGO.es en Navarra",
+		"nombre_operacion": "2014 Portal EUGO.es en Navarra",
 		"montante_concedido": "32.555,46",
 		"montante_pagado_final_operacion": "9.574,10",
 		"ano_de_la_concesion": "2014"
@@ -546,7 +546,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 Extranjería en Navarra",
+		"nombre_operacion": "2014 Extranjería en Navarra",
 		"montante_concedido": "34.235,11",
 		"montante_pagado_final_operacion": "0,00",
 		"ano_de_la_concesion": "2014"
@@ -554,7 +554,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 FACe  en Navarra",
+		"nombre_operacion": "2014 FACe  en Navarra",
 		"montante_concedido": "9.601,06",
 		"montante_pagado_final_operacion": "7.944,27",
 		"ano_de_la_concesion": "2014"
@@ -562,7 +562,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 Orve/SIR en Navarra",
+		"nombre_operacion": "2014 Orve/SIR en Navarra",
 		"montante_concedido": "5.386,53",
 		"montante_pagado_final_operacion": "1.322,28",
 		"ano_de_la_concesion": "2014"
@@ -570,7 +570,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 Unidad de Mercado en Navarra",
+		"nombre_operacion": "2014 Unidad de Mercado en Navarra",
 		"montante_concedido": "13.605,52",
 		"montante_pagado_final_operacion": "0,00",
 		"ano_de_la_concesion": "2014"
@@ -578,7 +578,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014  Reúnete en Navarra",
+		"nombre_operacion": "2014  Reúnete en Navarra",
 		"montante_concedido": "2.497,48",
 		"montante_pagado_final_operacion": "0,00",
 		"ano_de_la_concesion": "2014"
@@ -586,7 +586,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014  Oficinas 060 en Navarra",
+		"nombre_operacion": "2014  Oficinas 060 en Navarra",
 		"montante_concedido": "5.863,96",
 		"montante_pagado_final_operacion": "0,00",
 		"ano_de_la_concesion": "2014"
@@ -594,7 +594,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 AURA / Catástrofes en Navarra",
+		"nombre_operacion": "2014 AURA / Catástrofes en Navarra",
 		"montante_concedido": "13.605,52",
 		"montante_pagado_final_operacion": "68,03",
 		"ano_de_la_concesion": "2014"
@@ -7714,7 +7714,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " FPINF(1) - WOMEX 2008 - SEVILLA (ESPAÑA)",
+		"nombre_operacion": "FPINF(1) - WOMEX 2008 - SEVILLA (ESPAÑA)",
 		"montante_concedido": "95,84",
 		"montante_pagado_final_operacion": "95,84",
 		"ano_de_la_concesion": "2008"
@@ -8177,7 +8177,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "Gobierno de Navarra (D.Gral. de Política Económica y Empresarial) ",
+		"nombre_beneficiario": "Gobierno de Navarra (D.Gral. de Política Económica y Empresarial)",
 		"nombre_operacion": "*(2009-2010) PLANTA PILOTO ENERGIA DISTRIBUIDA",
 		"montante_concedido": "2.105.402,00",
 		"montante_pagado_final_operacion": "796.861,47",
@@ -8313,7 +8313,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "Gobierno de Navarra (D.Gral. de Política Económica y Empresarial) ",
+		"nombre_beneficiario": "Gobierno de Navarra (D.Gral. de Política Económica y Empresarial)",
 		"nombre_operacion": "*04.05.11 MODIFICACION PROGRAMA FEDER 2007-2013",
 		"montante_concedido": "8.430,75",
 		"montante_pagado_final_operacion": "7.069,16",
@@ -8449,7 +8449,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "Gobierno de Navarra (D.Gral. de Política Económica y Empresarial) ",
+		"nombre_beneficiario": "Gobierno de Navarra (D.Gral. de Política Económica y Empresarial)",
 		"nombre_operacion": "*30.03.12 ADAPT GESTIÓN FONDOS ESTRUCTURALES F713",
 		"montante_concedido": "7.113,04",
 		"montante_pagado_final_operacion": "6.687,72",
@@ -8585,7 +8585,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "Gobierno de Navarra (D.Gral. de Política Económica y Empresarial) ",
+		"nombre_beneficiario": "Gobierno de Navarra (D.Gral. de Política Económica y Empresarial)",
 		"nombre_operacion": "adjudicación Adq.Ultracentrífuga Refrig. para CIB",
 		"montante_concedido": "102.850,00",
 		"montante_pagado_final_operacion": "102.850,00",
@@ -8721,7 +8721,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "Gobierno de Navarra (D.Gral. de Política Económica y Empresarial) ",
+		"nombre_beneficiario": "Gobierno de Navarra (D.Gral. de Política Económica y Empresarial)",
 		"nombre_operacion": "014-LEACHE-CUBIERTA IGLESIA SANTO SEPULCRO ESTELLA",
 		"montante_concedido": "287.933,27",
 		"montante_pagado_final_operacion": "287.933,27",
@@ -8857,7 +8857,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "Gobierno de Navarra (D.Gral. de Política Económica y Empresarial) ",
+		"nombre_beneficiario": "Gobierno de Navarra (D.Gral. de Política Económica y Empresarial)",
 		"nombre_operacion": "Preparación, ejecución, seguimiento e inspección",
 		"montante_concedido": "98.385,94",
 		"montante_pagado_final_operacion": "98.385,94",
@@ -9042,7 +9042,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " ANALISIS DEL IMPACTO DE MÚLTIPLES AEROGENERADORES EN\nSISTEMAS DE RADIOCOMUNICACIÓN UTILIZANDO \nHERRAMIENTAS DE SIMULACIÓN ELECTROMAGNÉTICA 3D ",
+		"nombre_operacion": "ANALISIS DEL IMPACTO DE MÚLTIPLES AEROGENERADORES EN\nSISTEMAS DE RADIOCOMUNICACIÓN UTILIZANDO \nHERRAMIENTAS DE SIMULACIÓN ELECTROMAGNÉTICA 3D",
 		"montante_concedido": "26.663,48",
 		"montante_pagado_final_operacion": "25.069,16",
 		"ano_de_la_concesion": "2012"
@@ -9265,7 +9265,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "ACUSTICA ARQUITECTONICA S.A. ",
+		"nombre_beneficiario": "ACUSTICA ARQUITECTONICA S.A.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "6.121,49",
 		"montante_pagado_final_operacion": "1.836,45",
@@ -9746,7 +9746,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "ALBYN MEDICAL SL",
-		"nombre_operacion": " EQUIPO INTEGRADO DE MOTILIDAD DIGESTIVA Y \nDISFUNCIONES A NIVEL DE SUELO PÉLVICO ",
+		"nombre_operacion": "EQUIPO INTEGRADO DE MOTILIDAD DIGESTIVA Y \nDISFUNCIONES A NIVEL DE SUELO PÉLVICO",
 		"montante_concedido": "34.384,20",
 		"montante_pagado_final_operacion": "32.328,22",
 		"ano_de_la_concesion": "2013"
@@ -10066,7 +10066,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "ALONSO HERNANDEZ & ASOCIADOS ARQUITECTOS SL",
-		"nombre_operacion": " LEADERA 2010 - INCORPORACIÓN DE FIBRAS NATURALES EN \nMATRICES POLIMÉRICAS VÍRGENES Y RECICLADAS (REFIPLAST)",
+		"nombre_operacion": "LEADERA 2010 - INCORPORACIÓN DE FIBRAS NATURALES EN \nMATRICES POLIMÉRICAS VÍRGENES Y RECICLADAS (REFIPLAST)",
 		"montante_concedido": "15.120,46",
 		"montante_pagado_final_operacion": "14.216,34",
 		"ano_de_la_concesion": "2012"
@@ -10130,7 +10130,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "ALPE METROLOGIA INDUSTRIAL SL",
-		"nombre_operacion": " ACREDITACIÓN ENAC COMO ENTIDAD DE INSPECCIÓN PARA \nVALIDACIÓN DE CAMPANAS, EQUIPOS DE TEMPERATURA \nDESTINADOS AL TRANSPORTE Y ALMACENAJE DE ALIMENTOS Y\nEMISIONES ATMOSFÉRICAS ",
+		"nombre_operacion": "ACREDITACIÓN ENAC COMO ENTIDAD DE INSPECCIÓN PARA \nVALIDACIÓN DE CAMPANAS, EQUIPOS DE TEMPERATURA \nDESTINADOS AL TRANSPORTE Y ALMACENAJE DE ALIMENTOS Y\nEMISIONES ATMOSFÉRICAS",
 		"montante_concedido": "14.360,13",
 		"montante_pagado_final_operacion": "13.501,48",
 		"ano_de_la_concesion": "2012"
@@ -10337,7 +10337,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "ALUSALDU S.L. ",
+		"nombre_beneficiario": "ALUSALDU S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "19.298,98",
 		"montante_pagado_final_operacion": "5.180,83",
@@ -10497,7 +10497,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "AMC ASESORES S.I. ",
+		"nombre_beneficiario": "AMC ASESORES S.I.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "25.817,00",
 		"montante_pagado_final_operacion": "5.909,10",
@@ -10514,7 +10514,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "AN AVICOLA MELIDA SA",
-		"nombre_operacion": " ENVASE ACTIVO PARA PRODUCTOS CÁRNICOS AVÍCOLAS \nFRESCOS ",
+		"nombre_operacion": "ENVASE ACTIVO PARA PRODUCTOS CÁRNICOS AVÍCOLAS \nFRESCOS",
 		"montante_concedido": "11.921,98",
 		"montante_pagado_final_operacion": "11.209,11",
 		"ano_de_la_concesion": "2012"
@@ -10634,7 +10634,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "ANS COOP",
-		"nombre_operacion": " NUEVAS SOLUCIONES EN FABRICACIÓN DE PIENSOS PARA EL \nINCREMENTO DE COMPETITIVIDAD ",
+		"nombre_operacion": "NUEVAS SOLUCIONES EN FABRICACIÓN DE PIENSOS PARA EL \nINCREMENTO DE COMPETITIVIDAD",
 		"montante_concedido": "76.918,95",
 		"montante_pagado_final_operacion": "72.319,64",
 		"ano_de_la_concesion": "2013"
@@ -11010,7 +11010,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "ARBIZU SL",
-		"nombre_operacion": " NUEVOS EMBUTIDOS DE CALIDAD, SALUDABLES Y SEGUROS ",
+		"nombre_operacion": "NUEVOS EMBUTIDOS DE CALIDAD, SALUDABLES Y SEGUROS",
 		"montante_concedido": "42.662,50",
 		"montante_pagado_final_operacion": "40.111,53",
 		"ano_de_la_concesion": "2012"
@@ -11097,7 +11097,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "ARFILA S.L. ",
+		"nombre_beneficiario": "ARFILA S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "57.860,50",
 		"montante_pagado_final_operacion": "15.000,00",
@@ -11122,7 +11122,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "ARIAN CONSTRUCCION Y GESTION DE INFRAESTRUCTURAS SA",
-		"nombre_operacion": " HERRAMIENTA INFORMATICA PARA LA GESTIÓN DE \nINDICADORES Y CUADROS DE MANDO EN EL SECTOR DE LA \nCONSTRUCCIÓN ",
+		"nombre_operacion": "HERRAMIENTA INFORMATICA PARA LA GESTIÓN DE \nINDICADORES Y CUADROS DE MANDO EN EL SECTOR DE LA \nCONSTRUCCIÓN",
 		"montante_concedido": "467.509,83",
 		"montante_pagado_final_operacion": "467.509,83",
 		"ano_de_la_concesion": "2012"
@@ -11217,7 +11217,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "AROSTEGUI , LA JUSTICIA , JUANA MARIA ",
+		"nombre_beneficiario": "AROSTEGUI , LA JUSTICIA , JUANA MARIA",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "5.544,00",
 		"montante_pagado_final_operacion": "1.663,20",
@@ -11418,7 +11418,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "AS SL",
-		"nombre_operacion": " DISEÑO Y DESARROLLO DE NUEVO MONOLITO CATALIZADOR ",
+		"nombre_operacion": "DISEÑO Y DESARROLLO DE NUEVO MONOLITO CATALIZADOR",
 		"montante_concedido": "24.910,50",
 		"montante_pagado_final_operacion": "23.421,00",
 		"ano_de_la_concesion": "2012"
@@ -11578,7 +11578,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "ASIENTOS ESTEBAN SL",
-		"nombre_operacion": " NUEVA GAMA DE ASIENTOS DE AUTOBÚS INTERURBANO DE \nMUY ALTA SEGURIDAD PARA NUEVAS APLICACIONES ",
+		"nombre_operacion": "NUEVA GAMA DE ASIENTOS DE AUTOBÚS INTERURBANO DE \nMUY ALTA SEGURIDAD PARA NUEVAS APLICACIONES",
 		"montante_concedido": "37.432,75",
 		"montante_pagado_final_operacion": "35.194,49",
 		"ano_de_la_concesion": "2012"
@@ -11857,7 +11857,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "ASOCIACION NAVARRA DE PEQUEÑA EMPRESA DE HOSTELERIA ",
+		"nombre_beneficiario": "ASOCIACION NAVARRA DE PEQUEÑA EMPRESA DE HOSTELERIA",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "12.702,65",
 		"montante_pagado_final_operacion": "2.800,97",
@@ -11945,7 +11945,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "ATECNA S.A.L. ",
+		"nombre_beneficiario": "ATECNA S.A.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "13.254,47",
 		"montante_pagado_final_operacion": "3.976,34",
@@ -12274,7 +12274,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "AZKOYEN SA",
-		"nombre_operacion": " DESARROLLO DE NUEVA BASCULA ELECTRONICA ",
+		"nombre_operacion": "DESARROLLO DE NUEVA BASCULA ELECTRONICA",
 		"montante_concedido": "25.289,92",
 		"montante_pagado_final_operacion": "23.777,73",
 		"ano_de_la_concesion": "2013"
@@ -12378,7 +12378,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " DESARROLLO DE SISTEMA BAGLINOX-LIGHT ",
+		"nombre_operacion": "DESARROLLO DE SISTEMA BAGLINOX-LIGHT",
 		"montante_concedido": "24.870,78",
 		"montante_pagado_final_operacion": "23.383,65",
 		"ano_de_la_concesion": "2012"
@@ -13018,7 +13018,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "BODEGA COOPERATIVA SAN MARTIN",
-		"nombre_operacion": " VINIFICACIÓN Y CRIANZA DE LA VARIEDAD GARNACHA \n(GARNAVIN) ",
+		"nombre_operacion": "VINIFICACIÓN Y CRIANZA DE LA VARIEDAD GARNACHA \n(GARNAVIN)",
 		"montante_concedido": "21.870,43",
 		"montante_pagado_final_operacion": "20.562,71",
 		"ano_de_la_concesion": "2012"
@@ -13114,7 +13114,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "BODEGAS FERNANDEZ DE ARCAYA SL",
-		"nombre_operacion": " ELABORACIÓN DE UN NUEVO VINO CRIANZA (NOVOCRIANZA) ",
+		"nombre_operacion": "ELABORACIÓN DE UN NUEVO VINO CRIANZA (NOVOCRIANZA)",
 		"montante_concedido": "27.000,00",
 		"montante_pagado_final_operacion": "7.376,73",
 		"ano_de_la_concesion": "2013"
@@ -13250,7 +13250,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " PUREZA, INTENSIDAD Y CONSERVACIÓN DE AROMAS EN VINOS \nPREMIUM ",
+		"nombre_operacion": "PUREZA, INTENSIDAD Y CONSERVACIÓN DE AROMAS EN VINOS \nPREMIUM",
 		"montante_concedido": "8.464,50",
 		"montante_pagado_final_operacion": "7.958,37",
 		"ano_de_la_concesion": "2012"
@@ -13434,7 +13434,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "BSH ELECTRODOMESTICOS ESPA¿A SA",
-		"nombre_operacion": " NUEVOS FRIGORÍFICOS CON MEJOR EFICIENCIA ENERGÉTICA ",
+		"nombre_operacion": "NUEVOS FRIGORÍFICOS CON MEJOR EFICIENCIA ENERGÉTICA",
 		"montante_concedido": "37.445,10",
 		"montante_pagado_final_operacion": "35.206,10",
 		"ano_de_la_concesion": "2012"
@@ -13442,7 +13442,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " DESARROLLO DE MÓDULO DE SECADO CON COMPRESIÓN \nVARIABLE ",
+		"nombre_operacion": "DESARROLLO DE MÓDULO DE SECADO CON COMPRESIÓN \nVARIABLE",
 		"montante_concedido": "42.850,52",
 		"montante_pagado_final_operacion": "40.288,31",
 		"ano_de_la_concesion": "2012"
@@ -13586,7 +13586,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "CALATIDE NAVARRA SL",
-		"nombre_operacion": " SISTEMA INTERACTIVO DE GESTIÓN DE LA SEGURIDAD Y \nCUMPLIMIENTO MEDIOAMBIENTAL PARA INSTALACIONES Y \nEQUIPAMIENTOS DEPORTIVOS Y DE OCIO ",
+		"nombre_operacion": "SISTEMA INTERACTIVO DE GESTIÓN DE LA SEGURIDAD Y \nCUMPLIMIENTO MEDIOAMBIENTAL PARA INSTALACIONES Y \nEQUIPAMIENTOS DEPORTIVOS Y DE OCIO",
 		"montante_concedido": "142.489,74",
 		"montante_pagado_final_operacion": "142.489,74",
 		"ano_de_la_concesion": "2012"
@@ -13953,7 +13953,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "CARRERA , MURILLO , SERGIO ",
+		"nombre_beneficiario": "CARRERA , MURILLO , SERGIO",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "3.754,00",
 		"montante_pagado_final_operacion": "1.126,20",
@@ -13978,7 +13978,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "CARROCERIAS EGA SA",
-		"nombre_operacion": " NUEVO FURGÓN PAQUETERO DE GRAN LIGEREZA Y ALTA \nRESISTENCIA ",
+		"nombre_operacion": "NUEVO FURGÓN PAQUETERO DE GRAN LIGEREZA Y ALTA \nRESISTENCIA",
 		"montante_concedido": "29.848,97",
 		"montante_pagado_final_operacion": "28.064,18",
 		"ano_de_la_concesion": "2012"
@@ -14202,7 +14202,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " ANCLAJE OCULTO ",
+		"nombre_operacion": "ANCLAJE OCULTO",
 		"montante_concedido": "39.854,38",
 		"montante_pagado_final_operacion": "37.471,32",
 		"ano_de_la_concesion": "2012"
@@ -14241,7 +14241,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "CERAMICA UTZUBAR S.A. ",
+		"nombre_beneficiario": "CERAMICA UTZUBAR S.A.",
 		"nombre_operacion": "EXPTE IIP14493 SUBV PROYECTOS I+D",
 		"montante_concedido": "7.859,32",
 		"montante_pagado_final_operacion": "7.859,32",
@@ -14257,7 +14257,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "CERAMICAS ARCOBALENO S.A.L. ",
+		"nombre_beneficiario": "CERAMICAS ARCOBALENO S.A.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "8.275,39",
 		"montante_pagado_final_operacion": "2.482,62",
@@ -14393,7 +14393,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "C.F.V. AUTOESCUELA BASTERRA S.L. ",
+		"nombre_beneficiario": "C.F.V. AUTOESCUELA BASTERRA S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "3.690,92",
 		"montante_pagado_final_operacion": "1.107,28",
@@ -14537,7 +14537,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "CIMAR OBRAS Y CIMENTACIONES ESPECIALES S.L. ",
+		"nombre_beneficiario": "CIMAR OBRAS Y CIMENTACIONES ESPECIALES S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "11.879,80",
 		"montante_pagado_final_operacion": "3.120,84",
@@ -14874,7 +14874,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "COMPLEMENTOS DE PIENSOS COMPUEST",
-		"nombre_operacion": " SOLUCIONES TECNOLÓGICAS DE BIOSEGURIDAD PARA \nCONTROL DE PRODUCCIÓN AVÍCOLA, PORCINA Y VACUNA ",
+		"nombre_operacion": "SOLUCIONES TECNOLÓGICAS DE BIOSEGURIDAD PARA \nCONTROL DE PRODUCCIÓN AVÍCOLA, PORCINA Y VACUNA",
 		"montante_concedido": "14.571,64",
 		"montante_pagado_final_operacion": "13.700,34",
 		"ano_de_la_concesion": "2012"
@@ -14914,7 +14914,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "COMPOSITES GUREA SA",
-		"nombre_operacion": " INVESTIGACIÓN EN TABLEROS DE MADERA DE ALTA DENSIDAD \nCON PROPIEDADES IGNÍFUGAS MEJORADAS, EN BASE A \nNUEVAS ALMAS ",
+		"nombre_operacion": "INVESTIGACIÓN EN TABLEROS DE MADERA DE ALTA DENSIDAD \nCON PROPIEDADES IGNÍFUGAS MEJORADAS, EN BASE A \nNUEVAS ALMAS",
 		"montante_concedido": "22.313,03",
 		"montante_pagado_final_operacion": "20.978,84",
 		"ano_de_la_concesion": "2012"
@@ -14954,7 +14954,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " SISTEMAS DE IGNIFUGACIÓN DE POLÍMEROS POR \nPROCEDIMIENTOS DE EXPANSIÓN (SIPOEX) ",
+		"nombre_operacion": "SISTEMAS DE IGNIFUGACIÓN DE POLÍMEROS POR \nPROCEDIMIENTOS DE EXPANSIÓN (SIPOEX)",
 		"montante_concedido": "23.816,13",
 		"montante_pagado_final_operacion": "22.392,07",
 		"ano_de_la_concesion": "2012"
@@ -15074,7 +15074,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "CONSTRUCCIONES ACR SA",
-		"nombre_operacion": " NUEVO CONCEPTO DE VIVIENDAS MODULARES, FLEXIBLES, \nESCALABLES Y DE ALTA EFICIENCIA ENERGÉTICA ",
+		"nombre_operacion": "NUEVO CONCEPTO DE VIVIENDAS MODULARES, FLEXIBLES, \nESCALABLES Y DE ALTA EFICIENCIA ENERGÉTICA",
 		"montante_concedido": "10.935,84",
 		"montante_pagado_final_operacion": "10.281,94",
 		"ano_de_la_concesion": "2013"
@@ -15097,7 +15097,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "CONSTRUCCIONES EGEA DE SANTACARA S.L. ",
+		"nombre_beneficiario": "CONSTRUCCIONES EGEA DE SANTACARA S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "13.912,75",
 		"montante_pagado_final_operacion": "4.173,83",
@@ -15209,7 +15209,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "CONSTRUCCIONES MECANICAS RAFAL S.L. ",
+		"nombre_beneficiario": "CONSTRUCCIONES MECANICAS RAFAL S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "21.216,50",
 		"montante_pagado_final_operacion": "6.364,95",
@@ -15457,7 +15457,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "COSAS DE CAZA S.L. ",
+		"nombre_beneficiario": "COSAS DE CAZA S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "9.301,31",
 		"montante_pagado_final_operacion": "2.790,39",
@@ -16065,7 +16065,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "DIFUSION PUBLICIDAD Y MARKETING S.L. ",
+		"nombre_beneficiario": "DIFUSION PUBLICIDAD Y MARKETING S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "53.893,39",
 		"montante_pagado_final_operacion": "15.000,00",
@@ -16082,7 +16082,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " PLAN DE DESARROLLO CLÍNICO Y NUEVAS FORMULACIONES \nDE INTERFERÓN ALFA-5 PARA EL TRATAMIENTO DE LA \nHEPATITIS CRÓNICA POR EL VIRUS DE LA HEPATITIS C (VHC) ",
+		"nombre_operacion": "PLAN DE DESARROLLO CLÍNICO Y NUEVAS FORMULACIONES \nDE INTERFERÓN ALFA-5 PARA EL TRATAMIENTO DE LA \nHEPATITIS CRÓNICA POR EL VIRUS DE LA HEPATITIS C (VHC)",
 		"montante_concedido": "62.664,10",
 		"montante_pagado_final_operacion": "58.917,15",
 		"ano_de_la_concesion": "2013"
@@ -16329,7 +16329,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "DISTRIBUIDORA NAVARRA DE PINTURAS S.L. ",
+		"nombre_beneficiario": "DISTRIBUIDORA NAVARRA DE PINTURAS S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "6.493,92",
 		"montante_pagado_final_operacion": "1.948,18",
@@ -16450,7 +16450,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "DSLC CONSULTORIA Y SISTEMAS DE LOGISTICA INTEGRAL SLL",
-		"nombre_operacion": " DISEÑO Y DESARROLLO DE UN INNOVADOR SISTEMA INTEGRAL\nDE ESTRUCTURA ABIERTA PARA LA PLANIFICACIÓN Y GESTIÓN \nDE ENSAYOS (CRD GESTIÓN ENSAYOS) ",
+		"nombre_operacion": "DISEÑO Y DESARROLLO DE UN INNOVADOR SISTEMA INTEGRAL\nDE ESTRUCTURA ABIERTA PARA LA PLANIFICACIÓN Y GESTIÓN \nDE ENSAYOS (CRD GESTIÓN ENSAYOS)",
 		"montante_concedido": "24.460,05",
 		"montante_pagado_final_operacion": "22.997,48",
 		"ano_de_la_concesion": "2012"
@@ -16538,7 +16538,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "DYNAMOBEL SA",
-		"nombre_operacion": " NUEVO MODELO DE SILLA ERGONÓMICO Y RECICLABLE ",
+		"nombre_operacion": "NUEVO MODELO DE SILLA ERGONÓMICO Y RECICLABLE",
 		"montante_concedido": "18.848,85",
 		"montante_pagado_final_operacion": "17.721,80",
 		"ano_de_la_concesion": "2013"
@@ -16762,7 +16762,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "ECOVINAL SL",
-		"nombre_operacion": " NUEVOS VINAGRES DE ALCOHOL, VINO Y SIDRA DE ELEVADA \nACIDEZ DEMANDADOS EN MERCADOS INTERNACIONALES ",
+		"nombre_operacion": "NUEVOS VINAGRES DE ALCOHOL, VINO Y SIDRA DE ELEVADA \nACIDEZ DEMANDADOS EN MERCADOS INTERNACIONALES",
 		"montante_concedido": "15.756,32",
 		"montante_pagado_final_operacion": "11.868,30",
 		"ano_de_la_concesion": "2012"
@@ -16882,7 +16882,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "EIN NAVARRA CONSULTORIA Y GESTION",
-		"nombre_operacion": " CONTROL REDES DE ABASTECIMIENTO DE AGUA ",
+		"nombre_operacion": "CONTROL REDES DE ABASTECIMIENTO DE AGUA",
 		"montante_concedido": "27.942,77",
 		"montante_pagado_final_operacion": "27.942,77",
 		"ano_de_la_concesion": "2013"
@@ -16890,7 +16890,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " DISEÑO Y DESARROLLO DE UN GENERADOR DE \nOBSERVATORIOS ",
+		"nombre_operacion": "DISEÑO Y DESARROLLO DE UN GENERADOR DE \nOBSERVATORIOS",
 		"montante_concedido": "19.829,11",
 		"montante_pagado_final_operacion": "18.643,44",
 		"ano_de_la_concesion": "2012"
@@ -17073,7 +17073,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "ELECTRODOMESTICOS LOPEZ-GIL S.L. ",
+		"nombre_beneficiario": "ELECTRODOMESTICOS LOPEZ-GIL S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "3.665,00",
 		"montante_pagado_final_operacion": "1.099,50",
@@ -17106,7 +17106,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "ELECTRONICA FALCON SA",
-		"nombre_operacion": " DISEÑO Y DESARROLLO DE UN PANEL DE CONTROL \nINTEGRADO GENÉRICO ",
+		"nombre_operacion": "DISEÑO Y DESARROLLO DE UN PANEL DE CONTROL \nINTEGRADO GENÉRICO",
 		"montante_concedido": "34.420,14",
 		"montante_pagado_final_operacion": "34.420,14",
 		"ano_de_la_concesion": "2013"
@@ -17354,7 +17354,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "ENERGIAS RENOVABLES INTEGRALES SL",
-		"nombre_operacion": " INVESTIGACIÓN Y DESARROLLO DE UN NUEVO HELIOSTATO \nPARA ENERGÍA TÉRMICA SOLAR ",
+		"nombre_operacion": "INVESTIGACIÓN Y DESARROLLO DE UN NUEVO HELIOSTATO \nPARA ENERGÍA TÉRMICA SOLAR",
 		"montante_concedido": "32.430,77",
 		"montante_pagado_final_operacion": "30.491,60",
 		"ano_de_la_concesion": "2012"
@@ -17625,7 +17625,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "ESCAPARATE EDITORIAL S.L. ",
+		"nombre_beneficiario": "ESCAPARATE EDITORIAL S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "36.212,46",
 		"montante_pagado_final_operacion": "7.000,00",
@@ -17713,7 +17713,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "ESTEBAN , LOPEZ , YOLANDA ",
+		"nombre_beneficiario": "ESTEBAN , LOPEZ , YOLANDA",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "3.876,00",
 		"montante_pagado_final_operacion": "1.162,80",
@@ -17874,7 +17874,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "ESTRUCTURAS MODULARES TECNIA SL",
-		"nombre_operacion": " PRODUCTOS ANTIDESLIZANTES TECNIA ",
+		"nombre_operacion": "PRODUCTOS ANTIDESLIZANTES TECNIA",
 		"montante_concedido": "16.386,02",
 		"montante_pagado_final_operacion": "15.406,23",
 		"ano_de_la_concesion": "2012"
@@ -18329,7 +18329,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "FEDERACION DE ASOCIACIONES DE COMERCIANTES DE \nNAVARRA ",
+		"nombre_beneficiario": "FEDERACION DE ASOCIACIONES DE COMERCIANTES DE \nNAVARRA",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "5.702,67",
 		"montante_pagado_final_operacion": "1.317,05",
@@ -18977,7 +18977,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "FSESTRUCTURAS S.L. ",
+		"nombre_beneficiario": "FSESTRUCTURAS S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "7.254,02",
 		"montante_pagado_final_operacion": "1.485,37",
@@ -19338,7 +19338,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": "Diseño de nuevos fármacos capaces de prevenir episodios isquémicos \nagudos en pacientes con aterosclerosis ",
+		"nombre_operacion": "Diseño de nuevos fármacos capaces de prevenir episodios isquémicos \nagudos en pacientes con aterosclerosis",
 		"montante_concedido": "89.000,00",
 		"montante_pagado_final_operacion": "85.865,15",
 		"ano_de_la_concesion": "2014"
@@ -19386,7 +19386,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " Splicing  alternativo mediado por Slu7 y RNA reguladores no-\ncodificantes largos en la hepatocarcinogénesis. Implicación de la \nanfirregulina (AR) en su regulación.",
+		"nombre_operacion": "Splicing  alternativo mediado por Slu7 y RNA reguladores no-\ncodificantes largos en la hepatocarcinogénesis. Implicación de la \nanfirregulina (AR) en su regulación.",
 		"montante_concedido": "183.000,00",
 		"montante_pagado_final_operacion": "176.421,70",
 		"ano_de_la_concesion": "2014"
@@ -19490,7 +19490,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": "Estudio de los mecanismos cardioprotectores de GLP-1 y de su \nasociación con biomarcadores circulantes del remodelado miocárdico \nen pacientes con diabetes mellitus tipo 2 ",
+		"nombre_operacion": "Estudio de los mecanismos cardioprotectores de GLP-1 y de su \nasociación con biomarcadores circulantes del remodelado miocárdico \nen pacientes con diabetes mellitus tipo 2",
 		"montante_concedido": "61.500,00",
 		"montante_pagado_final_operacion": "25.674,76",
 		"ano_de_la_concesion": "2014"
@@ -19850,7 +19850,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " SOLUCIONES PARA PALA PARTIDA DE AEROGENERADOR \nMULTIMEGAVATIO ",
+		"nombre_operacion": "SOLUCIONES PARA PALA PARTIDA DE AEROGENERADOR \nMULTIMEGAVATIO",
 		"montante_concedido": "237.479,17",
 		"montante_pagado_final_operacion": "223.279,30",
 		"ano_de_la_concesion": "2013"
@@ -20073,7 +20073,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "GAYARRE , HUALDE , TERESA ",
+		"nombre_beneficiario": "GAYARRE , HUALDE , TERESA",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "3.354,12",
 		"montante_pagado_final_operacion": "1.006,24",
@@ -20369,7 +20369,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "G-M NAVARRA S.L. ",
+		"nombre_beneficiario": "G-M NAVARRA S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "13.146,27",
 		"montante_pagado_final_operacion": "3.943,88",
@@ -20434,7 +20434,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " DISEÑO Y DESARROLLO DE UN SISTEMA DE DISPENSACIÓN DE \nMINIENVASES ALIMENTARIOS ",
+		"nombre_operacion": "DISEÑO Y DESARROLLO DE UN SISTEMA DE DISPENSACIÓN DE \nMINIENVASES ALIMENTARIOS",
 		"montante_concedido": "11.862,56",
 		"montante_pagado_final_operacion": "11.153,25",
 		"ano_de_la_concesion": "2012"
@@ -20442,7 +20442,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " CONCENTRADOR DE COMUNICACIONES DE MÁQUINAS DE \nVENTA AUTOMÁTICA ",
+		"nombre_operacion": "CONCENTRADOR DE COMUNICACIONES DE MÁQUINAS DE \nVENTA AUTOMÁTICA",
 		"montante_concedido": "36.569,57",
 		"montante_pagado_final_operacion": "36.569,57",
 		"ano_de_la_concesion": "2012"
@@ -20882,7 +20882,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "GRAFICAS ULZAMA SL",
-		"nombre_operacion": " DISEÑO Y DESARROLLO DE DOS INNOVADORES SISTEMAS DE \nCAMA ARTICULADA CON IMPORTANTES MEJORAS ESTÉTICAS Y \nFUNCIONALES, ASI COMO DE TRANSPORTE E INSTALACIÓN \n(INNOBEDS) ",
+		"nombre_operacion": "DISEÑO Y DESARROLLO DE DOS INNOVADORES SISTEMAS DE \nCAMA ARTICULADA CON IMPORTANTES MEJORAS ESTÉTICAS Y \nFUNCIONALES, ASI COMO DE TRANSPORTE E INSTALACIÓN \n(INNOBEDS)",
 		"montante_concedido": "22.702,06",
 		"montante_pagado_final_operacion": "21.344,61",
 		"ano_de_la_concesion": "2012"
@@ -21057,7 +21057,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "GRUPO IRYAL S.L. ",
+		"nombre_beneficiario": "GRUPO IRYAL S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "16.627,00",
 		"montante_pagado_final_operacion": "4.988,10",
@@ -21146,7 +21146,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " VIDRIO ANTIRREFLEJANTE PARA USOS ESPECÍFICOS ",
+		"nombre_operacion": "VIDRIO ANTIRREFLEJANTE PARA USOS ESPECÍFICOS",
 		"montante_concedido": "11.796,47",
 		"montante_pagado_final_operacion": "11.091,11",
 		"ano_de_la_concesion": "2012"
@@ -21394,7 +21394,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " BIOENERGÍA Y FERTILIZANTES A PARTIR DE FUENTES DE \nQUERATINA Y CELULOSA ",
+		"nombre_operacion": "BIOENERGÍA Y FERTILIZANTES A PARTIR DE FUENTES DE \nQUERATINA Y CELULOSA",
 		"montante_concedido": "28.545,41",
 		"montante_pagado_final_operacion": "26.838,56",
 		"ano_de_la_concesion": "2012"
@@ -21505,7 +21505,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "HOSPEDERIA CIUDAD DE OLITE S.L. ",
+		"nombre_beneficiario": "HOSPEDERIA CIUDAD DE OLITE S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "8.555,60",
 		"montante_pagado_final_operacion": "2.566,68",
@@ -21626,7 +21626,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " INVESTIGACIÓN DEL COMPORTAMIENTO DE MATERIALES \nGEOSINTÉTICOS EN CONTROL DE EROSIÓN EN TALUDES Y DE \nCOLUMNAS DE GRAVA ENVUELTAS EN GEOTEXTIL ",
+		"nombre_operacion": "INVESTIGACIÓN DEL COMPORTAMIENTO DE MATERIALES \nGEOSINTÉTICOS EN CONTROL DE EROSIÓN EN TALUDES Y DE \nCOLUMNAS DE GRAVA ENVUELTAS EN GEOTEXTIL",
 		"montante_concedido": "7.516,05",
 		"montante_pagado_final_operacion": "7.066,63",
 		"ano_de_la_concesion": "2012"
@@ -21721,7 +21721,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "IBAÑEZ ALDAZ ESTUDIO S.L. ",
+		"nombre_beneficiario": "IBAÑEZ ALDAZ ESTUDIO S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "5.897,41",
 		"montante_pagado_final_operacion": "1.769,22",
@@ -22041,7 +22041,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "IDAZLUMA S.A. ",
+		"nombre_beneficiario": "IDAZLUMA S.A.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "11.088,00",
 		"montante_pagado_final_operacion": "3.326,40",
@@ -22369,7 +22369,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "INDARRA ASESORES S.A. ",
+		"nombre_beneficiario": "INDARRA ASESORES S.A.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "15.116,46",
 		"montante_pagado_final_operacion": "4.534,94",
@@ -22522,7 +22522,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "INDUSTRIAS CARSAL SA",
-		"nombre_operacion": " DESARROLLO DE PUERTAS ACÚSTICAS ",
+		"nombre_operacion": "DESARROLLO DE PUERTAS ACÚSTICAS",
 		"montante_concedido": "15.038,52",
 		"montante_pagado_final_operacion": "14.139,30",
 		"ano_de_la_concesion": "2012"
@@ -22530,7 +22530,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "INDUSTRIAS DEL CAUCHO SL",
-		"nombre_operacion": " DESARROLLO DE PROCESOS VULCANIZADO ",
+		"nombre_operacion": "DESARROLLO DE PROCESOS VULCANIZADO",
 		"montante_concedido": "204.569,87",
 		"montante_pagado_final_operacion": "204.569,87",
 		"ano_de_la_concesion": "2012"
@@ -22745,7 +22745,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "INDUSTRIAS METALURGICAS BIDEZAR S.L. ",
+		"nombre_beneficiario": "INDUSTRIAS METALURGICAS BIDEZAR S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "10.870,24",
 		"montante_pagado_final_operacion": "1.003,57",
@@ -22778,7 +22778,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "INDUSTRIAS OGI SL",
-		"nombre_operacion": " NUEVA FORMULACIÓN DE ADHESIVOS NATURALES EN BASE A \nGELATINA (NATURCOL) ",
+		"nombre_operacion": "NUEVA FORMULACIÓN DE ADHESIVOS NATURALES EN BASE A \nGELATINA (NATURCOL)",
 		"montante_concedido": "25.265,91",
 		"montante_pagado_final_operacion": "23.539,83",
 		"ano_de_la_concesion": "2012"
@@ -22874,7 +22874,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "INDUSTRIAS TORRES ORCOYEN SL",
-		"nombre_operacion": " DESARROLLO DE PRODUCTOS PROPIOS INTOR DE \nACCIONAMIENTO NEUMÁTICO ",
+		"nombre_operacion": "DESARROLLO DE PRODUCTOS PROPIOS INTOR DE \nACCIONAMIENTO NEUMÁTICO",
 		"montante_concedido": "19.927,83",
 		"montante_pagado_final_operacion": "18.736,26",
 		"ano_de_la_concesion": "2012"
@@ -22913,7 +22913,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "INFOCENTER T.I. S.L. ",
+		"nombre_beneficiario": "INFOCENTER T.I. S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "5.200,00",
 		"montante_pagado_final_operacion": "1.560,00",
@@ -23194,7 +23194,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " DESARROLLO DE INVERSOR FOTOVOLTAICO TRIFÁSICO \nMONOBLOQUE DE 625KW REFRIGERADO POR AGUA ",
+		"nombre_operacion": "DESARROLLO DE INVERSOR FOTOVOLTAICO TRIFÁSICO \nMONOBLOQUE DE 625KW REFRIGERADO POR AGUA",
 		"montante_concedido": "19.990,55",
 		"montante_pagado_final_operacion": "18.795,23",
 		"ano_de_la_concesion": "2012"
@@ -23202,7 +23202,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " DESARROLLO DE CONVERTIDORES DE POTENCIA TRINIVEL \nPARA APLICACIONES OFFSHORE ",
+		"nombre_operacion": "DESARROLLO DE CONVERTIDORES DE POTENCIA TRINIVEL \nPARA APLICACIONES OFFSHORE",
 		"montante_concedido": "20.382,97",
 		"montante_pagado_final_operacion": "19.164,19",
 		"ano_de_la_concesion": "2012"
@@ -23210,7 +23210,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " NUEVO INVERSOR SOLAR CON TRANSFORMADOR DE ALTA \nFRECUENCIA ",
+		"nombre_operacion": "NUEVO INVERSOR SOLAR CON TRANSFORMADOR DE ALTA \nFRECUENCIA",
 		"montante_concedido": "25.658,35",
 		"montante_pagado_final_operacion": "24.124,13",
 		"ano_de_la_concesion": "2012"
@@ -23290,7 +23290,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " CALIDAD ORGANOLÉPTICA Y COMPETITIVIDAD DE CONSERVAS \nDE MAÍZ DULCE ",
+		"nombre_operacion": "CALIDAD ORGANOLÉPTICA Y COMPETITIVIDAD DE CONSERVAS \nDE MAÍZ DULCE",
 		"montante_concedido": "6.860,15",
 		"montante_pagado_final_operacion": "6.449,95",
 		"ano_de_la_concesion": "2012"
@@ -23330,7 +23330,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "INNOVATING DISTRIBUTED SYSTEMS SL",
-		"nombre_operacion": " SISTEMA DE DETECCIÓN DE ROBO DE CABLE EN RAMALES DE \nALUMBRADO MEDIANTE TECNOLOGÍA PLC ",
+		"nombre_operacion": "SISTEMA DE DETECCIÓN DE ROBO DE CABLE EN RAMALES DE \nALUMBRADO MEDIANTE TECNOLOGÍA PLC",
 		"montante_concedido": "10.512,18",
 		"montante_pagado_final_operacion": "9.883,61",
 		"ano_de_la_concesion": "2012"
@@ -23481,7 +23481,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "INSTALACIONES Y MANTENIMIENTOS DAVALILLO S.L. ",
+		"nombre_beneficiario": "INSTALACIONES Y MANTENIMIENTOS DAVALILLO S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "5.622,11",
 		"montante_pagado_final_operacion": "1.152,55",
@@ -23633,7 +23633,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "INVERCOFIS S.L. ",
+		"nombre_beneficiario": "INVERCOFIS S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "3.896,00",
 		"montante_pagado_final_operacion": "1.168,80",
@@ -23658,7 +23658,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "INVESTIGACIONES Y DESARROLLO EOLICOS SL",
-		"nombre_operacion": " DESARROLLO DE NUEVAS TECNOLOGÍAS APLICABLES A PALAS \nDE AEROGENERADORES ",
+		"nombre_operacion": "DESARROLLO DE NUEVAS TECNOLOGÍAS APLICABLES A PALAS \nDE AEROGENERADORES",
 		"montante_concedido": "41.376,29",
 		"montante_pagado_final_operacion": "38.902,23",
 		"ano_de_la_concesion": "2013"
@@ -24193,7 +24193,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "JAVIER ABASCAL LABORATORIO DE PROTESIS DENTAL S.L. ",
+		"nombre_beneficiario": "JAVIER ABASCAL LABORATORIO DE PROTESIS DENTAL S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "11.451,00",
 		"montante_pagado_final_operacion": "3.435,30",
@@ -24961,7 +24961,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "KUZU S.L. ",
+		"nombre_beneficiario": "KUZU S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "11.847,00",
 		"montante_pagado_final_operacion": "3.554,10",
@@ -24978,7 +24978,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " (ECODRIVE) DIRECCIÓN ASISTIDA ELÉCTRICA DE ALTA \nEFICIENCIA PARA NUEVA GENERACIÓN DE VEHÍCULOS ",
+		"nombre_operacion": "(ECODRIVE) DIRECCIÓN ASISTIDA ELÉCTRICA DE ALTA \nEFICIENCIA PARA NUEVA GENERACIÓN DE VEHÍCULOS",
 		"montante_concedido": "37.882,78",
 		"montante_pagado_final_operacion": "35.617,61",
 		"ano_de_la_concesion": "2012"
@@ -25073,7 +25073,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "LABORATORIO BELEN PERFECTO 2005 S.L. ",
+		"nombre_beneficiario": "LABORATORIO BELEN PERFECTO 2005 S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "5.788,00",
 		"montante_pagado_final_operacion": "1.736,40",
@@ -25122,7 +25122,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "LABORATORIOS CINFA SA",
-		"nombre_operacion": " FOTOPROTECTORES IR: PROTECCIÓN INTEGRAL DEL DAÑO \nCELULAR ",
+		"nombre_operacion": "FOTOPROTECTORES IR: PROTECCIÓN INTEGRAL DEL DAÑO \nCELULAR",
 		"montante_concedido": "203.398,58",
 		"montante_pagado_final_operacion": "203.398,54",
 		"ano_de_la_concesion": "2012"
@@ -25154,7 +25154,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " ESPECIALIDADES GENÉRICAS Y PUBILCITARIAS EN \nFORMULACIONES DE ALTA EFICACIA TERAPEUTICA ",
+		"nombre_operacion": "ESPECIALIDADES GENÉRICAS Y PUBILCITARIAS EN \nFORMULACIONES DE ALTA EFICACIA TERAPEUTICA",
 		"montante_concedido": "86.782,91",
 		"montante_pagado_final_operacion": "81.593,80",
 		"ano_de_la_concesion": "2012"
@@ -25210,7 +25210,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " TRANSFORMACIÓN DEL LACTOSUERO DE INDUSTRIAS \nLÁCTEAS PARA SU APROVECHAMIENTO EN PRODUCTOS \nTRADICIONALES Y NUTRACÉUTICOS ",
+		"nombre_operacion": "TRANSFORMACIÓN DEL LACTOSUERO DE INDUSTRIAS \nLÁCTEAS PARA SU APROVECHAMIENTO EN PRODUCTOS \nTRADICIONALES Y NUTRACÉUTICOS",
 		"montante_concedido": "2.537,03",
 		"montante_pagado_final_operacion": "2.385,33",
 		"ano_de_la_concesion": "2012"
@@ -25226,7 +25226,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "LACTEOS GOSHUA SL",
-		"nombre_operacion": " POSTRES DE ALTA GAMA EN CUBOS PARA HORECA ",
+		"nombre_operacion": "POSTRES DE ALTA GAMA EN CUBOS PARA HORECA",
 		"montante_concedido": "50.405,16",
 		"montante_pagado_final_operacion": "47.391,22",
 		"ano_de_la_concesion": "2012"
@@ -25346,7 +25346,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "LARGOIKO SLL",
-		"nombre_operacion": " DISEÑO Y DESARROLLO DE UN INNOVADOR PROTOTIPO PARA \nLA DESPALETIZACION AUTOMATICA DE CONJUNTOS DE \nPLIEGOS EN ARTES GRAFICAS (PLIDESPAL) ",
+		"nombre_operacion": "DISEÑO Y DESARROLLO DE UN INNOVADOR PROTOTIPO PARA \nLA DESPALETIZACION AUTOMATICA DE CONJUNTOS DE \nPLIEGOS EN ARTES GRAFICAS (PLIDESPAL)",
 		"montante_concedido": "66.399,76",
 		"montante_pagado_final_operacion": "62.429,44",
 		"ano_de_la_concesion": "2012"
@@ -25545,7 +25545,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "LEON , HERNANDEZ , ELENA ",
+		"nombre_beneficiario": "LEON , HERNANDEZ , ELENA",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "7.858,00",
 		"montante_pagado_final_operacion": "2.357,40",
@@ -25658,7 +25658,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " NUEVO MODELO DE GRUAS DE MAYOR CAPACIDAD EN PUNTA \nY ALTURA AUTOESTABLE ",
+		"nombre_operacion": "NUEVO MODELO DE GRUAS DE MAYOR CAPACIDAD EN PUNTA \nY ALTURA AUTOESTABLE",
 		"montante_concedido": "59.870,94",
 		"montante_pagado_final_operacion": "56.291,01",
 		"ano_de_la_concesion": "2012"
@@ -25849,7 +25849,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "LIZARTE S.A. ",
+		"nombre_beneficiario": "LIZARTE S.A.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "15.096,00",
 		"montante_pagado_final_operacion": "1.545,30",
@@ -26250,7 +26250,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "MADERA EXPRES SANZ SL",
-		"nombre_operacion": " DESARROLLO DE NUEVA LÍNEA DE PUERTAS CHAPADAS PARA \nCOCINA CON PROPIEDADES ANTIMICROBIANAS Y BARNIZADO \nEN BASE ACUOSA ",
+		"nombre_operacion": "DESARROLLO DE NUEVA LÍNEA DE PUERTAS CHAPADAS PARA \nCOCINA CON PROPIEDADES ANTIMICROBIANAS Y BARNIZADO \nEN BASE ACUOSA",
 		"montante_concedido": "41.273,47",
 		"montante_pagado_final_operacion": "38.805,56",
 		"ano_de_la_concesion": "2012"
@@ -27442,7 +27442,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " GAMA DE PRODUCTO 2011-2012 ",
+		"nombre_operacion": "GAMA DE PRODUCTO 2011-2012",
 		"montante_concedido": "38.545,75",
 		"montante_pagado_final_operacion": "36.240,94",
 		"ano_de_la_concesion": "2012"
@@ -28033,7 +28033,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "MUTUA NAVARRA ",
+		"nombre_beneficiario": "MUTUA NAVARRA",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "17.883,00",
 		"montante_pagado_final_operacion": "5.364,90",
@@ -28113,7 +28113,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "NAVARCORP, SERV JURIDICOS Y PROFESIONALES S.L. ",
+		"nombre_beneficiario": "NAVARCORP, SERV JURIDICOS Y PROFESIONALES S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "19.980,00",
 		"montante_pagado_final_operacion": "5.994,00",
@@ -28234,7 +28234,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "NAVARRA DE TECNICAS DE SOLDADURA",
-		"nombre_operacion": " DESARROLLO DE HERRAMIENTAS HIDRÁULICAS DESTINADAS \nAL ASEGURAMIENTO DE UNIONES DE GRAN RESPONSABILIDAD \n(TSH-TOOL) ",
+		"nombre_operacion": "DESARROLLO DE HERRAMIENTAS HIDRÁULICAS DESTINADAS \nAL ASEGURAMIENTO DE UNIONES DE GRAN RESPONSABILIDAD \n(TSH-TOOL)",
 		"montante_concedido": "45.899,60",
 		"montante_pagado_final_operacion": "43.155,07",
 		"ano_de_la_concesion": "2012"
@@ -28433,7 +28433,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "NODITEL S.L. ",
+		"nombre_beneficiario": "NODITEL S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "10.067,50",
 		"montante_pagado_final_operacion": "3.020,25",
@@ -28561,7 +28561,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "OHR ASESORIA S.L. ",
+		"nombre_beneficiario": "OHR ASESORIA S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "3.438,00",
 		"montante_pagado_final_operacion": "1.031,40",
@@ -28569,7 +28569,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "OHR CONSULTORIA S.L. ",
+		"nombre_beneficiario": "OHR CONSULTORIA S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "3.503,00",
 		"montante_pagado_final_operacion": "1.050,90",
@@ -28714,7 +28714,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " ESTANDARIZACIÓN DEL DESARROLLO DE SOFTWARE \nEMBARCADO ",
+		"nombre_operacion": "ESTANDARIZACIÓN DEL DESARROLLO DE SOFTWARE \nEMBARCADO",
 		"montante_concedido": "57.805,92",
 		"montante_pagado_final_operacion": "54.349,47",
 		"ano_de_la_concesion": "2012"
@@ -28905,7 +28905,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "PAISATGE CULTURA AMBIENTAL SLU ",
+		"nombre_beneficiario": "PAISATGE CULTURA AMBIENTAL SLU",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "9.468,17",
 		"montante_pagado_final_operacion": "2.840,45",
@@ -29018,7 +29018,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " PROCESO DE ELABORACIÓN DE PATÉ EN ENVASE PLÁSTICO ",
+		"nombre_operacion": "PROCESO DE ELABORACIÓN DE PATÉ EN ENVASE PLÁSTICO",
 		"montante_concedido": "11.938,75",
 		"montante_pagado_final_operacion": "11.224,88",
 		"ano_de_la_concesion": "2012"
@@ -29121,7 +29121,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "PASTELERIA ARME S.L. ",
+		"nombre_beneficiario": "PASTELERIA ARME S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "8.899,54",
 		"montante_pagado_final_operacion": "2.669,86",
@@ -29186,7 +29186,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " DESARROLLO DE SOLUCIONES PARA ELIMINAR \nCONTAMINANTES BASADAS EN NANOTECNOLOGÍA PARA \nCONSEGUIR NUEVOS PRODUCTOS QUE MEJOREN EL \nRENDIMIENTO FOTOVOLTÁICO DE LOS PAVIMENTOS ACTUALES \n(NEW-ECOGRANIC) ",
+		"nombre_operacion": "DESARROLLO DE SOLUCIONES PARA ELIMINAR \nCONTAMINANTES BASADAS EN NANOTECNOLOGÍA PARA \nCONSEGUIR NUEVOS PRODUCTOS QUE MEJOREN EL \nRENDIMIENTO FOTOVOLTÁICO DE LOS PAVIMENTOS ACTUALES \n(NEW-ECOGRANIC)",
 		"montante_concedido": "23.008,38",
 		"montante_pagado_final_operacion": "21.632,61",
 		"ano_de_la_concesion": "2012"
@@ -29337,7 +29337,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "PERFORACIONES JOCAL S.L. ",
+		"nombre_beneficiario": "PERFORACIONES JOCAL S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "47.735,80",
 		"montante_pagado_final_operacion": "3.000,00",
@@ -29362,7 +29362,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "PIHER SENSORS & CONTROLS SA",
-		"nombre_operacion": " NUEVOS DISPOSITIVOS ELECTRÓNICOS PARA EL SECTOR DE \nLA AUTOMOCIÓN Y SU PROCESO DE FABRICACIÓN ",
+		"nombre_operacion": "NUEVOS DISPOSITIVOS ELECTRÓNICOS PARA EL SECTOR DE \nLA AUTOMOCIÓN Y SU PROCESO DE FABRICACIÓN",
 		"montante_concedido": "120.678,00",
 		"montante_pagado_final_operacion": "113.462,16",
 		"ano_de_la_concesion": "2012"
@@ -29386,7 +29386,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " TECNOLOGÍAS PARA SENSORES DE POSICIÓN SIN CONTACTO ",
+		"nombre_operacion": "TECNOLOGÍAS PARA SENSORES DE POSICIÓN SIN CONTACTO",
 		"montante_concedido": "27.259,94",
 		"montante_pagado_final_operacion": "25.629,95",
 		"ano_de_la_concesion": "2012"
@@ -29402,7 +29402,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " NUEVAS TECNOLOGÍAS PARA LA FABRICACIÓN DE \nCOMPONENTES ELECTRÓNICOS PARA EL SECTOR DE LOS \nELECTRODOMESTICOS ",
+		"nombre_operacion": "NUEVAS TECNOLOGÍAS PARA LA FABRICACIÓN DE \nCOMPONENTES ELECTRÓNICOS PARA EL SECTOR DE LOS \nELECTRODOMESTICOS",
 		"montante_concedido": "86.184,53",
 		"montante_pagado_final_operacion": "81.031,19",
 		"ano_de_la_concesion": "2012"
@@ -29418,7 +29418,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "PINARELLO ESPA¿A SL",
-		"nombre_operacion": " DESARROLLO DE EQUIPAMIENTO PARA GARANTIZAR LA \nSEGURIDAD DE LAS BICICLETAS ",
+		"nombre_operacion": "DESARROLLO DE EQUIPAMIENTO PARA GARANTIZAR LA \nSEGURIDAD DE LAS BICICLETAS",
 		"montante_concedido": "30.393,57",
 		"montante_pagado_final_operacion": "28.576,21",
 		"ano_de_la_concesion": "2013"
@@ -29681,7 +29681,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "PRESION Y FUERZA S.L. ",
+		"nombre_beneficiario": "PRESION Y FUERZA S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "31.709,65",
 		"montante_pagado_final_operacion": "9.512,90",
@@ -29705,7 +29705,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "PREVEHURT SYSTEM S.L.L. ",
+		"nombre_beneficiario": "PREVEHURT SYSTEM S.L.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "4.730,00",
 		"montante_pagado_final_operacion": "1.419,00",
@@ -29794,7 +29794,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " INVESTIGACIÓN Y DESARROLLO DE PELÍCULAS Y \nRECUBRIMIENTOS COMESTIBLES PARA SU APLICACIÓN SOBRE \nDISTINTOS ALIMENTOS CON EL FIN DE MEJORAR SU CALIDAD Y \nALARGAR SU VIDA ÚTIL ",
+		"nombre_operacion": "INVESTIGACIÓN Y DESARROLLO DE PELÍCULAS Y \nRECUBRIMIENTOS COMESTIBLES PARA SU APLICACIÓN SOBRE \nDISTINTOS ALIMENTOS CON EL FIN DE MEJORAR SU CALIDAD Y \nALARGAR SU VIDA ÚTIL",
 		"montante_concedido": "14.418,19",
 		"montante_pagado_final_operacion": "13.556,07",
 		"ano_de_la_concesion": "2013"
@@ -30578,7 +30578,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "ROCKWOOL PENINSULAR SA",
-		"nombre_operacion": " MEJORA DE PROPIEDADES SUPERFICIALES EN PRODUCTOS DE\nLANA DE ROCA ",
+		"nombre_operacion": "MEJORA DE PROPIEDADES SUPERFICIALES EN PRODUCTOS DE\nLANA DE ROCA",
 		"montante_concedido": "25.976,00",
 		"montante_pagado_final_operacion": "24.422,79",
 		"ano_de_la_concesion": "2012"
@@ -30946,7 +30946,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " MEJORA DE LA CALIDAD DE LAS ENDIBIAS MEDIANTE LA \nSELECCIÓN DE VARIEDADES  DE INTERÉS, MEJORAS DE \nCULTIVO EN CAMPO Y DE PROCESADO EN PLANTA (ENDINOVA) ",
+		"nombre_operacion": "MEJORA DE LA CALIDAD DE LAS ENDIBIAS MEDIANTE LA \nSELECCIÓN DE VARIEDADES  DE INTERÉS, MEJORAS DE \nCULTIVO EN CAMPO Y DE PROCESADO EN PLANTA (ENDINOVA)",
 		"montante_concedido": "41.375,06",
 		"montante_pagado_final_operacion": "38.072,98",
 		"ano_de_la_concesion": "2012"
@@ -31106,7 +31106,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " ESTUDIO DE LA APLICACIÓN DE NUEVAS TECNOLOGÍAS DE \nCONFORMACIÓN PLÁSTICA A LA FABRICACIÓN DE TUBOS \nCENTRIFUGADOS ",
+		"nombre_operacion": "ESTUDIO DE LA APLICACIÓN DE NUEVAS TECNOLOGÍAS DE \nCONFORMACIÓN PLÁSTICA A LA FABRICACIÓN DE TUBOS \nCENTRIFUGADOS",
 		"montante_concedido": "25.776,00",
 		"montante_pagado_final_operacion": "24.234,75",
 		"ano_de_la_concesion": "2012"
@@ -31393,7 +31393,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "SERRANO DRONDA S.L. ",
+		"nombre_beneficiario": "SERRANO DRONDA S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "15.233,02",
 		"montante_pagado_final_operacion": "1.407,75",
@@ -31410,14 +31410,14 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "SERTECQ MANTENIMIENTO INTEGRAL SL",
-		"nombre_operacion": " APROVECHAMIENTO ENERGÉTICO DE LOS SISTEMAS DE \nCALEFACCIÓN CENTRAL EN FUNCIÓN DE LA DEMANDA ",
+		"nombre_operacion": "APROVECHAMIENTO ENERGÉTICO DE LOS SISTEMAS DE \nCALEFACCIÓN CENTRAL EN FUNCIÓN DE LA DEMANDA",
 		"montante_concedido": "28.382,83",
 		"montante_pagado_final_operacion": "26.685,70",
 		"ano_de_la_concesion": "2012"
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "SERVICHAP 99 S.L. ",
+		"nombre_beneficiario": "SERVICHAP 99 S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "4.476,66",
 		"montante_pagado_final_operacion": "1.343,00",
@@ -31442,7 +31442,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " APROVECHAMIENTO DE RECURSOS ENERGÉTICOS DE LA \nMATERIA ORGÁNICA RESIDUAL NO SOMETIDA A COMPOSTAJE \n(FORUBIOMET) ",
+		"nombre_operacion": "APROVECHAMIENTO DE RECURSOS ENERGÉTICOS DE LA \nMATERIA ORGÁNICA RESIDUAL NO SOMETIDA A COMPOSTAJE \n(FORUBIOMET)",
 		"montante_concedido": "24.926,88",
 		"montante_pagado_final_operacion": "23.436,40",
 		"ano_de_la_concesion": "2012"
@@ -31554,7 +31554,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "SIC LAZARO SL",
-		"nombre_operacion": " MATERIALES Y PROCESOS PARA CONTRAPESOS EN BASE \nHORMIGÓN Y EN BASE CHATARRA ",
+		"nombre_operacion": "MATERIALES Y PROCESOS PARA CONTRAPESOS EN BASE \nHORMIGÓN Y EN BASE CHATARRA",
 		"montante_concedido": "8.515,78",
 		"montante_pagado_final_operacion": "8.006,59",
 		"ano_de_la_concesion": "2012"
@@ -31882,7 +31882,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "SIP2000 SISTEMAS SL",
-		"nombre_operacion": " PROYECTO DE EFICIENCIA Y CONTRÓL ENERGÉTICO ",
+		"nombre_operacion": "PROYECTO DE EFICIENCIA Y CONTRÓL ENERGÉTICO",
 		"montante_concedido": "8.470,40",
 		"montante_pagado_final_operacion": "7.963,92",
 		"ano_de_la_concesion": "2012"
@@ -31978,7 +31978,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "SKF ESPA¿OLA SA",
-		"nombre_operacion": " RODAMIENTO DE RUEDA INTEGRADO PARA VEHÍCULOS \nTODOTERRENO CON CUBO DE RUEDA AUTOMÁTICO ",
+		"nombre_operacion": "RODAMIENTO DE RUEDA INTEGRADO PARA VEHÍCULOS \nTODOTERRENO CON CUBO DE RUEDA AUTOMÁTICO",
 		"montante_concedido": "49.404,66",
 		"montante_pagado_final_operacion": "46.450,55",
 		"ano_de_la_concesion": "2012"
@@ -32202,14 +32202,14 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "SOLUCIONES TECNOLOGICAS Y APLICACIONES AVANZADAS DAS \nSL",
-		"nombre_operacion": " DESARROLLO DE UNA HERRAMIENTA INFORMÁTICA PARA LA \nGESTIÓN DE LA SEGURIDAD PERIMETRAL Y LA VIGILANCIA \nPRODUCTIVA (STA-SOFTWARE TOTAL) ",
+		"nombre_operacion": "DESARROLLO DE UNA HERRAMIENTA INFORMÁTICA PARA LA \nGESTIÓN DE LA SEGURIDAD PERIMETRAL Y LA VIGILANCIA \nPRODUCTIVA (STA-SOFTWARE TOTAL)",
 		"montante_concedido": "43.378,08",
 		"montante_pagado_final_operacion": "43.378,08",
 		"ano_de_la_concesion": "2013"
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "SOLUCIONES TECNOLOGICAS Y APLICACIONES AVANZADAS S.L. ",
+		"nombre_beneficiario": "SOLUCIONES TECNOLOGICAS Y APLICACIONES AVANZADAS S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "8.844,12",
 		"montante_pagado_final_operacion": "2.653,24",
@@ -32434,7 +32434,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "START ELEVATOR SL",
-		"nombre_operacion": " APTA: AUTOMATIZACIÓN DE PROCESOS CON TECNOLOGÍA \nPARA ASCENSORES ",
+		"nombre_operacion": "APTA: AUTOMATIZACIÓN DE PROCESOS CON TECNOLOGÍA \nPARA ASCENSORES",
 		"montante_concedido": "90.555,28",
 		"montante_pagado_final_operacion": "90.555,28",
 		"ano_de_la_concesion": "2012"
@@ -32626,7 +32626,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " CLOUDFRAUD, SERVICIOS ANTIFRAUDE EN LA NUBE ",
+		"nombre_operacion": "CLOUDFRAUD, SERVICIOS ANTIFRAUDE EN LA NUBE",
 		"montante_concedido": "42.820,75",
 		"montante_pagado_final_operacion": "40.260,32",
 		"ano_de_la_concesion": "2012"
@@ -32690,7 +32690,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "TALLERES AUXILIARES ARANIA SL",
-		"nombre_operacion": " NUEVOS PROCESOS DE MECANIZACIÓN PARA PIEZAS \nESFÉRICAS ",
+		"nombre_operacion": "NUEVOS PROCESOS DE MECANIZACIÓN PARA PIEZAS \nESFÉRICAS",
 		"montante_concedido": "69.642,47",
 		"montante_pagado_final_operacion": "65.478,26",
 		"ano_de_la_concesion": "2013"
@@ -32818,7 +32818,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "TALLERES MECACONTROL SL",
-		"nombre_operacion": " ESTUDIO Y DESARROLLO DE NOVEDOSOS MOLDES DE TRES \nCAVIDADES QUE INCLUYAN UN SISTEMA DE CORTE INTERNO \nPARA EL PROCESO DE SOPLADO DE PIEZAS TÉCNICAS ",
+		"nombre_operacion": "ESTUDIO Y DESARROLLO DE NOVEDOSOS MOLDES DE TRES \nCAVIDADES QUE INCLUYAN UN SISTEMA DE CORTE INTERNO \nPARA EL PROCESO DE SOPLADO DE PIEZAS TÉCNICAS",
 		"montante_concedido": "38.090,42",
 		"montante_pagado_final_operacion": "35.812,83",
 		"ano_de_la_concesion": "2012"
@@ -32841,7 +32841,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "TALLUNTXE HOSTELERIA S.L. ",
+		"nombre_beneficiario": "TALLUNTXE HOSTELERIA S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "4.500,00",
 		"montante_pagado_final_operacion": "1.350,00",
@@ -32898,7 +32898,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " SIMULADOR PARA LA FORMACIÓN TEÓRICO-PRÁCTICA DE \nOPERADORES EÓLICOS, AUNANDO SOPORTE FÍSICO Y VIRTUAL ",
+		"nombre_operacion": "SIMULADOR PARA LA FORMACIÓN TEÓRICO-PRÁCTICA DE \nOPERADORES EÓLICOS, AUNANDO SOPORTE FÍSICO Y VIRTUAL",
 		"montante_concedido": "25.395,25",
 		"montante_pagado_final_operacion": "23.876,76",
 		"ano_de_la_concesion": "2013"
@@ -32922,7 +32922,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " DISEÑO Y DESARROLLO DE DOS INNOVADORES SISTEMAS DE \nCAMA ARTICULADA CON IMPORTANTES MEJORAS ESTÉTICAS Y \nFUNCIONALES, ASI COMO DE TRANSPORTE E INSTALACIÓN \n(INNOBEDS) ",
+		"nombre_operacion": "DISEÑO Y DESARROLLO DE DOS INNOVADORES SISTEMAS DE \nCAMA ARTICULADA CON IMPORTANTES MEJORAS ESTÉTICAS Y \nFUNCIONALES, ASI COMO DE TRANSPORTE E INSTALACIÓN \n(INNOBEDS)",
 		"montante_concedido": "45.798,08",
 		"montante_pagado_final_operacion": "44.779,51",
 		"ano_de_la_concesion": "2012"
@@ -33018,7 +33018,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "TEJERIA ITURRALDE SL",
-		"nombre_operacion": " INVESTIGACIÓN INDUSTRIAL PARA MEJORAR LA CALIDAD DEL \nLADRILLO CARAVISTA BLANCO LISO ",
+		"nombre_operacion": "INVESTIGACIÓN INDUSTRIAL PARA MEJORAR LA CALIDAD DEL \nLADRILLO CARAVISTA BLANCO LISO",
 		"montante_concedido": "7.894,50",
 		"montante_pagado_final_operacion": "7.422,45",
 		"ano_de_la_concesion": "2013"
@@ -33138,7 +33138,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " DESARROLLO DE PIELES ERGONÓMICAS Y ANTIALÉRGICAS \nDESTINADAS AL SECTOR TAPICERÍA ",
+		"nombre_operacion": "DESARROLLO DE PIELES ERGONÓMICAS Y ANTIALÉRGICAS \nDESTINADAS AL SECTOR TAPICERÍA",
 		"montante_concedido": "41.676,49",
 		"montante_pagado_final_operacion": "39.184,48",
 		"ano_de_la_concesion": "2012"
@@ -33217,7 +33217,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "THE BOOST S.L. ",
+		"nombre_beneficiario": "THE BOOST S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "14.296,90",
 		"montante_pagado_final_operacion": "4.289,07",
@@ -33234,7 +33234,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " DESARROLLO DE NUEVO DEPÓSITO MONOCAPA DE MAYOR \nIMPERMEABILIDAD ",
+		"nombre_operacion": "DESARROLLO DE NUEVO DEPÓSITO MONOCAPA DE MAYOR \nIMPERMEABILIDAD",
 		"montante_concedido": "13.345,13",
 		"montante_pagado_final_operacion": "13.345,13",
 		"ano_de_la_concesion": "2012"
@@ -33618,7 +33618,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "TRITURACION Y MAQUINARIA AUXILIAR",
-		"nombre_operacion": " (ECODRIVE) DIRECCIÓN ASISTIDA ELÉCTRICA DE ALTA \nEFICIENCIA PARA NUEVA GENERACIÓN DE VEHÍCULOS ",
+		"nombre_operacion": "(ECODRIVE) DIRECCIÓN ASISTIDA ELÉCTRICA DE ALTA \nEFICIENCIA PARA NUEVA GENERACIÓN DE VEHÍCULOS",
 		"montante_concedido": "5.786,81",
 		"montante_pagado_final_operacion": "5.440,79",
 		"ano_de_la_concesion": "2012"
@@ -33642,7 +33642,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "TRIVINCO INTERNATIONAL SL",
-		"nombre_operacion": " DISEÑO Y DESARROLLO DE UNA PLANTA PILOTO DE \nGASIFICACIÓN DE BIOMASA CON OPTIMIZACIÓN DE LOS \nRENDIMIENTOS COMBINADA CON UN SISTEMA CAPTADOR DE \nENERGÍA SOLAR (SUNBIOMASS) ",
+		"nombre_operacion": "DISEÑO Y DESARROLLO DE UNA PLANTA PILOTO DE \nGASIFICACIÓN DE BIOMASA CON OPTIMIZACIÓN DE LOS \nRENDIMIENTOS COMBINADA CON UN SISTEMA CAPTADOR DE \nENERGÍA SOLAR (SUNBIOMASS)",
 		"montante_concedido": "32.222,27",
 		"montante_pagado_final_operacion": "30.295,57",
 		"ano_de_la_concesion": "2013"
@@ -33761,7 +33761,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "TUDASAMOVIL S.A. ",
+		"nombre_beneficiario": "TUDASAMOVIL S.A.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "22.882,00",
 		"montante_pagado_final_operacion": "6.864,60",
@@ -33826,7 +33826,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "TUTTI PASTA SA",
-		"nombre_operacion": " SOLUCIONES GASTRONÓMICAS ULTRACONGELADAS DE \nCOCINA TRADICIONAL ",
+		"nombre_operacion": "SOLUCIONES GASTRONÓMICAS ULTRACONGELADAS DE \nCOCINA TRADICIONAL",
 		"montante_concedido": "48.262,94",
 		"montante_pagado_final_operacion": "45.377,09",
 		"ano_de_la_concesion": "2012"
@@ -34066,7 +34066,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": "IMPLICACIÓN DE LAS ISOFORMAS DE GHRELINA EN EL \nDESARROLLO DE HIPERTENSIÓN ARTERIAL ASOCIADA A LA \nOBESIDAD ",
+		"nombre_operacion": "IMPLICACIÓN DE LAS ISOFORMAS DE GHRELINA EN EL \nDESARROLLO DE HIPERTENSIÓN ARTERIAL ASOCIADA A LA \nOBESIDAD",
 		"montante_concedido": "68.000,00",
 		"montante_pagado_final_operacion": "65.771,02",
 		"ano_de_la_concesion": "2014"
@@ -34770,7 +34770,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "VEGA MAYOR SL",
-		"nombre_operacion": " TECNOLOGÍAS DE PROCESO PARA BROTES IV GAMA ",
+		"nombre_operacion": "TECNOLOGÍAS DE PROCESO PARA BROTES IV GAMA",
 		"montante_concedido": "21.154,07",
 		"montante_pagado_final_operacion": "20.810,61",
 		"ano_de_la_concesion": "2013"
@@ -34866,7 +34866,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " OPTIMIZACIÓN DE GRASAS DE SULFONATOS DE CALCIO \nCOMPLEJOS ",
+		"nombre_operacion": "OPTIMIZACIÓN DE GRASAS DE SULFONATOS DE CALCIO \nCOMPLEJOS",
 		"montante_concedido": "36.255,30",
 		"montante_pagado_final_operacion": "34.087,44",
 		"ano_de_la_concesion": "2013"
@@ -35194,7 +35194,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " PRODUCCIÓN CONTINUA DE ENVUELTAS CELULÓSICAS \nTUBULARES ",
+		"nombre_operacion": "PRODUCCIÓN CONTINUA DE ENVUELTAS CELULÓSICAS \nTUBULARES",
 		"montante_concedido": "29.613,30",
 		"montante_pagado_final_operacion": "27.842,60",
 		"ano_de_la_concesion": "2012"
@@ -35202,7 +35202,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " INVESTIGACIÓN TECNOLÓGICA SOBRE EL PROCESO DE \nPLISADO DE TRIPAS ARTIFICALES ",
+		"nombre_operacion": "INVESTIGACIÓN TECNOLÓGICA SOBRE EL PROCESO DE \nPLISADO DE TRIPAS ARTIFICALES",
 		"montante_concedido": "52.392,18",
 		"montante_pagado_final_operacion": "52.392,18",
 		"ano_de_la_concesion": "2012"
@@ -35297,7 +35297,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "VOLUMEN 4  MOTOR S.L. ",
+		"nombre_beneficiario": "VOLUMEN 4  MOTOR S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "3.856,00",
 		"montante_pagado_final_operacion": "1.156,80",
@@ -35506,7 +35506,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " DESARROLLO DE DISPOSITIVOS SENSÓRICOS QUE PERMITAN \nUNA REDUCCIÓN DEL IMPACTO MEDIOAMBIENTAL DE LOS \nVEHÍCULOS ",
+		"nombre_operacion": "DESARROLLO DE DISPOSITIVOS SENSÓRICOS QUE PERMITAN \nUNA REDUCCIÓN DEL IMPACTO MEDIOAMBIENTAL DE LOS \nVEHÍCULOS",
 		"montante_concedido": "33.174,10",
 		"montante_pagado_final_operacion": "31.190,48",
 		"ano_de_la_concesion": "2013"
@@ -35753,7 +35753,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "ZUGARRONDO S.L. ",
+		"nombre_beneficiario": "ZUGARRONDO S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "27.671,30",
 		"montante_pagado_final_operacion": "7.000,00",
@@ -35778,7 +35778,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
 		"nombre_beneficiario": "3EMULTIMEDIA COMUNICACION EN INTERNET SL",
-		"nombre_operacion": " SISTEMA INTEGRADO, INTELIGENTE, AUTOMATIZADO Y \nMODULARIZABLE PARA LA GESTIÓN,, CONOCIMIENTO Y ACCIÓN \nEN LA ENTIFICACIÓN DE PERSONAS Y MERCADOS CON EL FIN \nDE PROMOVER LA COMERCIALIZACIÓN DE NUEVOS NEGO ",
+		"nombre_operacion": "SISTEMA INTEGRADO, INTELIGENTE, AUTOMATIZADO Y \nMODULARIZABLE PARA LA GESTIÓN,, CONOCIMIENTO Y ACCIÓN \nEN LA ENTIFICACIÓN DE PERSONAS Y MERCADOS CON EL FIN \nDE PROMOVER LA COMERCIALIZACIÓN DE NUEVOS NEGO",
 		"montante_concedido": "37.567,08",
 		"montante_pagado_final_operacion": "35.320,79",
 		"ano_de_la_concesion": "2012"
@@ -35809,7 +35809,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/NA4016.pdf",
-		"nombre_beneficiario": "3P BIOPHARMACEUTICALS S.L. ",
+		"nombre_beneficiario": "3P BIOPHARMACEUTICALS S.L.",
 		"nombre_operacion": "Subvenciones TIC Pymes y autónomos",
 		"montante_concedido": "11.492,52",
 		"montante_pagado_final_operacion": "3.447,76",

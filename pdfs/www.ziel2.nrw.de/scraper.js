@@ -11,13 +11,7 @@ var async = require("async");
 var path = require("path");
 var request = require("request");
 var fs = require("fs");
-var PDFExtract = require('pdf.js-extract').PDFExtract;
-
-var debug = false;
-var debugcache = '../../local/_pdf/';
-if (!fs.existsSync('../../local/_pdf/')) {
-	console.log('warning cache folder doesn\'t exists');
-}
+var PDFToolbox = require('../../lib/pdftoolbox');
 
 var isValidRow = function (row) {
 
@@ -101,49 +95,22 @@ var isValidRow = function (row) {
 	return false;
 };
 
-var mergeMultiRows = function (rows) {
-	for (var i = 0; i < rows.length - 1; i++) {
-		var row = rows[i];
-		if (row.length < 4) {
-			var rowafter = rows[i + 1];
-			if (row[0]) {
-				if (!rowafter[0]) rowafter[0] = row[0];
-				else rowafter[0] = row[0] + '\n' + rowafter[0];
-			}
-			if (row[1]) {
-				if (!rowafter[1]) rowafter[1] = row[1];
-				else rowafter[1] = row[1] + '\n' + rowafter[1];
-			}
-			rows[i] = [];
-		}
-	}
-	return rows.filter(function (row) {
-		return row.length > 0;
-	})
-};
-
 var scrapePDF = function (item, cb) {
-	var filename = path.basename(item).replace('.pdf', '');
-	console.log('scraping pdf', filename);
-	var rows_collect = [];
-	var lines_collect = [];
-	var pdfExtract = new PDFExtract();
-	pdfExtract.extract(filename + '.pdf', {}, function (err, data) {
-		if (err) return console.log(err);
-		if (debug)
-			fs.writeFileSync(debugcache + filename + '.pdf.json', JSON.stringify(data, null, '\t'));
-		async.forEachSeries(data.pages, function (page, next) {
-			var lines = PDFExtract.utils.pageToLines(page, 0.3);
+	var pdf = new PDFToolbox();
+	pdf.scrape(item, {
+		skipPage: [],
+		pageToLines: function (page) {
+			var lines = PDFToolbox.utils.pageToLines(page, 0.3);
 			if (page.pageInfo.num == 1)
-				lines = PDFExtract.utils.extractLines(lines, ['der Restzahlung'], ['Seite ']);
+				lines = PDFToolbox.utils.extractLines(lines, ['der Restzahlung'], ['Seite ']);
 			else
-				lines = PDFExtract.utils.extractLines(lines, ['Stand '], ['Seite ']);
-			if (lines.length == 0) {
-				console.log('ALARM, page', page.pageInfo.num, 'without data');
-			} else if (debug) {
-				lines_collect = lines_collect.concat(lines);
-				fs.writeFileSync(debugcache + filename + '-' + page.pageInfo.num + '.json', JSON.stringify(lines, null, '\t'));
-			}
+				lines = PDFToolbox.utils.extractLines(lines, ['Stand '], ['Seite ']);
+			return lines;
+		},
+		processLines: function (lines) {
+			return lines;
+		},
+		linesToRows: function (lines) {
 			// console.log(PDFExtract.utils.xStats(page));
 			/*
 
@@ -163,10 +130,10 @@ var scrapePDF = function (item, cb) {
 
 			 */
 
-			var rows = PDFExtract.utils.extractColumnRows(lines, [208, 540, 650, 1200], 0.6);
-
+			return PDFToolbox.utils.extractColumnRows(lines, [208, 540, 650, 1200], 0.6);
+		},
+		processRows: function (rows) {
 			rows.forEach(function (row) {
-
 				[0, 2, 3].forEach(function (i) {
 					if (row[i] && row[i].indexOf('    ') >= 0) {
 						var parts = row[i].split('    ').filter(function (part) {
@@ -180,8 +147,7 @@ var scrapePDF = function (item, cb) {
 					}
 				});
 			});
-
-			rows = mergeMultiRows(rows).filter(function (row) {
+			return PDFToolbox.utils.mergeMultiRowsTopToBottom(rows, 3, [0, 1]).filter(function (row) {
 				if (!isValidRow(row)) {
 					console.log('ALARM, invalid row', JSON.stringify(row));
 					return false;
@@ -189,34 +155,23 @@ var scrapePDF = function (item, cb) {
 					return true;
 				}
 			});
-
-			rows_collect = rows_collect.concat(rows);
-			next();
-		}, function (err) {
-			if (err) return console.log(err);
-			if (debug) {
-				fs.writeFileSync(debugcache + '_' + filename + '.items.json', JSON.stringify(lines_collect, null, '\t'));
-				var sl = rows_collect.map(function (row) {
-					return JSON.stringify(row);
-				});
-				fs.writeFileSync(debugcache + '_' + filename + ".rows.json", '[' + sl.join(',\n') + ']');
-			}
-			var cleanString = function (cell) {
-				return (cell || '').trim();
+		},
+		rowToFinal: function (row) {
+			return {
+				_source: item,
+				beneficiary: row[0] || '',
+				name_of_operation: row[1] || '',
+				years: row[2] || '',
+				allocated_public_funding: row[3] || '',
+				on_finish_total_value: row[4] || ''
 			};
-			var final = rows_collect.map(function (row) {
-				return {
-					_source: item,
-					beneficiary: row[0] || '',
-					name_of_operation: row[1] || '',
-					years: row[2] || '',
-					allocated_public_funding: cleanString(row[3]),
-					on_finish_total_value: cleanString(row[4])
-				};
-			});
-			fs.writeFileSync(filename + ".json", JSON.stringify(final, null, '\t'));
-			cb(err);
-		})
+		},
+		processFinal: function (items) {
+			return items;
+		}
+	}, function (err, items) {
+		if (err) console.log(err);
+		cb();
 	});
 };
 

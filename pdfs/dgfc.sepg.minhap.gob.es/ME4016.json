@@ -1874,7 +1874,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/ME4016.pdf",
 		"nombre_beneficiario": "DIRECCIÓN GENERAL DEL AGUA (MAGRAMA)",
-		"nombre_operacion": "Viajes personal departamento FFEE ",
+		"nombre_operacion": "Viajes personal departamento FFEE",
 		"montante_concedido": "9.520,45",
 		"montante_pagado_final_operacion": "9.520,45",
 		"ano_de_la_concesion": "2011"
@@ -2474,7 +2474,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/ME4016.pdf",
 		"nombre_beneficiario": "DIRECCIÓN GENERAL DEL AGUA (MAGRAMA)",
-		"nombre_operacion": "Plataformas Territoriales-puesta en marcha, asesoramiento y gestión ",
+		"nombre_operacion": "Plataformas Territoriales-puesta en marcha, asesoramiento y gestión",
 		"montante_concedido": "1.000.000,00",
 		"montante_pagado_final_operacion": "112,08",
 		"ano_de_la_concesion": "2010"
@@ -2618,7 +2618,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/ME4016.pdf",
 		"nombre_beneficiario": "Abdelouhad Aarab",
-		"nombre_operacion": " Abdelouhad Aarab",
+		"nombre_operacion": "Abdelouhad Aarab",
 		"montante_concedido": "22.362,65",
 		"montante_pagado_final_operacion": "22.362,65",
 		"ano_de_la_concesion": "2010"
@@ -3049,8 +3049,8 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/ME4016.pdf",
-		"nombre_beneficiario": "CALMI S A ",
-		"nombre_operacion": "PRESTAMO DE BANCO ESPANOL DE CREDITO S A ",
+		"nombre_beneficiario": "CALMI S A",
+		"nombre_operacion": "PRESTAMO DE BANCO ESPANOL DE CREDITO S A",
 		"montante_concedido": "448,32",
 		"montante_pagado_final_operacion": "0,00",
 		"ano_de_la_concesion": "2010"
@@ -3817,7 +3817,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/ME4016.pdf",
-		"nombre_beneficiario": "FARMACIA DEL CENTRO C B ",
+		"nombre_beneficiario": "FARMACIA DEL CENTRO C B",
 		"nombre_operacion": "PRESTAMO DE SANTANDER",
 		"montante_concedido": "659,13",
 		"montante_pagado_final_operacion": "0,00",
@@ -3962,7 +3962,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/ME4016.pdf",
 		"nombre_beneficiario": "GASELEC;SA",
-		"nombre_operacion": "DISEÑO;IMPLANTACIÓN Y CERTIFICACIÓN; DE UN SISTEMA  DE \nGESTION AMBIENTAL ",
+		"nombre_operacion": "DISEÑO;IMPLANTACIÓN Y CERTIFICACIÓN; DE UN SISTEMA  DE \nGESTION AMBIENTAL",
 		"montante_concedido": "4.594,20",
 		"montante_pagado_final_operacion": "4.254,57",
 		"ano_de_la_concesion": "2009"
@@ -3994,7 +3994,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/ME4016.pdf",
 		"nombre_beneficiario": "GESEMEL;SL",
-		"nombre_operacion": "DISEÑO;IMPLANTACIÓN Y CERTIFICACIÓN; DE UN SISTEMA  DE \nGESTION AMBIENTAL ",
+		"nombre_operacion": "DISEÑO;IMPLANTACIÓN Y CERTIFICACIÓN; DE UN SISTEMA  DE \nGESTION AMBIENTAL",
 		"montante_concedido": "4.284,50",
 		"montante_pagado_final_operacion": "3.971,95",
 		"ano_de_la_concesion": "2009"
@@ -4225,7 +4225,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/ME4016.pdf",
-		"nombre_beneficiario": "INGENIERÍA; ARQUITECTURA Y MONTAJES;S.L.U.  ",
+		"nombre_beneficiario": "INGENIERÍA; ARQUITECTURA Y MONTAJES;S.L.U.",
 		"nombre_operacion": "DISEÑO;IMPLANTACIÓN Y CERTIFICACIÓN; DE UN SISTEMA \nINTEGRADO DE GESTION AMBIENTAL Y DE CALIDAD",
 		"montante_concedido": "6.500,00",
 		"montante_pagado_final_operacion": "5.215,50",
@@ -5241,7 +5241,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/ME4016.pdf",
-		"nombre_beneficiario": "NOVATECH SISTEMAS DE INFORMACION  S L ",
+		"nombre_beneficiario": "NOVATECH SISTEMAS DE INFORMACION  S L",
 		"nombre_operacion": "Motor semantico para gestion de documentos empresariales",
 		"montante_concedido": "15.272,33",
 		"montante_pagado_final_operacion": "0,00",
@@ -5345,7 +5345,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/ME4016.pdf",
-		"nombre_beneficiario": "PARRES KIA S L ",
+		"nombre_beneficiario": "PARRES KIA S L",
 		"nombre_operacion": "PRESTAMO DE SANTANDER",
 		"montante_concedido": "1.038,00",
 		"montante_pagado_final_operacion": "0,00",
@@ -5642,7 +5642,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/ME4016.pdf",
 		"nombre_beneficiario": "Rosa Vaca Mimun",
-		"nombre_operacion": "Rosa Vaca Mimun ",
+		"nombre_operacion": "Rosa Vaca Mimun",
 		"montante_concedido": "3.153,03",
 		"montante_pagado_final_operacion": "3.153,03",
 		"ano_de_la_concesion": "2011"

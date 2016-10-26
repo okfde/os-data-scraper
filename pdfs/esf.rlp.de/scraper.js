@@ -17,13 +17,7 @@ var async = require("async");
 var path = require("path");
 var request = require("request");
 var fs = require("fs");
-var PDFExtract = require('pdf.js-extract').PDFExtract;
-
-var debug = false;
-var debugcache = '../../local/_pdf/';
-if (!fs.existsSync('../../local/_pdf/')) {
-	console.log('warning cache folder doesn\'t exists');
-}
+var PDFToolbox = require('../../lib/pdftoolbox');
 
 var isValidRow = function (row) {
 
@@ -113,49 +107,18 @@ var isValidRow = function (row) {
 	return false;
 };
 
-var mergeMultiRows = function (rows) {
-	for (var i = rows.length - 1; i > 0; i--) {
-		var row = rows[i];
-		if (row.length <= 3) {
-			var rowbefore = rows[i - 1];
-			if (row[1]) {
-				if (!rowbefore[1]) rowbefore[1] = row[1];
-				else rowbefore[1] = rowbefore[1] + '\n' + row[1];
-			}
-			if (row[2]) {
-				if (!rowbefore[2]) rowbefore[2] = row[2];
-				else rowbefore[2] = rowbefore[2] + '\n' + row[2];
-			}
-			rows[i] = [];
-		}
-	}
-	return rows.filter(function (row) {
-		return row.length > 0;
-	})
-};
-
 var scrapePDF = function (item, cb) {
-	var filename = path.basename(item).replace('.pdf', '');
-	console.log('scraping pdf', filename);
-	var rows_collect = [];
-	var lines_collect = [];
-	var pdfExtract = new PDFExtract();
-	pdfExtract.extract(filename + '.pdf', {}, function (err, data) {
-		if (err) return console.log(err);
-		if (debug)
-			fs.writeFileSync(debugcache + filename + '.pdf.json', JSON.stringify(data, null, '\t'));
-		async.forEachSeries(data.pages, function (page, next) {
-			var lines = PDFExtract.utils.pageToLines(page, 0.3);
-			if (debug) {
-				fs.writeFileSync(debugcache + filename + '-' + page.pageInfo.num + '.json', JSON.stringify(lines, null, '\t'));
-			}
-			lines = PDFExtract.utils.extractLines(lines, ['Restzahlung'], ['erstellt mit EurekaRLP']);
-			if (lines.length == 0) {
-				console.log('ALARM, page', page.pageInfo.num, 'without data');
-			} else if (debug) {
-				lines_collect = lines_collect.concat(lines);
-				fs.writeFileSync(debugcache + filename + '-' + page.pageInfo.num + '.json', JSON.stringify(lines, null, '\t'));
-			}
+	var pdf = new PDFToolbox();
+	pdf.scrape(item, {
+		skipPage: [],
+		pageToLines: function (page) {
+			var lines = PDFToolbox.utils.pageToLines(page, 0.3);
+			return PDFToolbox.utils.extractLines(lines, ['Restzahlung'], ['erstellt mit EurekaRLP']);
+		},
+		processLines: function (lines) {
+			return lines;
+		},
+		linesToRows: function (lines) {
 			// console.log(PDFExtract.utils.xStats(page));
 			/*
 
@@ -178,18 +141,13 @@ var scrapePDF = function (item, cb) {
 			 BEI ABSCHLUSS DES VORHABENS GEZAHLTE GESAMTBETRÄGE
 
 			 */
-
-			// console.log(page.pageInfo.num);
-			var rows = PDFExtract.utils.extractColumnRows(lines, [42, 200, 400, 500, 560, 1200], 0.2);
+			return PDFToolbox.utils.extractColumnRows(lines, [42, 200, 400, 500, 560, 1200], 0.2);
+		},
+		processRows: function (rows) {
 			rows = rows.filter(function (row) {
 				return (row[0] || row[1] !== 'Summe Insgesamt');
 			});
-			rows_collect = rows_collect.concat(rows);
-			next();
-		}, function (err) {
-			if (err) return console.log(err);
-
-			rows_collect = mergeMultiRows(rows_collect).filter(function (row) {
+			return PDFToolbox.utils.mergeMultiRowsBottomToTop(rows, 3, [1, 2]).filter(function (row) {
 				if (!isValidRow(row)) {
 					console.log('ALARM, invalid row', JSON.stringify(row));
 					return false;
@@ -197,50 +155,25 @@ var scrapePDF = function (item, cb) {
 					return true;
 				}
 			});
-
-			if (debug) {
-				fs.writeFileSync(debugcache + '_' + filename + '.items.json', JSON.stringify(lines_collect, null, '\t'));
-				var sl = rows_collect.map(function (row) {
-					return JSON.stringify(row);
-				});
-				fs.writeFileSync(debugcache + '_' + filename + ".rows.json", '[' + sl.join(',\n') + ']');
-			}
-			var cleanString = function (cell) {
-				return (cell || '').trim();
+		},
+		rowToFinal: function (row) {
+			return {
+				_source: item,
+				beneficiary: row[1],
+				name_of_operation: row[2],
+				years: row[3],
+				allocated_public_funding: row[4],
+				on_finish_total_value: (row[5] || '')
 			};
-
-
-			var final = rows_collect.map(function (row) {
-				return {
-					_source: item,
-					beneficiary: row[1] || '',
-					name_of_operation: row[2] || '',
-					years: row[3] || '',
-					allocated_public_funding: cleanString(row[4]),
-					on_finish_total_value: cleanString(row[5])
-				};
-			});
-			fs.writeFileSync(filename + ".json", JSON.stringify(final, null, '\t'));
-			cb(err);
-		})
+		},
+		processFinal: function (items) {
+			return items;
+		}
+	}, function (err, items) {
+		if (err) console.log(err);
+		cb();
 	});
 };
-
-// 40-200 col 2
-// Name des Begünstigten
-//
-// 200-400 col 2
-// BEZEICHNUNG DES VORHABENS
-//
-// 400-500 col 3
-// JAHR DER BEWILLIGUNG / RESTZAHLUNG
-//
-// 500-630 col 4
-// Bewilligter Betrag
-//
-// 630- col 5
-// BEI ABSCHLUSS DES VORHABENS GEZAHLTE GESAMTBETRÄGE
-
 
 var scrapeItem = function (item, next) {
 	var filename = path.basename(item);

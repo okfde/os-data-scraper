@@ -66,7 +66,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": "SERVICIO INTEGRAL DE ATENCIÓN TÉCNICA A LA COMUNIDAD \nUNIVERSITARIA ",
+		"nombre_operacion": "SERVICIO INTEGRAL DE ATENCIÓN TÉCNICA A LA COMUNIDAD \nUNIVERSITARIA",
 		"montante_concedido": "136.394,05",
 		"montante_pagado_final_operacion": "65.328,32",
 		"ano_de_la_concesion": "2015"
@@ -226,7 +226,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 Red SARA en La Rioja",
+		"nombre_operacion": "2014 Red SARA en La Rioja",
 		"montante_concedido": "35.676,41",
 		"montante_pagado_final_operacion": "15.323,89",
 		"ano_de_la_concesion": "2014"
@@ -242,7 +242,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 REC en La Rioja",
+		"nombre_operacion": "2014 REC en La Rioja",
 		"montante_concedido": "2.955,11",
 		"montante_pagado_final_operacion": "1.019,64",
 		"ano_de_la_concesion": "2014"
@@ -250,7 +250,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 SISNOT en La Rioja",
+		"nombre_operacion": "2014 SISNOT en La Rioja",
 		"montante_concedido": "1.432,24",
 		"montante_pagado_final_operacion": "717,03",
 		"ano_de_la_concesion": "2014"
@@ -258,7 +258,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 Intermediación en La Rioja",
+		"nombre_operacion": "2014 Intermediación en La Rioja",
 		"montante_concedido": "15.442,80",
 		"montante_pagado_final_operacion": "3.611,14",
 		"ano_de_la_concesion": "2014"
@@ -266,7 +266,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 CTT en La Rioja",
+		"nombre_operacion": "2014 CTT en La Rioja",
 		"montante_concedido": "3.240,07",
 		"montante_pagado_final_operacion": "0,00",
 		"ano_de_la_concesion": "2014"
@@ -274,7 +274,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014  Portal 060.es en La Rioja",
+		"nombre_operacion": "2014  Portal 060.es en La Rioja",
 		"montante_concedido": "27.918,74",
 		"montante_pagado_final_operacion": "5.441,33",
 		"ano_de_la_concesion": "2014"
@@ -282,7 +282,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 Teléfono 060 en La Rioja",
+		"nombre_operacion": "2014 Teléfono 060 en La Rioja",
 		"montante_concedido": "12.299,85",
 		"montante_pagado_final_operacion": "7.073,12",
 		"ano_de_la_concesion": "2014"
@@ -290,7 +290,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 Portal EUGO.es en La Rioja",
+		"nombre_operacion": "2014 Portal EUGO.es en La Rioja",
 		"montante_concedido": "16.375,58",
 		"montante_pagado_final_operacion": "4.815,82",
 		"ano_de_la_concesion": "2014"
@@ -298,7 +298,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 Extranjería en La Rioja",
+		"nombre_operacion": "2014 Extranjería en La Rioja",
 		"montante_concedido": "17.220,46",
 		"montante_pagado_final_operacion": "0,00",
 		"ano_de_la_concesion": "2014"
@@ -306,7 +306,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 FACe  en La Rioja",
+		"nombre_operacion": "2014 FACe  en La Rioja",
 		"montante_concedido": "5.088,12",
 		"montante_pagado_final_operacion": "4.360,45",
 		"ano_de_la_concesion": "2014"
@@ -314,7 +314,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 Orve/SIR en La Rioja",
+		"nombre_operacion": "2014 Orve/SIR en La Rioja",
 		"montante_concedido": "2.709,45",
 		"montante_pagado_final_operacion": "665,12",
 		"ano_de_la_concesion": "2014"
@@ -322,7 +322,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 Unidad de Mercado en La Rioja",
+		"nombre_operacion": "2014 Unidad de Mercado en La Rioja",
 		"montante_concedido": "6.843,65",
 		"montante_pagado_final_operacion": "0,00",
 		"ano_de_la_concesion": "2014"
@@ -330,7 +330,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014  Reúnete en La Rioja",
+		"nombre_operacion": "2014  Reúnete en La Rioja",
 		"montante_concedido": "1.256,24",
 		"montante_pagado_final_operacion": "0,00",
 		"ano_de_la_concesion": "2014"
@@ -338,7 +338,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014  Oficinas 060 en La Rioja",
+		"nombre_operacion": "2014  Oficinas 060 en La Rioja",
 		"montante_concedido": "2.949,61",
 		"montante_pagado_final_operacion": "0,00",
 		"ano_de_la_concesion": "2014"
@@ -346,7 +346,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 AURA / Catástrofes en La Rioja",
+		"nombre_operacion": "2014 AURA / Catástrofes en La Rioja",
 		"montante_concedido": "6.843,65",
 		"montante_pagado_final_operacion": "34,22",
 		"ano_de_la_concesion": "2014"
@@ -354,7 +354,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "Dirección de Tecnologías de la Información y Comunicaciones (DTIC) \n(MINHAP)",
-		"nombre_operacion": " 2014 ACCEDA en La Rioja",
+		"nombre_operacion": "2014 ACCEDA en La Rioja",
 		"montante_concedido": "6.843,65",
 		"montante_pagado_final_operacion": "0,00",
 		"ano_de_la_concesion": "2014"
@@ -362,7 +362,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " 2014 SARA CPD’s en La Rioja",
+		"nombre_operacion": "2014 SARA CPD’s en La Rioja",
 		"montante_concedido": "48.998,58",
 		"montante_pagado_final_operacion": "20.453,30",
 		"ano_de_la_concesion": "2014"
@@ -1490,7 +1490,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": " FPINF(1) - WOMEX 2008 - SEVILLA (ESPAÑA)",
+		"nombre_operacion": "FPINF(1) - WOMEX 2008 - SEVILLA (ESPAÑA)",
 		"montante_concedido": "63,59",
 		"montante_pagado_final_operacion": "63,59",
 		"ano_de_la_concesion": "2008"
@@ -7218,7 +7218,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": "CONTRATO DE INVESTIGACION Y DESARROLLO TECNOLOGICO ",
+		"nombre_operacion": "CONTRATO DE INVESTIGACION Y DESARROLLO TECNOLOGICO",
 		"montante_concedido": "10.145,59",
 		"montante_pagado_final_operacion": "10.145,59",
 		"ano_de_la_concesion": "2008"
@@ -7818,7 +7818,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": "DIRECCIÓN OBRAS Y COORDINACION DE SEGURIDAD Y SALUD \nDE LA CONSTRUCCION DE UNA NAVE ALMACÉN PARA USO \nFORESTAL EN EZCARAY. ",
+		"nombre_operacion": "DIRECCIÓN OBRAS Y COORDINACION DE SEGURIDAD Y SALUD \nDE LA CONSTRUCCION DE UNA NAVE ALMACÉN PARA USO \nFORESTAL EN EZCARAY.",
 		"montante_concedido": "4.875,25",
 		"montante_pagado_final_operacion": "4.875,25",
 		"ano_de_la_concesion": "2014"
@@ -7866,7 +7866,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": "CONSTRUCCION DE UN PUNTO DE AGUA PARA INCENDIOS \nFORESTALES EN EL PARAJE \"EL MANZANAR\" DEL MUP Nº 27 DE \nLA MCDAD. DE ANGUIANO, MATUTE Y TOBIA. ",
+		"nombre_operacion": "CONSTRUCCION DE UN PUNTO DE AGUA PARA INCENDIOS \nFORESTALES EN EL PARAJE \"EL MANZANAR\" DEL MUP Nº 27 DE \nLA MCDAD. DE ANGUIANO, MATUTE Y TOBIA.",
 		"montante_concedido": "34.247,59",
 		"montante_pagado_final_operacion": "34.247,59",
 		"ano_de_la_concesion": "2013"
@@ -8554,7 +8554,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL EN SALAMANCA (19 \nY 20 DE JULIO DE 2007) ",
+		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL EN SALAMANCA (19 \nY 20 DE JULIO DE 2007)",
 		"montante_concedido": "352,10",
 		"montante_pagado_final_operacion": "352,10",
 		"ano_de_la_concesion": "2007"
@@ -8634,7 +8634,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL (HARO,6 Y 7 DE \nMARZO DE 2008) ",
+		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL (HARO,6 Y 7 DE \nMARZO DE 2008)",
 		"montante_concedido": "24.472,25",
 		"montante_pagado_final_operacion": "24.472,25",
 		"ano_de_la_concesion": "2008"
@@ -8666,7 +8666,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL EN CACERES (28-30 \nNOVIEMBRE 2007) ",
+		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL EN CACERES (28-30 \nNOVIEMBRE 2007)",
 		"montante_concedido": "605,82",
 		"montante_pagado_final_operacion": "605,82",
 		"ano_de_la_concesion": "2008"
@@ -8690,7 +8690,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "COMUNIDAD AUTONOMA DE LA RIOJA",
-		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL (ZARAGOZA ,24 Y 25 \nDE JULIO DE 2008) ",
+		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL (ZARAGOZA ,24 Y 25 \nDE JULIO DE 2008)",
 		"montante_concedido": "345,42",
 		"montante_pagado_final_operacion": "345,42",
 		"ano_de_la_concesion": "2008"
@@ -8722,7 +8722,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL (PAMPLONA, 6 Y 7 \nDE NOVIEMBRE DE 2008) ",
+		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL (PAMPLONA, 6 Y 7 \nDE NOVIEMBRE DE 2008)",
 		"montante_concedido": "223,26",
 		"montante_pagado_final_operacion": "223,26",
 		"ano_de_la_concesion": "2008"
@@ -8754,7 +8754,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL (TARRAGONA, 16 Y \n17 DE ABRIL DE 2009) ",
+		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL (TARRAGONA, 16 Y \n17 DE ABRIL DE 2009)",
 		"montante_concedido": "186,00",
 		"montante_pagado_final_operacion": "186,00",
 		"ano_de_la_concesion": "2009"
@@ -8778,7 +8778,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL EN MELILLA (9 Y 10 \nDE JULIO DE 2009) ",
+		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL EN MELILLA (9 Y 10 \nDE JULIO DE 2009)",
 		"montante_concedido": "1.249,34",
 		"montante_pagado_final_operacion": "1.249,34",
 		"ano_de_la_concesion": "2009"
@@ -8802,7 +8802,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "COMUNIDAD AUTONOMA DE LA RIOJA",
-		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL EN SANTANDER (19 \nY 20 DE NOVIEMBRE DE 2009) ",
+		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL EN SANTANDER (19 \nY 20 DE NOVIEMBRE DE 2009)",
 		"montante_concedido": "218,43",
 		"montante_pagado_final_operacion": "218,43",
 		"ano_de_la_concesion": "2009"
@@ -8858,7 +8858,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL EN MADRID (8 Y 9 \nDE ABRIL DE 2010) ",
+		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL EN MADRID (8 Y 9 \nDE ABRIL DE 2010)",
 		"montante_concedido": "589,72",
 		"montante_pagado_final_operacion": "589,72",
 		"ano_de_la_concesion": "2010"
@@ -8906,7 +8906,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL EN Bilbao (11 Y 12DE \nNOVIEMBRE DE 2010) ",
+		"nombre_operacion": "FORO DE ECONOMIA Y POLITICA REGIONAL EN Bilbao (11 Y 12DE \nNOVIEMBRE DE 2010)",
 		"montante_concedido": "242,35",
 		"montante_pagado_final_operacion": "242,35",
 		"ano_de_la_concesion": "2010"
@@ -9178,7 +9178,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "UNIVERSIDAD NACIONAL DE EDUCACIÓN A DISTANCIA, UNED",
-		"nombre_operacion": "RED DE COMUNICACIONES PARA LA SEDE DEL INSTITUTO DE \nCIENCIAS DE LA VID Y EL VINO ",
+		"nombre_operacion": "RED DE COMUNICACIONES PARA LA SEDE DEL INSTITUTO DE \nCIENCIAS DE LA VID Y EL VINO",
 		"montante_concedido": "313.193,53",
 		"montante_pagado_final_operacion": "89.280,19",
 		"ano_de_la_concesion": "2012"
@@ -13825,7 +13825,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
-		"nombre_beneficiario": "Diocesis de Calahorra y La Calzada-Logroño Comunidad de Prpoietarios \nMarques de San Nicolas 35 ",
+		"nombre_beneficiario": "Diocesis de Calahorra y La Calzada-Logroño Comunidad de Prpoietarios \nMarques de San Nicolas 35",
 		"nombre_operacion": "Rehabilitación edificio sito en Marques de San Nicolas 35 (expdiente \n003/13)",
 		"montante_concedido": "55.127,35",
 		"montante_pagado_final_operacion": "55.127,35",
@@ -16153,7 +16153,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
-		"nombre_beneficiario": "Jose ",
+		"nombre_beneficiario": "Jose",
 		"nombre_operacion": "Rehabilitación edificio sito en El Cristo, 3 (exp 46/10)",
 		"montante_concedido": "21.865,34",
 		"montante_pagado_final_operacion": "21.865,34",
@@ -16338,7 +16338,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "JUAN JOSÉ JIMÉNEZ SL",
-		"nombre_operacion": "2008-P-TIC-00095 JUAN JOSÉ JIMÉNEZ SL ",
+		"nombre_operacion": "2008-P-TIC-00095 JUAN JOSÉ JIMÉNEZ SL",
 		"montante_concedido": "3.047,37",
 		"montante_pagado_final_operacion": "3.047,37",
 		"ano_de_la_concesion": "2010"
@@ -16569,7 +16569,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
-		"nombre_beneficiario": "Labarga del Pueyo, SL ",
+		"nombre_beneficiario": "Labarga del Pueyo, SL",
 		"nombre_operacion": "Rehabilitación edificio sito en Portales, 12 (expediente 038/11)",
 		"montante_concedido": "16.152,87",
 		"montante_pagado_final_operacion": "14.383,25",
@@ -18538,7 +18538,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/LR4016.pdf",
 		"nombre_beneficiario": "RYCAYCO RIOJA S.L.",
-		"nombre_operacion": "Rehabilitación de edificio en la Calle San Juan 26 ",
+		"nombre_operacion": "Rehabilitación de edificio en la Calle San Juan 26",
 		"montante_concedido": "10.000,00",
 		"montante_pagado_final_operacion": "5.675,82",
 		"ano_de_la_concesion": "2010"

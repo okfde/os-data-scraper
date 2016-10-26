@@ -282,7 +282,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/CE4016.pdf",
 		"nombre_beneficiario": "Dirección General de Calidad y Evaluación Ambiental y Medio Natural \n(MAGRAMA)",
-		"nombre_operacion": "VISADO PROYECTO ESCUELA DE LA CONSTRUCCION ",
+		"nombre_operacion": "VISADO PROYECTO ESCUELA DE LA CONSTRUCCION",
 		"montante_concedido": "6.392,92",
 		"montante_pagado_final_operacion": "6.392,92",
 		"ano_de_la_concesion": "2008"
@@ -586,7 +586,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/CE4016.pdf",
 		"nombre_beneficiario": "Dirección General de Calidad y Evaluación Ambiental y Medio Natural \n(MAGRAMA)",
-		"nombre_operacion": "CAMPAÑA PUBLICITARIA ",
+		"nombre_operacion": "CAMPAÑA PUBLICITARIA",
 		"montante_concedido": "17.510,00",
 		"montante_pagado_final_operacion": "17.510,00",
 		"ano_de_la_concesion": "2009"
@@ -810,7 +810,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/CE4016.pdf",
 		"nombre_beneficiario": "Cámara de Comercio Industria Servicios y Navegación de España.",
-		"nombre_operacion": "Plataformas Territoriales-puesta en marcha, asesoramiento y gestión ",
+		"nombre_operacion": "Plataformas Territoriales-puesta en marcha, asesoramiento y gestión",
 		"montante_concedido": "1.000.000,00",
 		"montante_pagado_final_operacion": "121,81",
 		"ano_de_la_concesion": "2010"
@@ -1337,8 +1337,8 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/CE4016.pdf",
-		"nombre_beneficiario": "ART FACTORY ART AN LANGUAGE SCHOOL C.B ",
-		"nombre_operacion": "ART FACTORY ART AN LANGUAGE SCHOOL C.B ",
+		"nombre_beneficiario": "ART FACTORY ART AN LANGUAGE SCHOOL C.B",
+		"nombre_operacion": "ART FACTORY ART AN LANGUAGE SCHOOL C.B",
 		"montante_concedido": "1.935,74",
 		"montante_pagado_final_operacion": "1.935,74",
 		"ano_de_la_concesion": "2015"
@@ -1370,7 +1370,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/CE4016.pdf",
 		"nombre_beneficiario": "ASOCIACION AUTISMO CEUTA",
-		"nombre_operacion": "ASOCIACION AUTISMO CEUTA ",
+		"nombre_operacion": "ASOCIACION AUTISMO CEUTA",
 		"montante_concedido": "2.187,50",
 		"montante_pagado_final_operacion": "2.187,50",
 		"ano_de_la_concesion": "2014"
@@ -1409,7 +1409,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/CE4016.pdf",
-		"nombre_beneficiario": "AUTO REPUESTOS  S L ",
+		"nombre_beneficiario": "AUTO REPUESTOS  S L",
 		"nombre_operacion": "PRESTAMO DE LA CAIXA",
 		"montante_concedido": "2.383,25",
 		"montante_pagado_final_operacion": "0,00",
@@ -1441,7 +1441,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/CE4016.pdf",
-		"nombre_beneficiario": "AXIAL GLOBALIZACION DE VINOS  S L ",
+		"nombre_beneficiario": "AXIAL GLOBALIZACION DE VINOS  S L",
 		"nombre_operacion": "PRESTAMO DE LA CAIXA",
 		"montante_concedido": "1.724,38",
 		"montante_pagado_final_operacion": "0,00",
@@ -3065,7 +3065,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/CE4016.pdf",
-		"nombre_beneficiario": "HORACIO TABOADA S A ",
+		"nombre_beneficiario": "HORACIO TABOADA S A",
 		"nombre_operacion": "PRESTAMO DE BANESTO",
 		"montante_concedido": "171,32",
 		"montante_pagado_final_operacion": "0,00",
@@ -3138,7 +3138,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/CE4016.pdf",
 		"nombre_beneficiario": "IMAGINA   S C",
-		"nombre_operacion": "PRESTAMO DE BANCO BILBAO VIZCAYA ARGENTARIA  S A ",
+		"nombre_operacion": "PRESTAMO DE BANCO BILBAO VIZCAYA ARGENTARIA  S A",
 		"montante_concedido": "238,30",
 		"montante_pagado_final_operacion": "0,00",
 		"ano_de_la_concesion": "2011"
@@ -3242,7 +3242,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/CE4016.pdf",
 		"nombre_beneficiario": "Interservicios; S.L.",
-		"nombre_operacion": "Innovación    ",
+		"nombre_operacion": "Innovación",
 		"montante_concedido": "1.470,00",
 		"montante_pagado_final_operacion": "1.396,50",
 		"ano_de_la_concesion": "2010"
@@ -3290,7 +3290,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/CE4016.pdf",
 		"nombre_beneficiario": "JAVIER CASAS",
-		"nombre_operacion": "PRESTAMO DE BANCO BILBAO VIZCAYA ARGENTARIA  S A ",
+		"nombre_operacion": "PRESTAMO DE BANCO BILBAO VIZCAYA ARGENTARIA  S A",
 		"montante_concedido": "250,61",
 		"montante_pagado_final_operacion": "0,00",
 		"ano_de_la_concesion": "2011"
@@ -4258,7 +4258,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/CE4016.pdf",
 		"nombre_beneficiario": "MARIA JESUS ANTON",
-		"nombre_operacion": "PRESTAMO DE BANCO BILBAO VIZCAYA ARGENTARIA  S A ",
+		"nombre_operacion": "PRESTAMO DE BANCO BILBAO VIZCAYA ARGENTARIA  S A",
 		"montante_concedido": "693,69",
 		"montante_pagado_final_operacion": "0,00",
 		"ano_de_la_concesion": "2011"
@@ -4401,7 +4401,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/CE4016.pdf",
-		"nombre_beneficiario": "MARQUEZ Y ASOCIADOS  OCIO Y HOSTELERIA ",
+		"nombre_beneficiario": "MARQUEZ Y ASOCIADOS  OCIO Y HOSTELERIA",
 		"nombre_operacion": "PRESTAMO DE UNICAJA",
 		"montante_concedido": "911,53",
 		"montante_pagado_final_operacion": "0,00",
@@ -4881,7 +4881,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/CE4016.pdf",
-		"nombre_beneficiario": "NOOR Y MOHAMED SOCIEDAD LIMITADA ",
+		"nombre_beneficiario": "NOOR Y MOHAMED SOCIEDAD LIMITADA",
 		"nombre_operacion": "PRESTAMO DE BANESTO",
 		"montante_concedido": "1.871,23",
 		"montante_pagado_final_operacion": "0,00",
@@ -4961,7 +4961,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/CE4016.pdf",
-		"nombre_beneficiario": "OSCAR INTEREGALOS  S L ",
+		"nombre_beneficiario": "OSCAR INTEREGALOS  S L",
 		"nombre_operacion": "PRESTAMO DE LA CAIXA",
 		"montante_concedido": "1.022,88",
 		"montante_pagado_final_operacion": "0,00",
@@ -5473,7 +5473,7 @@
 	},
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/CE4016.pdf",
-		"nombre_beneficiario": "RODACO MOTOR S A ",
+		"nombre_beneficiario": "RODACO MOTOR S A",
 		"nombre_operacion": "PRESTAMO DE BANESTO",
 		"montante_concedido": "600,82",
 		"montante_pagado_final_operacion": "0,00",
@@ -5570,7 +5570,7 @@
 	{
 		"_source": "http://www.dgfc.sepg.minhap.gob.es/sitios/dgfc/es-ES/Beneficiarios%20Fondos%20Feder%20y%20Fondos%20de%20Cohesin/CE4016.pdf",
 		"nombre_beneficiario": "SALVADOR GUERRERO RUIZ",
-		"nombre_operacion": "PRESTAMO DE BANCO POPULAR ESPANOL S A ",
+		"nombre_operacion": "PRESTAMO DE BANCO POPULAR ESPANOL S A",
 		"montante_concedido": "520,17",
 		"montante_pagado_final_operacion": "0,00",
 		"ano_de_la_concesion": "2011"

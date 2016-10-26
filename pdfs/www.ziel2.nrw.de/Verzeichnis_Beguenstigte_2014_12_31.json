@@ -1809,7 +1809,7 @@
 	},
 	{
 		"_source": "http://www.ziel2.nrw.de/1_NRW-EU_Ziel_2_Programm_2007-2013/3_Ergebnisse/Verzeichnis_Beguenstigte_2014_12_31.pdf",
-		"beneficiary": "Brökelmann & Co Ölmühle GmbH & Co. KG  Logistik.NRW: ",
+		"beneficiary": "Brökelmann & Co Ölmühle GmbH & Co. KG  Logistik.NRW:",
 		"name_of_operation": "NakoLog - Nachhaltige Kooperation in der Logistik",
 		"years": "2013",
 		"allocated_public_funding": "67.064",
