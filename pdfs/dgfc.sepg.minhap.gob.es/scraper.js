@@ -48,7 +48,7 @@ var isValue = function (cell) {
 };
 
 var isInt = function (cell) {
-	return cell !== null && !isNaN(parseInt(cell, 10));
+	return cell !== null && !isNaN(parseInt(cell, 10)) && (/^\d+$/.test(cell.trim()));
 };
 
 var isYear = function (cell) {

@@ -123,13 +123,12 @@ var scrapePDF = function (item, cb) {
 			fs.writeFileSync(debugcache + filename + '.pdf.json', JSON.stringify(data, null, '\t'));
 		async.forEachSeries(data.pages, function (page, next) {
 			if (page.pageInfo.num == 1) return next();
-			var lines = PDFExtract.utils.pageToLines(page, 0.3);
-			// if (debug) {
-			// 	fs.writeFileSync(debugcache + filename + '-' + page.pageInfo.num + '.json', JSON.stringify(lines, null, '\t'));
-			// }
-			lines = PDFExtract.utils.extractLines(lines, ['Name des Begünstigten'], ['-------------------'/*take all*/]);
+			var alllines = PDFExtract.utils.pageToLines(page, 0.3);
+			var lines = PDFExtract.utils.extractLines(alllines, ['Name des Begünstigten'], ['-------------------'/*take all*/]);
+			if (lines.length == 0)
+				lines = PDFExtract.utils.extractLines(alllines, ['Begünstigten'], ['-------------------'/*take all*/]);
 			if (lines.length == 0) {
-				// console.log('ALARM, page', page.pageInfo.num, 'without data');
+				console.log('ALARM, page', page.pageInfo.num, 'without data');
 			} else if (debug) {
 				lines_collect = lines_collect.concat(lines);
 				fs.writeFileSync(debugcache + filename + '-' + page.pageInfo.num + '.json', JSON.stringify(lines, null, '\t'));
@@ -212,6 +211,36 @@ var scrapePDF = function (item, cb) {
 			} else if (page.pageInfo.num == 802) {
 				offset3 = -20;
 				offset4 = -25;
+			} else if (page.pageInfo.num == 119) {
+				offset1 = -10;
+			} else if (page.pageInfo.num == 120) {
+				offset1 = -10;
+			} else if (page.pageInfo.num == 121) {
+				offset1 = -10;
+			} else if (page.pageInfo.num == 134) {
+				offset1 = -40;
+			} else if (page.pageInfo.num == 135) {
+				offset1 = -40;
+			} else if (page.pageInfo.num == 136) {
+				offset1 = -40;
+			} else if (page.pageInfo.num == 137) {
+				offset1 = -40;
+			} else if ((page.pageInfo.num >= 371) && (page.pageInfo.num <= 400)) {
+				offset1 = -40;
+			} else if ((page.pageInfo.num >= 459) && (page.pageInfo.num <= 470)) {
+				offset1 = -40;
+			} else if (page.pageInfo.num == 707) {
+				offset1 = -50;
+			} else if ((page.pageInfo.num >= 736) && (page.pageInfo.num <= 737)) {
+				offset1 = -40;
+			} else if (page.pageInfo.num == 738) {
+				offset1 = -50;
+			} else if ((page.pageInfo.num >= 739) && (page.pageInfo.num <= 740)) {
+				offset1 = -40;
+			} else if ((page.pageInfo.num >= 835) && (page.pageInfo.num <= 836)) {
+				offset1 = -40;
+			} else if ((page.pageInfo.num >= 879) && (page.pageInfo.num <= 883)) {
+				offset1 = -40;
 			}
 			var rows = PDFExtract.utils.extractColumnRows(lines, [140 + offset1, 500, 670 + offset3, 725 + offset4, 1200], 0.2);
 			rows_collect = rows_collect.concat(rows);
