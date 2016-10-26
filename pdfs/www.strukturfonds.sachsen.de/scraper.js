@@ -54,12 +54,10 @@ var isValidRow = function (row) {
 			}
 		} else if (type === _VALUE) {
 			if (!isValue(cell)) {
-				console.log(cell.replace(/,/g, '').trim(), 'not a value');
 				return false;
 			}
 		} else if (type === _YEAR) {
 			if (!isYear(cell)) {
-				console.log(cell, 'not a year');
 				return false;
 			}
 		} else if (type === _TEXT) {
