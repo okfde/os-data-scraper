@@ -11,16 +11,17 @@ var json = JSON.parse(fs.readFileSync('./manual.json'));
 
 var cols = json.columns;
 var result = json.rows.map(function (row, i) {
-	var o = {};
+	var o = {_source: 'http://projektbank.tillvaxtverket.se/projektbanken2020#page=eruf'};
 	row.forEach(function (cell, j) {
+		var cat = cols[j].name.toLowerCase().replace(':', '').replace(/\//g, '_').replace(/ /g, '_');
 		if (cell.v)
-			o[cols[j].name] = cell.o;
+			o[cat] = cell.o;
 		else
-			o[cols[j].name] = cell;
+			o[cat] = cell;
 	});
 	return o;
 }).filter(function (o) {
-	return o["Ärende-ID"] !== 'Totaler';
+	return o["ärende-id"] !== 'Totaler';
 });
 
 fs.writeFileSync('data.json', JSON.stringify(result, null, '\t'));

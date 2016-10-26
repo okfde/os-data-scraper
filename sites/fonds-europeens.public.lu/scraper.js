@@ -32,7 +32,7 @@ var scrapeItem = function (item, next) {
 			box.children().each(function (i, elem) {
 				var $elem = $(elem);
 				if ($elem.is('dt')) {
-					lastCat = $elem.text().trim();
+					lastCat = $elem.text().trim().toLowerCase().replace(':', '').replace(/ /g, '_');
 				} else if ($elem.is('dd')) {
 					item[lastCat] = $elem.text().trim();
 				}
@@ -41,7 +41,7 @@ var scrapeItem = function (item, next) {
 			var box = $('.box--project-details');
 			box.children().each(function (i, elem) {
 				var $elem = $(elem);
-				var lastCat = $('h3', $elem).text();
+				var lastCat = $('h3', $elem).text().trim().toLowerCase().replace(':', '').replace(/ /g, '_');
 				var list = [];
 				$('li', $elem).each(function (i, elem) {
 					list.push($(elem).text().trim());
@@ -50,8 +50,6 @@ var scrapeItem = function (item, next) {
 			});
 
 			allitems.push(item);
-
-			console.log(item);
 			next();
 		});
 };
@@ -74,8 +72,8 @@ var scrapePage = function (page) {
 			list.each(function (i, elem) {
 				$elem = $(elem);
 				var o = {};
-				o.title = $elem.attr('title');
 				o._source = $('.article-title a', $elem).attr('href');
+				o.title = $elem.attr('title');
 				items.push(o);
 			});
 

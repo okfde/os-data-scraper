@@ -213,11 +213,11 @@ var scrapePDF = function (item, cb) {
 			var final = rows_collect.map(function (row) {
 				return {
 					_source: item,
-					col1: row[1] || '',
-					col2: row[2] || '',
-					year: row[3] || '',
-					val1: cleanString(row[4]),
-					val2: cleanString(row[5])
+					beneficiary: row[1] || '',
+					name_of_operation: row[2] || '',
+					years: row[3] || '',
+					allocated_public_funding: cleanString(row[4]),
+					on_finish_total_value: cleanString(row[5])
 				};
 			});
 			fs.writeFileSync(filename + ".json", JSON.stringify(final, null, '\t'));
@@ -225,6 +225,22 @@ var scrapePDF = function (item, cb) {
 		})
 	});
 };
+
+// 40-200 col 2
+// Name des Begünstigten
+//
+// 200-400 col 2
+// BEZEICHNUNG DES VORHABENS
+//
+// 400-500 col 3
+// JAHR DER BEWILLIGUNG / RESTZAHLUNG
+//
+// 500-630 col 4
+// Bewilligter Betrag
+//
+// 630- col 5
+// BEI ABSCHLUSS DES VORHABENS GEZAHLTE GESAMTBETRÄGE
+
 
 var scrapeItem = function (item, next) {
 	var filename = path.basename(item);

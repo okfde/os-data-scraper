@@ -212,10 +212,10 @@ var scrapePDF = function (item, cb) {
 			var final = rows_collect.map(function (row) {
 				return {
 					_source: item,
-					col1: row[0] || '',
-					year1: row[1] || '',
-					year2: cleanString(row[2]),
-					val1: cleanString(row[3])
+					beneficiary: row[0] || '',
+					year_from: row[1] || '',
+					year_until: cleanString(row[2]),
+					esf_funds: cleanString(row[3])
 				};
 			});
 			fs.writeFileSync(filename + ".json", JSON.stringify(final, null, '\t'));

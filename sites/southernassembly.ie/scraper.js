@@ -32,12 +32,12 @@ var scrapeItem = function (item, next) {
 		},
 		function (err, $) {
 			if (err) return console.error(err);
-			item['Summary'] = $($('#col2')).text().trim();
+			item['summary'] = $($('#col2')).text().trim();
 			var box = $('p');
 			box.each(function (i, elem) {
 				var $elem = $(elem);
 				var values = $elem.text().trim().split(':');
-				var cat = values[0].trim();
+				var cat = values[0].trim().toLowerCase().replace(':', '').replace(/ /g, '_');
 				var value = values.slice(1).join(':').trim();
 				item[cat] = value;
 			});

@@ -1,546 +1,546 @@
 [
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Fachhochschule Mainz",
-		"col2": "Ada-Lovelace-Projekt an der Fachhochschule\nMainz",
-		"year": "2008/ 2009",
-		"val1": "17.500,00",
-		"val2": "17.500,00"
+		"beneficiary": "Fachhochschule Mainz",
+		"name_of_operation": "Ada-Lovelace-Projekt an der Fachhochschule\nMainz",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "17.500,00",
+		"on_finish_total_value": "17.500,00"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Altenkirchen",
-		"col2": "Kommunaler Jugend-Scout",
-		"year": "2008/ 2009",
-		"val1": "26.078,34",
-		"val2": "25.903,07"
+		"beneficiary": "Kreisverwaltung Altenkirchen",
+		"name_of_operation": "Kommunaler Jugend-Scout",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "26.078,34",
+		"on_finish_total_value": "25.903,07"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Alzey-Worms",
-		"col2": "Job-Fux an der Hauptschule in Alzey",
-		"year": "2008/ 2009",
-		"val1": "20.625,63",
-		"val2": "18.101,86"
+		"beneficiary": "Kreisverwaltung Alzey-Worms",
+		"name_of_operation": "Job-Fux an der Hauptschule in Alzey",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "20.625,63",
+		"on_finish_total_value": "18.101,86"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Alzey-Worms",
-		"col2": "Job-Fux an der Hauptschule in Wörrstadt",
-		"year": "2008/ 2009",
-		"val1": "23.908,32",
-		"val2": "22.088,60"
+		"beneficiary": "Kreisverwaltung Alzey-Worms",
+		"name_of_operation": "Job-Fux an der Hauptschule in Wörrstadt",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "23.908,32",
+		"on_finish_total_value": "22.088,60"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Alzey-Worms",
-		"col2": "Jugendscouts",
-		"year": "2008/ 2009",
-		"val1": "26.509,50",
-		"val2": "21.546,51"
+		"beneficiary": "Kreisverwaltung Alzey-Worms",
+		"name_of_operation": "Jugendscouts",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "26.509,50",
+		"on_finish_total_value": "21.546,51"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Bad Dürkheim",
-		"col2": "Job Fux 2009",
-		"year": "2008",
-		"val1": "24.703,20",
-		"val2": ""
+		"beneficiary": "Kreisverwaltung Bad Dürkheim",
+		"name_of_operation": "Job Fux 2009",
+		"years": "2008",
+		"allocated_public_funding": "24.703,20",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Bad Kreuznach",
-		"col2": "Förderung von kommunalen Jugend-Scouts",
-		"year": "2008",
-		"val1": "22.014,36",
-		"val2": ""
+		"beneficiary": "Kreisverwaltung Bad Kreuznach",
+		"name_of_operation": "Förderung von kommunalen Jugend-Scouts",
+		"years": "2008",
+		"allocated_public_funding": "22.014,36",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Bernkastel-Wittlich",
-		"col2": "Förderung von kommualen Jugend-Scouts",
-		"year": "2008/ 2009",
-		"val1": "27.575,50",
-		"val2": "22.284,35"
+		"beneficiary": "Kreisverwaltung Bernkastel-Wittlich",
+		"name_of_operation": "Förderung von kommualen Jugend-Scouts",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "27.575,50",
+		"on_finish_total_value": "22.284,35"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Birkenfeld",
-		"col2": "Kommunaler Jugenscout",
-		"year": "2008",
-		"val1": "24.303,29",
-		"val2": ""
+		"beneficiary": "Kreisverwaltung Birkenfeld",
+		"name_of_operation": "Kommunaler Jugenscout",
+		"years": "2008",
+		"allocated_public_funding": "24.303,29",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Donnersbergkreis",
-		"col2": "Kommunaler Jugendscout",
-		"year": "2008/ 2009",
-		"val1": "23.502,29",
-		"val2": "16.615,98"
+		"beneficiary": "Kreisverwaltung Donnersbergkreis",
+		"name_of_operation": "Kommunaler Jugendscout",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "23.502,29",
+		"on_finish_total_value": "16.615,98"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Kaiserslautern",
-		"col2": "Kommunaler Jugend-Scout\n/Aktenzeichen:JS09B5b014",
-		"year": "2008",
-		"val1": "26.392,38",
-		"val2": ""
+		"beneficiary": "Kreisverwaltung Kaiserslautern",
+		"name_of_operation": "Kommunaler Jugend-Scout\n/Aktenzeichen:JS09B5b014",
+		"years": "2008",
+		"allocated_public_funding": "26.392,38",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Mainz-Bingen",
-		"col2": "Jugendscout Oppenheim",
-		"year": "2008",
-		"val1": "27.785,71",
-		"val2": ""
+		"beneficiary": "Kreisverwaltung Mainz-Bingen",
+		"name_of_operation": "Jugendscout Oppenheim",
+		"years": "2008",
+		"allocated_public_funding": "27.785,71",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Mayen-Koblenz",
-		"col2": "Jugendscout",
-		"year": "2008",
-		"val1": "27.785,71",
-		"val2": ""
+		"beneficiary": "Kreisverwaltung Mayen-Koblenz",
+		"name_of_operation": "Jugendscout",
+		"years": "2008",
+		"allocated_public_funding": "27.785,71",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Neuwied",
-		"col2": "Job-Fux",
-		"year": "2008/ 2009",
-		"val1": "21.277,00",
-		"val2": "21.277,00"
+		"beneficiary": "Kreisverwaltung Neuwied",
+		"name_of_operation": "Job-Fux",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "21.277,00",
+		"on_finish_total_value": "21.277,00"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Neuwied",
-		"col2": "Jugendscout",
-		"year": "2008/ 2009",
-		"val1": "19.553,31",
-		"val2": "19.553,31"
+		"beneficiary": "Kreisverwaltung Neuwied",
+		"name_of_operation": "Jugendscout",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "19.553,31",
+		"on_finish_total_value": "19.553,31"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Südliche Weinstraße",
-		"col2": "Kommunaler Jugend-Scout",
-		"year": "2008/ 2009",
-		"val1": "19.850,00",
-		"val2": "19.850,00"
+		"beneficiary": "Kreisverwaltung Südliche Weinstraße",
+		"name_of_operation": "Kommunaler Jugend-Scout",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "19.850,00",
+		"on_finish_total_value": "19.850,00"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Südwestpfalz",
-		"col2": "Kommunaler Jugend-Scout- ",
-		"year": "2008/ 2009",
-		"val1": "27.250,00",
-		"val2": "26.826,61"
+		"beneficiary": "Kreisverwaltung Südwestpfalz",
+		"name_of_operation": "Kommunaler Jugend-Scout- ",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "27.250,00",
+		"on_finish_total_value": "26.826,61"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Südwestpfalz",
-		"col2": "Kommunaler Jugend-Scout ",
-		"year": "2008/ 2009",
-		"val1": "24.050,00",
-		"val2": "19.150,78"
+		"beneficiary": "Kreisverwaltung Südwestpfalz",
+		"name_of_operation": "Kommunaler Jugend-Scout ",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "24.050,00",
+		"on_finish_total_value": "19.150,78"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Südwestpfalz",
-		"col2": "Job-Fux- ",
-		"year": "2008/ 2009",
-		"val1": "24.177,26",
-		"val2": "24.048,86"
+		"beneficiary": "Kreisverwaltung Südwestpfalz",
+		"name_of_operation": "Job-Fux- ",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "24.177,26",
+		"on_finish_total_value": "24.048,86"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Südwestpfalz",
-		"col2": "Job-Fux-",
-		"year": "2008/ 2009",
-		"val1": "27.758,81",
-		"val2": "27.758,81"
+		"beneficiary": "Kreisverwaltung Südwestpfalz",
+		"name_of_operation": "Job-Fux-",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "27.758,81",
+		"on_finish_total_value": "27.758,81"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Trier-Saarburg",
-		"col2": "Kommunaler Jugend-Scout",
-		"year": "2008/ 2009",
-		"val1": "25.849,01",
-		"val2": "21.259,39"
+		"beneficiary": "Kreisverwaltung Trier-Saarburg",
+		"name_of_operation": "Kommunaler Jugend-Scout",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "25.849,01",
+		"on_finish_total_value": "21.259,39"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Vulkaneifel",
-		"col2": "Jugend Scout II",
-		"year": "2008/ 2009",
-		"val1": "27.785,71",
-		"val2": "20.836,49"
+		"beneficiary": "Kreisverwaltung Vulkaneifel",
+		"name_of_operation": "Jugend Scout II",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "27.785,71",
+		"on_finish_total_value": "20.836,49"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung Vulkaneifel",
-		"col2": "Jugend-Scout I",
-		"year": "2008/ 2009",
-		"val1": "27.785,71",
-		"val2": "24.425,50"
+		"beneficiary": "Kreisverwaltung Vulkaneifel",
+		"name_of_operation": "Jugend-Scout I",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "27.785,71",
+		"on_finish_total_value": "24.425,50"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung des Eifelkreises Bitburg-Prüm",
-		"col2": "Kommunaler Jugendscout im Eifelkreis Bitburg\nPrüm",
-		"year": "2008",
-		"val1": "25.875,00",
-		"val2": ""
+		"beneficiary": "Kreisverwaltung des Eifelkreises Bitburg-Prüm",
+		"name_of_operation": "Kommunaler Jugendscout im Eifelkreis Bitburg\nPrüm",
+		"years": "2008",
+		"allocated_public_funding": "25.875,00",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung des Rhein-Hunsrück-Kreises",
-		"col2": "Job-Fux",
-		"year": "2008",
-		"val1": "26.820,00",
-		"val2": ""
+		"beneficiary": "Kreisverwaltung des Rhein-Hunsrück-Kreises",
+		"name_of_operation": "Job-Fux",
+		"years": "2008",
+		"allocated_public_funding": "26.820,00",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwaltung des Rhein-Hunsrück-Kreises",
-		"col2": "Job-Fux",
-		"year": "2008/ 2009",
-		"val1": "25.656,00",
-		"val2": "24.115,49"
+		"beneficiary": "Kreisverwaltung des Rhein-Hunsrück-Kreises",
+		"name_of_operation": "Job-Fux",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "25.656,00",
+		"on_finish_total_value": "24.115,49"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwwaltung Kusel",
-		"col2": "Job-Fux (HS Kusel, HS Lauterecken)",
-		"year": "2008/ 2009",
-		"val1": "19.181,39",
-		"val2": "17.483,45"
+		"beneficiary": "Kreisverwwaltung Kusel",
+		"name_of_operation": "Job-Fux (HS Kusel, HS Lauterecken)",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "19.181,39",
+		"on_finish_total_value": "17.483,45"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Kreisverwwaltung Kusel",
-		"col2": "Job-Fux (HS Schönenberg-Kübelberg, RS\nAltenglan)",
-		"year": "2008/ 2009",
-		"val1": "21.002,07",
-		"val2": "16.211,49"
+		"beneficiary": "Kreisverwwaltung Kusel",
+		"name_of_operation": "Job-Fux (HS Schönenberg-Kübelberg, RS\nAltenglan)",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "21.002,07",
+		"on_finish_total_value": "16.211,49"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Landkreis Germersheim",
-		"col2": "Job-Fux",
-		"year": "2008",
-		"val1": "21.450,03",
-		"val2": ""
+		"beneficiary": "Landkreis Germersheim",
+		"name_of_operation": "Job-Fux",
+		"years": "2008",
+		"allocated_public_funding": "21.450,03",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Landkreis Germersheim",
-		"col2": "Jugend-Scout",
-		"year": "2008/ 2009",
-		"val1": "20.619,82",
-		"val2": "20.501,77"
+		"beneficiary": "Landkreis Germersheim",
+		"name_of_operation": "Jugend-Scout",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "20.619,82",
+		"on_finish_total_value": "20.501,77"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadt Andernach",
-		"col2": "Job Fux",
-		"year": "2008/ 2009",
-		"val1": "25.790,35",
-		"val2": "25.790,35"
+		"beneficiary": "Stadt Andernach",
+		"name_of_operation": "Job Fux",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "25.790,35",
+		"on_finish_total_value": "25.790,35"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadt Andernach",
-		"col2": "Kommunaler Jugend-Scout",
-		"year": "2008/ 2009",
-		"val1": "27.785,71",
-		"val2": "27.785,71"
+		"beneficiary": "Stadt Andernach",
+		"name_of_operation": "Kommunaler Jugend-Scout",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "27.785,71",
+		"on_finish_total_value": "27.785,71"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadt Koblenz -Jugendamt-",
-		"col2": "Jobfux Koblenz",
-		"year": "2008/ 2009",
-		"val1": "26.349,90",
-		"val2": "24.742,82"
+		"beneficiary": "Stadt Koblenz -Jugendamt-",
+		"name_of_operation": "Jobfux Koblenz",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "26.349,90",
+		"on_finish_total_value": "24.742,82"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadt Landau in der Pfalz",
-		"col2": "Kommunaler Jugend-Scout",
-		"year": "2008/ 2009",
-		"val1": "27.785,71",
-		"val2": "25.484,91"
+		"beneficiary": "Stadt Landau in der Pfalz",
+		"name_of_operation": "Kommunaler Jugend-Scout",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "27.785,71",
+		"on_finish_total_value": "25.484,91"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadt Mainz, Amt 51",
-		"col2": "Jugend-Scout Durchführung SPAZ",
-		"year": "2008/ 2009",
-		"val1": "27.785,71",
-		"val2": "26.566,44"
+		"beneficiary": "Stadt Mainz, Amt 51",
+		"name_of_operation": "Jugend-Scout Durchführung SPAZ",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "27.785,71",
+		"on_finish_total_value": "26.566,44"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadt Mainz, Amt 51",
-		"col2": "Job Fux Mainz Lerchenberg",
-		"year": "2008/ 2009",
-		"val1": "27.785,71",
-		"val2": "27.785,71"
+		"beneficiary": "Stadt Mainz, Amt 51",
+		"name_of_operation": "Job Fux Mainz Lerchenberg",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "27.785,71",
+		"on_finish_total_value": "27.785,71"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadt Mainz, Amt 51",
-		"col2": "Job Fux Mainz Mombach",
-		"year": "2008/ 2009",
-		"val1": "25.078,11",
-		"val2": "24.788,27"
+		"beneficiary": "Stadt Mainz, Amt 51",
+		"name_of_operation": "Job Fux Mainz Mombach",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "25.078,11",
+		"on_finish_total_value": "24.788,27"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadt Mainz, Amt 51",
-		"col2": "Job Fux Mainz Neustadt",
-		"year": "2008/ 2009",
-		"val1": "27.296,34",
-		"val2": "27.296,34"
+		"beneficiary": "Stadt Mainz, Amt 51",
+		"name_of_operation": "Job Fux Mainz Neustadt",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "27.296,34",
+		"on_finish_total_value": "27.296,34"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadt Mainz, Amt 51",
-		"col2": "Jugend-Scout Durchführung Förderband",
-		"year": "2008/ 2009",
-		"val1": "23.888,61",
-		"val2": "17.992,32"
+		"beneficiary": "Stadt Mainz, Amt 51",
+		"name_of_operation": "Jugend-Scout Durchführung Förderband",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "23.888,61",
+		"on_finish_total_value": "17.992,32"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadt Neuwied",
-		"col2": "Jugendscout",
-		"year": "2008/ 2009",
-		"val1": "20.626,80",
-		"val2": "20.626,82"
+		"beneficiary": "Stadt Neuwied",
+		"name_of_operation": "Jugendscout",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "20.626,80",
+		"on_finish_total_value": "20.626,82"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadt Pirmasens",
-		"col2": "Jugend-Scout I",
-		"year": "2008",
-		"val1": "24.977,71",
-		"val2": ""
+		"beneficiary": "Stadt Pirmasens",
+		"name_of_operation": "Jugend-Scout I",
+		"years": "2008",
+		"allocated_public_funding": "24.977,71",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadt Pirmasens",
-		"col2": "Jugend-Scout II",
-		"year": "2008",
-		"val1": "25.154,06",
-		"val2": ""
+		"beneficiary": "Stadt Pirmasens",
+		"name_of_operation": "Jugend-Scout II",
+		"years": "2008",
+		"allocated_public_funding": "25.154,06",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadt Trier",
-		"col2": "Jugend-Scout",
-		"year": "2008/ 2009",
-		"val1": "26.321,43",
-		"val2": "25.721,98"
+		"beneficiary": "Stadt Trier",
+		"name_of_operation": "Jugend-Scout",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "26.321,43",
+		"on_finish_total_value": "25.721,98"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadt Trier",
-		"col2": "Job-Fux",
-		"year": "2008/ 2009",
-		"val1": "24.142,24",
-		"val2": "23.714,23"
+		"beneficiary": "Stadt Trier",
+		"name_of_operation": "Job-Fux",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "24.142,24",
+		"on_finish_total_value": "23.714,23"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadtverwaltung Bad Kreuznach",
-		"col2": "Jobfux",
-		"year": "2008",
-		"val1": "27.767,00",
-		"val2": ""
+		"beneficiary": "Stadtverwaltung Bad Kreuznach",
+		"name_of_operation": "Jobfux",
+		"years": "2008",
+		"allocated_public_funding": "27.767,00",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadtverwaltung Bingen",
-		"col2": "Jobfux",
-		"year": "2008/ 2009",
-		"val1": "21.500,00",
-		"val2": "21.500,00"
+		"beneficiary": "Stadtverwaltung Bingen",
+		"name_of_operation": "Jobfux",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "21.500,00",
+		"on_finish_total_value": "21.500,00"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadtverwaltung Idar-Oberstein",
-		"col2": "Job-Fux",
-		"year": "2008/ 2009",
-		"val1": "26.828,06",
-		"val2": "22.089,84"
+		"beneficiary": "Stadtverwaltung Idar-Oberstein",
+		"name_of_operation": "Job-Fux",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "26.828,06",
+		"on_finish_total_value": "22.089,84"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadtverwaltung Kaiserslautern",
-		"col2": "Kommunaler Jugend-Scout",
-		"year": "2008/ 2009",
-		"val1": "27.592,50",
-		"val2": "26.018,18"
+		"beneficiary": "Stadtverwaltung Kaiserslautern",
+		"name_of_operation": "Kommunaler Jugend-Scout",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "27.592,50",
+		"on_finish_total_value": "26.018,18"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadtverwaltung Ludwigshafen",
-		"col2": "Kommunaler Jugendscout",
-		"year": "2008",
-		"val1": "27.785,71",
-		"val2": ""
+		"beneficiary": "Stadtverwaltung Ludwigshafen",
+		"name_of_operation": "Kommunaler Jugendscout",
+		"years": "2008",
+		"allocated_public_funding": "27.785,71",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadtverwaltung Ludwigshafen",
-		"col2": "Jobfux",
-		"year": "2008",
-		"val1": "20.016,19",
-		"val2": ""
+		"beneficiary": "Stadtverwaltung Ludwigshafen",
+		"name_of_operation": "Jobfux",
+		"years": "2008",
+		"allocated_public_funding": "20.016,19",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadtverwaltung Mayen",
-		"col2": "Jobfux 2009",
-		"year": "2008/ 2009",
-		"val1": "13.752,42",
-		"val2": "13.578,92"
+		"beneficiary": "Stadtverwaltung Mayen",
+		"name_of_operation": "Jobfux 2009",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "13.752,42",
+		"on_finish_total_value": "13.578,92"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadtverwaltung Mayen",
-		"col2": "Jugend-Scout 2009",
-		"year": "2008",
-		"val1": "27.785,71",
-		"val2": ""
+		"beneficiary": "Stadtverwaltung Mayen",
+		"name_of_operation": "Jugend-Scout 2009",
+		"years": "2008",
+		"allocated_public_funding": "27.785,71",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadtverwaltung Neustadt an der Weinstraße",
-		"col2": "kommunaler Jugendscout 2009",
-		"year": "2008/ 2009",
-		"val1": "22.438,00",
-		"val2": "21.879,38"
+		"beneficiary": "Stadtverwaltung Neustadt an der Weinstraße",
+		"name_of_operation": "kommunaler Jugendscout 2009",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "22.438,00",
+		"on_finish_total_value": "21.879,38"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadtverwaltung Speyer",
-		"col2": "JobFux",
-		"year": "2008/ 2009",
-		"val1": "21.800,00",
-		"val2": "21.265,86"
+		"beneficiary": "Stadtverwaltung Speyer",
+		"name_of_operation": "JobFux",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "21.800,00",
+		"on_finish_total_value": "21.265,86"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadtverwaltung Worms",
-		"col2": "Kommunaler Jugend-Scout",
-		"year": "2008",
-		"val1": "27.785,71",
-		"val2": ""
+		"beneficiary": "Stadtverwaltung Worms",
+		"name_of_operation": "Kommunaler Jugend-Scout",
+		"years": "2008",
+		"allocated_public_funding": "27.785,71",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadtverwaltung Worms",
-		"col2": "Job-Fux",
-		"year": "2008/ 2009",
-		"val1": "27.785,71",
-		"val2": "27.143,66"
+		"beneficiary": "Stadtverwaltung Worms",
+		"name_of_operation": "Job-Fux",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "27.785,71",
+		"on_finish_total_value": "27.143,66"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Stadtverwaltung Zweibrücken",
-		"col2": "Jugendscout",
-		"year": "2008",
-		"val1": "25.156,96",
-		"val2": ""
+		"beneficiary": "Stadtverwaltung Zweibrücken",
+		"name_of_operation": "Jugendscout",
+		"years": "2008",
+		"allocated_public_funding": "25.156,96",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Verbandsgemeinde Bruchmühlbach-Miesau",
-		"col2": "Job-Fux",
-		"year": "2008",
-		"val1": "10.054,07",
-		"val2": ""
+		"beneficiary": "Verbandsgemeinde Bruchmühlbach-Miesau",
+		"name_of_operation": "Job-Fux",
+		"years": "2008",
+		"allocated_public_funding": "10.054,07",
+		"on_finish_total_value": ""
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Verbandsgemeinde Daaden",
-		"col2": "Job-Fux",
-		"year": "2008/ 2009",
-		"val1": "25.200,00",
-		"val2": "22.047,11"
+		"beneficiary": "Verbandsgemeinde Daaden",
+		"name_of_operation": "Job-Fux",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "25.200,00",
+		"on_finish_total_value": "22.047,11"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Verbandsgemeinde Höhr-Grenzhausen",
-		"col2": "Jobfux",
-		"year": "2008/ 2009",
-		"val1": "22.458,67",
-		"val2": "21.597,75"
+		"beneficiary": "Verbandsgemeinde Höhr-Grenzhausen",
+		"name_of_operation": "Jobfux",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "22.458,67",
+		"on_finish_total_value": "21.597,75"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Verbandsgemeinde Landstuhl",
-		"col2": "\"Job-Fux\"",
-		"year": "2008/ 2009",
-		"val1": "10.054,07",
-		"val2": "8.938,20"
+		"beneficiary": "Verbandsgemeinde Landstuhl",
+		"name_of_operation": "\"Job-Fux\"",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "10.054,07",
+		"on_finish_total_value": "8.938,20"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Verbandsgemeinde Rennerod",
-		"col2": "Job-Fux bei der Hauptschule Rennerod",
-		"year": "2008/ 2009",
-		"val1": "9.072,92",
-		"val2": "9.072,92"
+		"beneficiary": "Verbandsgemeinde Rennerod",
+		"name_of_operation": "Job-Fux bei der Hauptschule Rennerod",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "9.072,92",
+		"on_finish_total_value": "9.072,92"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Verbandsgemeinde Rüdesheim",
-		"col2": "Job-Fux Geschwister- Scholl-Schule",
-		"year": "2008/ 2009",
-		"val1": "22.147,96",
-		"val2": "21.378,33"
+		"beneficiary": "Verbandsgemeinde Rüdesheim",
+		"name_of_operation": "Job-Fux Geschwister- Scholl-Schule",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "22.147,96",
+		"on_finish_total_value": "21.378,33"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Verbandsgemeinde Wissen",
-		"col2": "Job-Fux",
-		"year": "2008/ 2009",
-		"val1": "27.785,71",
-		"val2": "27.785,71"
+		"beneficiary": "Verbandsgemeinde Wissen",
+		"name_of_operation": "Job-Fux",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "27.785,71",
+		"on_finish_total_value": "27.785,71"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Verbandsgemeinde/Jugendbüro",
-		"col2": "Job Fux (Az: JF09B5a032)",
-		"year": "2008/ 2009",
-		"val1": "21.884,97",
-		"val2": "19.622,96"
+		"beneficiary": "Verbandsgemeinde/Jugendbüro",
+		"name_of_operation": "Job Fux (Az: JF09B5a032)",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "21.884,97",
+		"on_finish_total_value": "19.622,96"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Verbandsgemeindeverwaltung Birkenfeld",
-		"col2": "Jobfux-RS Birkenfeld",
-		"year": "2008/ 2009",
-		"val1": "22.363,48",
-		"val2": "21.498,07"
+		"beneficiary": "Verbandsgemeindeverwaltung Birkenfeld",
+		"name_of_operation": "Jobfux-RS Birkenfeld",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "22.363,48",
+		"on_finish_total_value": "21.498,07"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Verbandsgemeindeverwaltung Diez",
-		"col2": "Job-Fux",
-		"year": "2008/ 2009",
-		"val1": "27.494,36",
-		"val2": "27.494,35"
+		"beneficiary": "Verbandsgemeindeverwaltung Diez",
+		"name_of_operation": "Job-Fux",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "27.494,36",
+		"on_finish_total_value": "27.494,35"
 	},
 	{
 		"_source": "http://esf.rlp.de/fileadmin/esf/Dokumente/VdB_2008.pdf",
-		"col1": "Verbandsgemeindeverwaltung Weißenthurm",
-		"col2": "Job Fux Weißenthurm-Mülheim-Kärlich",
-		"year": "2008/ 2009",
-		"val1": "15.588,68",
-		"val2": "14.404,24"
+		"beneficiary": "Verbandsgemeindeverwaltung Weißenthurm",
+		"name_of_operation": "Job Fux Weißenthurm-Mülheim-Kärlich",
+		"years": "2008/ 2009",
+		"allocated_public_funding": "15.588,68",
+		"on_finish_total_value": "14.404,24"
 	}
 ]

@@ -32,7 +32,7 @@ var scrapeItem = function (item, next) {
 			var box = $('#columna_izquierda table');
 			box.children().each(function (i, elem) {
 				var $elem = $(elem);
-				var cat = $('.izq', $elem).text().trim();
+				var cat = $('.izq', $elem).text().trim().toLowerCase().replace(':', '').replace(/ /g, '_');
 				var value = $('.der', $elem).text().trim();
 				item[cat] = value;
 			});
@@ -40,7 +40,7 @@ var scrapeItem = function (item, next) {
 			box.children().each(function (i, elem) {
 				var $elem = $(elem);
 				if ($('.tabla_gris', $elem).attr('colspan') != 2) {
-					var cat = $('.tabla_gris', $elem).text().trim();
+					var cat = $('.tabla_gris', $elem).text().trim().toLowerCase().replace(':', '').replace(/ /g, '_');
 					var value = $($('td', $elem)[1]).text().trim();
 					if (value !== '')
 						item[cat] = value;

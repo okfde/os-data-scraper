@@ -35,7 +35,7 @@ var scrapeItem = function (item, next) {
 
 			box.each(function (i, elem) {
 				var $elem = $(elem);
-				var cat = $('.field-label', $elem).text().trim().split(':')[0];
+				var cat = $('.field-label', $elem).text().trim().split(':')[0].trim().toLowerCase().replace(':', '').replace(/ /g, '_');
 				var values = [];
 				$('.field-items', $elem).each(function (i, elem) {
 					values.push($(elem).text().trim())
@@ -43,15 +43,15 @@ var scrapeItem = function (item, next) {
 				values = values.filter(function (val) {
 					return val.length > 0;
 				});
-				if (cat.length > 0 && ['Webtv', 'Projet(s)', 'Communiqué(s)'].indexOf(cat) < 0) {
-					item[cat] = values;
+				if (cat.length > 0 && ['webtv', 'projet(s)', 'communiqué(s)'].indexOf(cat) < 0) {
+					item[cat] = values.join('\n');
 				}
-				if (cat == 'Projet(s)') {
+				if (cat == 'projet(s)') {
 					var p = {};
 					var p_box = $('.content .field', $elem);
 					p_box.each(function (i, elem) {
 						var $elem = $(elem);
-						var cat = $('.field-label', $elem).text().trim().split(':')[0];
+						var cat = $('.field-label', $elem).text().trim().split(':')[0].trim().toLowerCase().replace(':', '').replace(/ /g, '_');
 						var values = [];
 						$('.field-items', $elem).each(function (i, elem) {
 							values.push($(elem).text().trim())
@@ -61,6 +61,9 @@ var scrapeItem = function (item, next) {
 						});
 						p[cat] = values;
 					});
+					if (p[cat].length>1) {
+						console.log('ahahahahahahaha');
+					}
 					item.projects.push(p);
 				}
 			});

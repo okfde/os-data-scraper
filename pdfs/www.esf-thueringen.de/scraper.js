@@ -272,11 +272,11 @@ var scrapePDF = function (item, cb) {
 			var final = rows_collect.map(function (row) {
 				return {
 					_source: item,
-					col1: row[0] || '',
-					col2: row[1] || '',
-					year: row[2] || '',
-					val1: cleanString(row[3]),
-					val2: cleanString(row[4])
+					beneficiary: row[0] || '',
+					name_of_operation: row[1] || '',
+					years: row[2] || '',
+					allocated_public_funding: cleanString(row[3]),
+					on_finish_total_value: cleanString(row[4])
 				};
 			});
 			fs.writeFileSync(filename + ".json", JSON.stringify(final, null, '\t'));
