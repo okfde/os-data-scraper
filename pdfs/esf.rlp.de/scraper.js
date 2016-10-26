@@ -19,7 +19,7 @@ var request = require("request");
 var fs = require("fs");
 var PDFExtract = require('pdf.js-extract').PDFExtract;
 
-var debug = true;
+var debug = false;
 var debugcache = '../../local/_pdf/';
 if (!fs.existsSync('../../local/_pdf/')) {
 	console.log('warning cache folder doesn\'t exists');
