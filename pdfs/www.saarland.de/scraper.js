@@ -13,89 +13,17 @@ var request = require("request");
 var fs = require("fs");
 var PDFToolbox = require('../../lib/pdftoolbox');
 
-var isValidRow = function (row) {
 
-	var _VALUE = 0;
-	var _TEXT = 1;
-	var _DATE = 2;
-
-	var valid = [
-		[_TEXT, _DATE, _DATE, _VALUE]
-	];
-
-	var isDate = function (cell) {
-		return cell !== null && (cell.trim().length == 10) && (/^\d\d\.\d\d\.\d\d\d\d$/.test(cell.trim()));
-	};
-
-	var isInt = function (cell) {
-		return cell !== null && !isNaN(parseInt(cell, 10)) && (/^\d+$/.test(cell.trim()));
-	};
-
-
-	var isValue = function (cell) {
-		return cell !== null &&
-			(
-				(cell.indexOf(',') >= 0) && !isNaN(cell.replace(/\./g, '').replace(/,/g, '.').trim()) ||
-				isInt(cell)
-			);
-	};
-
-	var isText = function (cell) {
-		return cell !== null && (!isValue(cell)) && (!isDate(cell));
-	};
-
-	var isType = function (cell, type) {
-		if (type === null) {
-			if (cell !== null) {
-				console.log(cell, 'is not null');
-				return false;
-			}
-		} else if (type === _VALUE) {
-			if (!isValue(cell)) {
-				console.log(cell, 'is not value');
-				return false;
-			}
-		} else if (type === _DATE) {
-			if (!isDate(cell)) {
-				console.log(cell, 'is not date');
-				return false;
-			}
-		} else if (type === _TEXT) {
-			if (!isText(cell)) {
-				console.log(cell, 'is not text');
-				return false;
-			}
-		} else if (typeof type === 'string') {
-			if (type !== cell) {
-				console.log(cell, 'is not string');
-				return false;
-			}
-		}
-		return true;
-	};
-
-	var validateRow = function (format, row) {
-		if (row.length !== format.length) {
-			console.log(row.length, 'is not length ' + format.length);
-			console.log(row);
-			return false;
-		}
-		for (var j = 0; j < row.length; j++) {
-			if (!isType(row[j], format[j])) {
-				return false;
-			}
-		}
-		return row.length > 0;
-	};
-
-	for (var i = 0; i < valid.length; i++) {
-		var format = valid[i];
-		if (validateRow(format, row)) {
-			return true;
-		}
-	}
-	return false;
+var _VALUE = function (cell) {
+	return cell && (PDFToolbox.FIELDS.VALUE1(cell) || PDFToolbox.FIELDS.INT(cell));
 };
+var _DATE = PDFToolbox.FIELDS.DATE;
+var _TEXT = function (cell) {
+	return cell && !_VALUE(cell) && !_DATE(cell);
+};
+var rowspecs = [
+	[_TEXT, _DATE, _DATE, _VALUE]
+];
 
 var scrapePDF = function (item, cb) {
 	var pdf = new PDFToolbox();
@@ -156,7 +84,7 @@ var scrapePDF = function (item, cb) {
 		},
 		processRows: function (rows) {
 			return PDFToolbox.utils.mergeMultiRowsBottomToTop(rows, 1, [0]).filter(function (row) {
-				if (!isValidRow(row)) {
+				if (!PDFToolbox.utils.isValidRow(row, rowspecs)) {
 					console.log('ALARM, invalid row', JSON.stringify(row));
 					return false;
 				} else {

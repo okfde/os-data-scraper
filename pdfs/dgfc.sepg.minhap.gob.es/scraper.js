@@ -22,12 +22,13 @@ var scraper = new scrapyard({
 	bestbefore: "600min"
 });
 
-var _VALUE = 0;
-var _INT = 1;
-var _TEXT = 2;
-var _YEAR = 3;
+var _VALUE = PDFToolbox.FIELDS.VALUE1;
+var _YEAR = PDFToolbox.FIELDS.YEAR;
+var _TEXT = function (cell) {
+	return cell && !_YEAR(cell) && !_VALUE(cell)
+};
 
-var valid = [
+var rowspecs = [
 	[_TEXT, _TEXT, _VALUE, _VALUE, _YEAR],
 	[null, _TEXT, _VALUE, _VALUE, _YEAR],
 	[null, _TEXT],
@@ -36,77 +37,6 @@ var valid = [
 	[_TEXT, _YEAR],
 	[_TEXT]
 ];
-
-var isValue = function (cell) {
-	return cell !== null && (cell.indexOf(',') >= 0) && !isNaN(cell.trim().replace(/\./g, '').replace(/\,/g, '.'));
-};
-
-var isInt = function (cell) {
-	return cell !== null && !isNaN(parseInt(cell, 10)) && (/^\d+$/.test(cell.trim()));
-};
-
-var isYear = function (cell) {
-	if (cell !== null && (cell.indexOf(' ') < 0) && (cell.trim().length == 4)) {
-		var i = parseInt(cell.trim(), 10);
-		if (isNaN(i)) return false;
-		return i > 1990 && i < 2017;
-	}
-	return false;
-};
-
-var isText = function (cell) {
-	return cell !== null &&
-		(!isValue(cell)) && (!isYear(cell));
-};
-
-var isType = function (cell, type) {
-	if (type === null) {
-		if (cell !== null) {
-			return false;
-		}
-	} else if (type === _INT) {
-		if (!isInt(cell)) {
-			return false;
-		}
-	} else if (type === _VALUE) {
-		if (!isValue(cell)) {
-			return false;
-		}
-	} else if (type === _YEAR) {
-		if (!isYear(cell)) {
-			return false;
-		}
-	} else if (type === _TEXT) {
-		if (!isText(cell)) {
-			return false;
-		}
-	} else if (typeof type === 'string') {
-		if (type !== cell) {
-			return false;
-		}
-	}
-	return true;
-};
-
-var validateRow = function (format, row) {
-	if (row.length !== format.length) return false;
-	for (var j = 0; j < row.length; j++) {
-		if (!isType(row[j], format[j])) {
-			return false;
-		}
-	}
-	return row.length > 0;
-};
-
-var isValidRow = function (row) {
-	for (var i = 0; i < valid.length; i++) {
-		var format = valid[i];
-		if (validateRow(format, row)) {
-			return true;
-		}
-	}
-	return false;
-};
 
 var scrapePDF = function (item, cb) {
 	var skipPage = [1];
@@ -160,15 +90,15 @@ var scrapePDF = function (item, cb) {
 		processRows: function (rows) {
 			var result = [];
 			rows.forEach(function (row) {
-				if (!isValidRow(row)) {
+				if (!PDFToolbox.utils.isValidRow(row, rowspecs)) {
 					//special for year in line on next page
-					if (validateRow([null, "ACCIONES FORMATIVAS FOMENTO DE LA INTEGRACION SOCIAL ", " 100.000,00", " 66.171,75"], row)) {
+					if (PDFToolbox.utils.validateRow(row, [null, "ACCIONES FORMATIVAS FOMENTO DE LA INTEGRACION SOCIAL ", " 100.000,00", " 66.171,75"])) {
 						result.push(["AYUNTAMIENTO DE JAEN", "E IGUALDAD DE OPORTUNIDADES. CURSOS", "ACCIONES FORMATIVAS FOMENTO DE LA INTEGRACION SOCIAL ", " 100.000,00", " 66.171,75", "2015"]);
-					} else if (validateRow(["AYUNTAMIENTO DE JAEN", "E IGUALDAD DE OPORTUNIDADES. CURSOS", null, null, "2015"], row)) {
+					} else if (PDFToolbox.utils.validateRow(row, ["AYUNTAMIENTO DE JAEN", "E IGUALDAD DE OPORTUNIDADES. CURSOS", null, null, "2015"])) {
 						//ignore, handled above
-					} else if (validateRow([null, "1,2"], row)) {
+					} else if (PDFToolbox.utils.validateRow(row, [null, "1,2"])) {
 						result.push(row);
-					} else if (validateRow([null, "07,E.58"], row)) {
+					} else if (PDFToolbox.utils.validateRow(row, [null, "07,E.58"])) {
 						result.push(row);
 					} else {
 						console.log('ALARM, invalid row', JSON.stringify(row));

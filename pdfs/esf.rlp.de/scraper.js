@@ -19,93 +19,16 @@ var request = require("request");
 var fs = require("fs");
 var PDFToolbox = require('../../lib/pdftoolbox');
 
-var isValidRow = function (row) {
-
-	var _VALUE = 0;
-	var _TEXT = 1;
-	var _YEAR = 2;
-	var _INT = 3;
-
-	var valid = [
-		[_INT, _TEXT, _TEXT, _YEAR, _VALUE, _VALUE],
-		[_INT, _TEXT, _TEXT, _YEAR, _VALUE]
-	];
-
-	var isYear = function (cell) {
-		if (!cell) return false;
-		cell = cell.trim();
-		var parts = cell.split('/');
-		for (var i = 0; i < parts.length; i++) {
-			var part = parts[i].trim();
-			if ((part.length == 4) && (/^\d+$/.test(part))) {
-				var i = parseInt(part, 10);
-				if (isNaN(i)) return false;
-				if (i < 1990 || i > 2017) return false;
-			} else return false;
-		}
-		return true;
-	};
-
-	var isInt = function (cell) {
-		return cell !== null && !isNaN(parseInt(cell, 10)) && (/^\d+$/.test(cell.trim()));
-	};
-
-	var isValue = function (cell) {
-		return cell !== null && (cell.indexOf(',') >= 0) && !isNaN(cell.replace(/\./g, '').replace(/,/g, '.').trim());
-	};
-
-	var isText = function (cell) {
-		return cell !== null && (!isValue(cell)) && (!isYear(cell));
-	};
-
-	var isType = function (cell, type) {
-		if (type === null) {
-			if (cell !== null) {
-				return false;
-			}
-		} else if (type === _VALUE) {
-			if (!isValue(cell)) {
-				return false;
-			}
-		} else if (type === _YEAR) {
-			if (!isYear(cell)) {
-				console.log(cell, 'is not year');
-				return false;
-			}
-		} else if (type === _INT) {
-			if (!isInt(cell)) {
-				return false;
-			}
-		} else if (type === _TEXT) {
-			if (!isText(cell)) {
-				return false;
-			}
-		} else if (typeof type === 'string') {
-			if (type !== cell) {
-				return false;
-			}
-		}
-		return true;
-	};
-
-	var validateRow = function (format, row) {
-		if (row.length !== format.length) return false;
-		for (var j = 0; j < row.length; j++) {
-			if (!isType(row[j], format[j])) {
-				return false;
-			}
-		}
-		return row.length > 0;
-	};
-
-	for (var i = 0; i < valid.length; i++) {
-		var format = valid[i];
-		if (validateRow(format, row)) {
-			return true;
-		}
-	}
-	return false;
+var _VALUE = PDFToolbox.FIELDS.VALUE1;
+var _YEARS = PDFToolbox.FIELDS.YEARS;
+var _INT = PDFToolbox.FIELDS.INT;
+var _TEXT = function (cell) {
+	return cell && !_YEARS(cell) && !_VALUE(cell) && !_INT(cell);
 };
+var rowspecs = [
+	[_INT, _TEXT, _TEXT, _YEARS, _VALUE, _VALUE],
+	[_INT, _TEXT, _TEXT, _YEARS, _VALUE]
+];
 
 var scrapePDF = function (item, cb) {
 	var pdf = new PDFToolbox();
@@ -148,7 +71,7 @@ var scrapePDF = function (item, cb) {
 				return (row[0] || row[1] !== 'Summe Insgesamt');
 			});
 			return PDFToolbox.utils.mergeMultiRowsBottomToTop(rows, 3, [1, 2]).filter(function (row) {
-				if (!isValidRow(row)) {
+				if (!PDFToolbox.utils.isValidRow(row, rowspecs)) {
 					console.log('ALARM, invalid row', JSON.stringify(row));
 					return false;
 				} else {

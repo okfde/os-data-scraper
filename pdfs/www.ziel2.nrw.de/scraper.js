@@ -13,87 +13,22 @@ var request = require("request");
 var fs = require("fs");
 var PDFToolbox = require('../../lib/pdftoolbox');
 
-var isValidRow = function (row) {
-
-	var _VALUE = 0;
-	var _TEXT = 1;
-	var _YEAR = 2;
-
-	var valid = [
-		[_TEXT, _TEXT, _YEAR, _VALUE, _VALUE],
-		[_TEXT, _TEXT, _YEAR, _VALUE],
-		// [_TEXT, _TEXT, _TEXT, null, _VALUE],
-		// [_TEXT, _TEXT, _TEXT, _VALUE],
-		// [_TEXT, _TEXT],
-		// [null, _TEXT],
-		// [_TEXT]
-	];
-
-	var isYear = function (cell) {
-		if (cell !== null && (cell.indexOf(' ') < 0) && (cell.trim().length == 4) && (/^\d+$/.test(cell))) {
-			var i = parseInt(cell.trim(), 10);
-			if (isNaN(i)) return false;
-			return i > 1990 && i < 2017;
-		}
-		return false;
-	};
-
-	var isValue = function (cell) {
-		if (cell !== null && /^\d+$/.test(cell.replace(/\./g, '').trim())) {
-			var i = parseInt(cell.replace(/\./g, '').trim(), 10);
-			if (isNaN(i)) return false;
-			return true;// i < 1990 || i > 2017;
-		}
-		return false;
-	};
-
-	var isText = function (cell) {
-		return cell !== null && (!isValue(cell)) && (!isYear(cell));
-	};
-
-	var isType = function (cell, type) {
-		if (type === null) {
-			if (cell !== null) {
-				return false;
-			}
-		} else if (type === _YEAR) {
-			if (!isYear(cell)) {
-				return false;
-			}
-		} else if (type === _VALUE) {
-			if (!isValue(cell)) {
-				return false;
-			}
-		} else if (type === _TEXT) {
-			if (!isText(cell)) {
-				return false;
-			}
-		} else if (typeof type === 'string') {
-			if (type !== cell) {
-				return false;
-			}
-		}
-		return true;
-	};
-
-	var validateRow = function (format, row) {
-		if (row.length !== format.length) return false;
-		for (var j = 0; j < row.length; j++) {
-			if (!isType(row[j], format[j])) {
-				return false;
-			}
-		}
-		return row.length > 0;
-	};
-
-	for (var i = 0; i < valid.length; i++) {
-		var format = valid[i];
-		if (validateRow(format, row)) {
-			return true;
-		}
+var _VALUE = function (cell) {
+	if (cell !== null && /^\d+$/.test(cell.replace(/\./g, '').trim())) {
+		var i = parseInt(cell.replace(/\./g, '').trim(), 10);
+		if (isNaN(i)) return false;
+		return true;// i < 1990 || i > 2017;
 	}
 	return false;
 };
+var _YEAR = PDFToolbox.FIELDS.YEAR;
+var _TEXT = function (cell) {
+	return cell && !_VALUE(cell) && !_YEAR(cell);
+};
+var rowspecs = [
+	[_TEXT, _TEXT, _YEAR, _VALUE, _VALUE],
+	[_TEXT, _TEXT, _YEAR, _VALUE]
+];
 
 var scrapePDF = function (item, cb) {
 	var pdf = new PDFToolbox();
@@ -148,7 +83,7 @@ var scrapePDF = function (item, cb) {
 				});
 			});
 			return PDFToolbox.utils.mergeMultiRowsTopToBottom(rows, 3, [0, 1]).filter(function (row) {
-				if (!isValidRow(row)) {
+				if (!PDFToolbox.utils.isValidRow(row, rowspecs)) {
 					console.log('ALARM, invalid row', JSON.stringify(row));
 					return false;
 				} else {
