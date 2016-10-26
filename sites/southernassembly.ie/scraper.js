@@ -63,8 +63,8 @@ var scrapePage = function (page) {
 				$elem = $(elem);
 				$a = $($('a', $elem)[0]);
 				var o = {};
-				o.title = $a.text().trim();
 				o._source = $a.attr('href');
+				o.title = $a.text().trim();
 				if (o._source)
 					items.push(o);
 			});
