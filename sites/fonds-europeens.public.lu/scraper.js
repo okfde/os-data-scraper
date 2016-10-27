@@ -46,7 +46,14 @@ var scrapeItem = function (item, next) {
 				$('li', $elem).each(function (i, elem) {
 					list.push($(elem).text().trim());
 				});
-				item[lastCat] = list.join('\n');
+				if (lastCat == 'coûts') {
+					list.forEach(function (line) {
+						var parts = line.split(':');
+						item[parts[0].trim().toLowerCase().replace(':', '').replace(/ /g, '_')] = parts[1].trim();
+					});
+				} else {
+					item[lastCat] = list.join('\n');
+				}
 			});
 
 			allitems.push(item);
