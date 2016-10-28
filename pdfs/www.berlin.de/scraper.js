@@ -154,7 +154,7 @@ var scrapePDF = function (item, cb) {
 				_source: item,
 				beneficiary: row[0] || '',
 				name_of_operation: row[1] || '',
-				years: row[2] || '',
+				date: row[2] || '',
 				allocated_public_funding: row[3] || '',
 				on_finish_total_value: row[4] || ''
 			};
