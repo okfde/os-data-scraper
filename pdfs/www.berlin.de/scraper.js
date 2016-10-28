@@ -27,7 +27,7 @@ var rowspecs = [
 var scrapePDF = function (item, cb) {
 	var pdf = new PDFToolbox();
 	pdf.scrape(item, {
-		debug: true,
+		debug: false,
 		skipPage: [],
 		pageToLines: function (page) {
 			var lines = PDFToolbox.utils.pageToLines(page, 4);
