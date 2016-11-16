@@ -21,6 +21,90 @@ var PDFParser = require("pdf2json");
 var fs = require("fs");
 var PDFToolbox = require('../../lib/pdftoolbox');
 
+var Format2010 = function () {
+	// different pdfs mixed into one
+	// 1. extract rows, combine by hand
+
+	var _VALUE = PDFToolbox.FIELDS.VALUE1;
+	var _TEXT = function (cell) {
+		return cell && !_VALUE(cell);
+	};
+	var rowspecs = [
+		[_TEXT, _TEXT, _VALUE],
+		[null, _TEXT, _VALUE],
+		[null, _TEXT]
+	];
+
+	this.scrapePDF = function (item, cb) {
+		var pdf = new PDFToolbox();
+		pdf.scrape(item.url, {
+			debug: true,
+			skipPage: [],
+			pageToLines: function (page) {
+				var lines = PDFToolbox.utils.pageToLines(page, 4);
+				if (page.pageInfo.num == 1) {
+					lines = PDFToolbox.utils.extractLines(lines, ['Konsumentenschutz'], ['-------------'/* take all */]);
+				}
+				if (lines.length > 0 && lines[lines.length - 1].length == 1) {
+					//skipping page number footer
+					lines = lines.slice(0, lines.length - 1);
+				}
+				return lines;
+			},
+			processLines: function (lines) {
+				return lines;
+			},
+			linesToRows: function (lines) {
+				// console.log(PDFToolbox.utils.xStats(page));
+				/*
+
+				 0-300 col 1
+				 Beneficiary
+
+				 300-600 col 2
+				 Name of the operation
+
+				 600- col 3
+				 EU-, national and private funding*
+				 * total cost
+
+				 */
+
+				return PDFToolbox.utils.extractColumnRows(lines, [300, 600, 1200], 5);
+			},
+			processRows: function (rows) {
+				rows = rows.filter(function (row) {
+					if (row.length == 1) {
+						if (["sdsdsdsdsdsdsds"
+							].indexOf(row[0].trim()) >= 0) return false;
+					}
+					return true;
+				});
+				var filename = path.basename(item.url).replace('.pdf', '');
+				var sl = rows.map(function (row) {
+					return JSON.stringify(row.map(function (s) {
+						return s ? s.trim() : s;
+					}));
+				});
+				fs.writeFileSync(filename + ".rows.json", '[' + sl.join(',\n') + ']');
+				return rows;
+			},
+			rowToFinal: function (row) {
+				return row;
+			},
+			processFinal: function (items) {
+				return items;
+			},
+			saveFinal: function () {
+				return false; //nop
+			}
+		}, function (err, items) {
+			if (err) console.log(err);
+			cb();
+		});
+	};
+};
+
 var Format2011 = function () {
 	// different pdfs mixed into one
 	// 1. extract rows, combine by hand
@@ -99,7 +183,7 @@ var Format2011 = function () {
 			processFinal: function (items) {
 				return items;
 			},
-			saveFinal: function(){
+			saveFinal: function () {
 				return false; //nop
 			}
 		}, function (err, items) {
@@ -507,8 +591,8 @@ var list = [
 	// {url: 'http://www.esf.at/esf/wp-content/uploads/Liste-der-ESF-Beguenstigten-2013.pdf', format: Format2013},
 	// {url: 'http://www.esf.at/esf/wp-content/uploads/Liste-der-ESF-Beg%C3%BCnstigten-2012.pdf', format: Format2012},
 	// {url: 'http://www.esf.at/esf/wp-content/uploads/20120827_Liste-der-ESF-Beg%C3%BCnstigten-20111.pdf', format: Format2011},
+	// {url: 'http://www.esf.at/esf/wp-content/uploads/2010-ESF_Verzeichnis_Beg%C3%BCnstigte_%C3%96sterreich.pdf', format: Format2010}
 
-	// {url: 'http://www.esf.at/esf/wp-content/uploads/2010-ESF_Verzeichnis_Beg%C3%BCnstigte_%C3%96sterreich.pdf', format: null},
 	// {url: 'http://www.esf.at/esf/wp-content/uploads/2011/02/List-of-Beneficiaries_2009.pdf', format: null},
 	// {url: 'http://www.esf.at/esf/wp-content/uploads/ESF-List-of-Beneficiaries-Austria-2007-2008.pdf', format: null}
 ];
