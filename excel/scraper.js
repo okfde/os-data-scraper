@@ -88,12 +88,16 @@ var config = {
 	'/DE.germany/DE6.hamburg/ESF 2014-2020/ESF Data Hamburg 2014-2020.xlsx': {
 		header: 3,
 		footer: 40
+	},
+	'/IE.ireland/Southern_Eastern_Ireland/http___www.southernassembly.ie_docs_LoB_July_2016_For_Website.xlsx':{
+		header: 1
 	}
 };
 
 
 var repropath = '../eu-structural-funds/data';
-var list = walkSync(repropath, [], '.xlsx');
+// var list = walkSync(repropath, [], '.xlsx');
+list = ['../eu-structural-funds/data/IE.ireland/Southern_Eastern_Ireland/http___www.southernassembly.ie_docs_LoB_July_2016_For_Website.xlsx'];
 
 console.log('--------------------');
 async.forEachSeries(list,
@@ -188,6 +192,3 @@ async.forEachSeries(list,
 		console.log('done');
 	}
 );
-
-// var list2 = walkSync(repropath, [], '.xls');
-// console.log(list2);
