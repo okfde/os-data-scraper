@@ -21,6 +21,108 @@ var PDFParser = require("pdf2json");
 var fs = require("fs");
 var PDFToolbox = require('../../lib/pdftoolbox');
 
+var Format20078 = function () {
+	// different pdfs mixed into one
+	// 1. extract rows, combine by hand
+
+	this.scrapePDF = function (item, cb) {
+		var pdf = new PDFToolbox();
+		pdf.scrape(item.url, {
+			debug: true,
+			skipPage: [],
+			pageToLines: function (page) {
+				var lines = PDFToolbox.utils.pageToLines(page, 4);
+				if (page.pageInfo.num == 1) {
+					lines = PDFToolbox.utils.extractLines(lines, ['Arbeitsmarkts', 'ervice ', '–', ' ', 'OP Beschäftigung ', ' '], ['-------------'/* take all */]);
+				} else if (page.pageInfo.num == 3) {
+					lines = PDFToolbox.utils.extractLines(lines, ['Arbeitsmarkt', 'service ', '–', ' ', 'OP Beschäftigung Betriebe ', ' '], ['-------------'/* take all */]);
+				} else if (page.pageInfo.num == 208) {
+					lines = PDFToolbox.utils.extractLines(lines, ['BMASK  ', ' '], ['GESAMT ', ' ', ' ', '517.844,52', ' ']);
+				} else if (page.pageInfo.num == 209) {
+					lines = PDFToolbox.utils.extractLines(lines, ['BMASK', ' ', '/ Abteilung ', 'IV/6', ' ', ' '], ['-------------'/* take all */]);
+				} else if (page.pageInfo.num == 212) {
+					lines = lines.slice(0, lines.length - 2);
+				} else if (page.pageInfo.num == 213) {
+					lines = PDFToolbox.utils.extractLines(lines, ['BMUKK ', '-', ' ', 'Schule', ' '], ['-------------'/* take all */]);
+				} else if (page.pageInfo.num == 220) {
+					lines = PDFToolbox.utils.extractLines(lines, ['BMUKK ', '–', ' ', 'Erwachsenenbildung', ' '], ['-------------'/* take all */]);
+				} else if (page.pageInfo.num == 222) {
+					lines = PDFToolbox.utils.extractLines(lines, ['BMWJ ', '–', ' ', 'Wissenschaft', ' '], ['-------------'/* take all */]);
+				} else if (page.pageInfo.num == 223) {
+					lines = PDFToolbox.utils.extractLines(lines, ['Land Niederösterreich', ' '], ['-------------'/* take all */]);
+				} else if (page.pageInfo.num == 224) {
+					lines = PDFToolbox.utils.extractLines(lines, ['Land Salzburg', ' '], ['-------------'/* take all */]);
+				} else if (page.pageInfo.num == 225) {
+					lines = PDFToolbox.utils.extractLines(lines, ['Land Tirol', ' '], ['-------------'/* take all */]);
+				} else if (page.pageInfo.num == 226) {
+					lines = PDFToolbox.utils.extractLines(lines, ['Schwerpunkt 5', ' '], ['-------------'/* take all */]);
+					lines = lines.filter(function (line) {
+						return line.length !== 2 || line[0].str !== 'Schwerpunkt 3b';
+					});
+				} else if (page.pageInfo.num == 227) {
+					lines = PDFToolbox.utils.extractLines(lines, ['WAFF ', '–', ' ', 'Wiener ArbeitnehmerInnenförderungsfonds', ' '], ['-------------'/* take all */]);
+					// console.log(lines.map(PDFToolbox.utils.lineToRow));
+				}
+				return lines;
+			},
+			processLines: function (lines) {
+				return lines;
+			},
+			pageLinesToRows: function (lines, page) {
+				// console.log(PDFToolbox.utils.xStats(page));
+				/*
+
+				 0-300 col 1
+				 Begünstigte/r
+
+				 300-600 col 2
+				 Bezeichnung des Vorhabens
+
+				 600- col 3
+				 Öffentliche Beteiligung
+
+				 */
+				lines.forEach(function (line, i) {
+					if (line[line.length - 1].str == ' ') {
+						lines[i] = line.slice(0, line.length - 1);
+					}
+				});
+				var pagenr = page.pageInfo.num;
+				if (pagenr < 50) {
+					return PDFToolbox.utils.extractColumnRows(lines, [300, 700, 1200], 5);
+				} else if (pagenr < 209) {
+					return PDFToolbox.utils.extractColumnRows(lines, [430, 700, 1200], 5);
+				} else if (pagenr < 213) {
+					return PDFToolbox.utils.extractColumnRows(lines, [430, 712, 1200], 5);
+				} else if (pagenr < 220) {
+					return PDFToolbox.utils.extractColumnRows(lines, [300, 550, 1200], 5);
+				} else if (pagenr < 228) {
+					return PDFToolbox.utils.extractColumnRows(lines, [300, 580, 1200], 5);
+				} else {
+					console.log('error');
+					return [];//PDFToolbox.utils.extractColumnRows(lines, [200, 300, 1200], 5);
+				}
+			},
+			processRows: function (rows) {
+				var filename = path.basename(item.url).replace('.pdf', '');
+				var sl = rows.map(function (row) {
+					return JSON.stringify(row.map(function (s) {
+						return s ? s.trim() : s;
+					}));
+				});
+				fs.writeFileSync(filename + ".rows.json", '[' + sl.join(',\n') + ']');
+				return rows;
+			},
+			saveFinal: function () {
+				return false; //nop
+			}
+		}, function (err, items) {
+			if (err) console.log(err);
+			cb();
+		});
+	};
+};
+
 var Format2009 = function () {
 	var _VALUE = PDFToolbox.FIELDS.VALUE1;
 	var _TEXT = function (cell) {
@@ -144,9 +246,6 @@ var Format2010 = function () {
 				}
 				return lines;
 			},
-			processLines: function (lines) {
-				return lines;
-			},
 			linesToRows: function (lines) {
 				// console.log(PDFToolbox.utils.xStats(page));
 				/*
@@ -166,13 +265,6 @@ var Format2010 = function () {
 				return PDFToolbox.utils.extractColumnRows(lines, [300, 600, 1200], 5);
 			},
 			processRows: function (rows) {
-				rows = rows.filter(function (row) {
-					if (row.length == 1) {
-						if (["sdsdsdsdsdsdsds"
-							].indexOf(row[0].trim()) >= 0) return false;
-					}
-					return true;
-				});
 				var filename = path.basename(item.url).replace('.pdf', '');
 				var sl = rows.map(function (row) {
 					return JSON.stringify(row.map(function (s) {
@@ -181,12 +273,6 @@ var Format2010 = function () {
 				});
 				fs.writeFileSync(filename + ".rows.json", '[' + sl.join(',\n') + ']');
 				return rows;
-			},
-			rowToFinal: function (row) {
-				return row;
-			},
-			processFinal: function (items) {
-				return items;
 			},
 			saveFinal: function () {
 				return false; //nop
@@ -686,7 +772,7 @@ var list = [
 	// {url: 'http://www.esf.at/esf/wp-content/uploads/20120827_Liste-der-ESF-Beg%C3%BCnstigten-20111.pdf', format: Format2011},
 	// {url: 'http://www.esf.at/esf/wp-content/uploads/2010-ESF_Verzeichnis_Beg%C3%BCnstigte_%C3%96sterreich.pdf', format: Format2010}
 	// {url: 'http://www.esf.at/esf/wp-content/uploads/2011/02/List-of-Beneficiaries_2009.pdf', format: Format2009},
-	// {url: 'http://www.esf.at/esf/wp-content/uploads/ESF-List-of-Beneficiaries-Austria-2007-2008.pdf', format: null}
+	// {url: 'http://www.esf.at/esf/wp-content/uploads/ESF-List-of-Beneficiaries-Austria-2007-2008.pdf', format: Format20078}
 ];
 
 async.forEachSeries(list, scrapeItem, function () {
