@@ -31,15 +31,23 @@ var rowspecs = [
 
 var scrapePDF = function (item, cb) {
 	var pdf = new PDFToolbox();
-	var saveFinal = true;
-	if (item.profile == 'http://www.empleo.gob.es/uafse/es/beneficiarios/2016-pdf/PO_FSE_ADAPTABILIDAD_Y_EMPLEO.pdf') {
-		saveFinal = false;
-	}
+	var po = false;
 	pdf.scrape(item.profile, {
 		// debug: true,
 		skipPage: [],
 		pageToLines: function (page) {
 			var lines = PDFToolbox.utils.pageToLines(page, 0.12);
+			for (var i = 0; i < 5; i++) {
+				if (lines[i].length > 0) {
+					var line = lines[i];
+					if (line.length > 0) {
+						if (line[0].str == 'P.O.:') {
+							po = lines[i + 1];
+							// console.log(po);
+						}
+					}
+				}
+			}
 			lines = PDFToolbox.utils.extractLines(lines,
 				[" PÚBLICO"],
 				["- - - - - - - -"] // take all
@@ -87,13 +95,15 @@ var scrapePDF = function (item, cb) {
 				_title: item.title,
 				beneficiary: row[0] || '',
 				operation: row[1] || '',
-				spending: row[2] || ''
+				spending: row[2] || '',
+				po_nr: po[0].str || '',
+				po_str: po[1].str || ''
 			};
 		},
-		saveFinal: saveFinal,
+		saveFinal: false,
 		processFinal: function (items) {
-			if (!saveFinal) {
-				var filename = path.basename(item.profile).replace('.pdf', '');
+			var filename = path.basename(item.profile).replace('.pdf', '');
+			if (items.length > 100000) {
 				var total = 0;
 				for (var i = 0; i < 100; i++) {
 					var part = items.slice(i * 100000, ((i + 1) * 100000));
@@ -103,8 +113,9 @@ var scrapePDF = function (item, cb) {
 					}
 				}
 				console.log(items.length, total);
-
-
+			} else {
+				fs.writeFileSync(filename + ".json", JSON.stringify(items, null, '\t'));
+				console.log(items.length);
 			}
 			return items;
 		}
